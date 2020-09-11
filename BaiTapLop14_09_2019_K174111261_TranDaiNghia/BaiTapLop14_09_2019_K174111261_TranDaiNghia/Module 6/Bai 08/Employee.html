@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Xử Lý HTML</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.dropbtn {
+		    background-color: black;
+		    color: white;
+		    padding: 16px;
+		    font-size: 16px;
+		    border: none;
+		}
+
+		.dropdown {
+		    position: relative;
+		    display: inline-block;
+		}
+
+		.dropdown-content {
+		    display: none;
+		    position: absolute;
+		    background-color: lightgrey;
+		    min-width: 200px;
+		    z-index: 1;
+		}
+
+		.dropdown-content a {
+		    color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		}
+
+		.dropdown-content a:hover {
+			background-color: white;
+		}
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+		.dropdown:hover .dropbtn {
+			background-color: grey;
+		}
+	</style>
+	<script type="text/javascript">
+		var myXML;
+		getXMLFile("Employee.xml");
+		function getXMLFile(fileName)
+		{
+			var xmlhttp;
+			var xml;
+			if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.open("GET",fileName,true); // trong cùng thư mục với file html hiện tại
+            xmlhttp.send();
+            xmlhttp.onreadystatechange = function()
+            {
+            	if(xmlhttp.readyState == 4 && xmlhttp.status == 200)
+            	{
+            		xml = xmlhttp.responseXML;
+            		myXML = dinhDangHTMLtuFileNhanDuoc(xml);
+
+            	}
+            }
+		}
+		function dinhDangHTMLtuFileNhanDuoc(xml)
+		{
+			var titles = getAllTitle(xml);
+			insertDataToDropList(titles);
+			//
+			createDataSheet(xml);
+			return xml;
+
+		}
+		function getAllTitle(xml)
+		{
+			var titles = new Array();
+			var employees = xml.getElementsByTagName("Employees")[0];
+			//
+			//titles[0] = employees.childNodes[0].attributes["title"].value;
+			for (var i = employees.children.length - 1; i >= 0; i--) {
+
+				var titleValue = employees.children[i].attributes["title"].value;
+				if(!existValueInArry(titleValue,titles))
+				{
+					titles.push(titleValue);
+				}
+				
+			}
+			return titles;
+
+		}
+		function insertDataToDropList(titles)
+		{
+			var htmlAdded = "";
+			htmlAdded += '<a onclick="onClickValue(this.innerHTML)">' + "Choose A Title" +"</a>"
+			for (var i = titles.length - 1; i >= 0; i--) {
+				htmlAdded += '<a onclick="onClickValue(this.innerHTML)">' +titles[i] +"</a>"
+			}
+			//
+			var dropdownS = document.getElementsByClassName("dropdown-content");
+			var myDropList = dropdownS[0];
+			myDropList.innerHTML = htmlAdded;
+		}
+		function createDataSheet(xml)
+		{
+			var htmlAdded ="";
+			htmlAdded += "<table>";
+			htmlAdded += "<tr>";
+				htmlAdded += "<td>";
+				htmlAdded += "No";
+				htmlAdded += "</td>";
+
+				htmlAdded += "<td>";
+				htmlAdded += "Name";
+				htmlAdded += "</td>";
+
+				htmlAdded += "<td>";
+				htmlAdded += "Title";
+				htmlAdded += "</td>";
+
+				htmlAdded += "<td>";
+				htmlAdded += "Phone";
+				htmlAdded += "</td>";
+			htmlAdded += "</tr>";
+			var no = 0;
+			var employees = xml.getElementsByTagName("Employees")[0];
+			for (var i = employees.children.length - 1; i >= 0; i--) {
+				var em = employees.children[i];
+				var title = em.attributes["title"].value;
+				var name = em.children[0].innerHTML;
+				var phone = em.children[1].innerHTML;
+				no ++;
+				//
+				htmlAdded += "<tr>";
+					htmlAdded += "<td>";
+					htmlAdded += no;
+					htmlAdded += "</td>";
+
+					htmlAdded += "<td>";
+					htmlAdded += name;
+					htmlAdded += "</td>";
+
+					htmlAdded += "<td>";
+					htmlAdded += title;
+					htmlAdded += "</td>";
+
+					htmlAdded += "<td>";
+					htmlAdded += phone;
+					htmlAdded += "</td>";
+				htmlAdded += "</tr>";
+			}
+			htmlAdded += "</table>";
+			document.getElementById("bang").innerHTML = htmlAdded;
+		}
+
+		function createDataSheetWithCondition(xml,titleCon)
+		{
+			var htmlAdded ="";
+			htmlAdded += "<table>";
+			htmlAdded += "<tr>";
+				htmlAdded += "<td>";
+				htmlAdded += "No";
+				htmlAdded += "</td>";
+
+				htmlAdded += "<td>";
+				htmlAdded += "Name";
+				htmlAdded += "</td>";
+
+				htmlAdded += "<td>";
+				htmlAdded += "Title";
+				htmlAdded += "</td>";
+
+				htmlAdded += "<td>";
+				htmlAdded += "Phone";
+				htmlAdded += "</td>";
+			htmlAdded += "</tr>";
+			var no = 0;
+			var employees = xml.getElementsByTagName("Employees")[0];
+			for (var i = employees.children.length - 1; i >= 0; i--) {
+				var em = employees.children[i];
+				var title = em.attributes["title"].value;
+				var name = em.children[0].innerHTML;
+				var phone = em.children[1].innerHTML;
+				no ++;
+				//
+				if(title == titleCon)
+				{
+					htmlAdded += "<tr>";
+					htmlAdded += "<td>";
+					htmlAdded += no;
+					htmlAdded += "</td>";
+
+					htmlAdded += "<td>";
+					htmlAdded += name;
+					htmlAdded += "</td>";
+
+					htmlAdded += "<td>";
+					htmlAdded += title;
+					htmlAdded += "</td>";
+
+					htmlAdded += "<td>";
+					htmlAdded += phone;
+					htmlAdded += "</td>";
+				htmlAdded += "</tr>";
+				}
+				
+			}
+			htmlAdded += "</table>";
+			document.getElementById("bang").innerHTML = htmlAdded;
+		}
+		function existValueInArry(value, arr)
+		{
+			for (var i = arr.length - 1; i >= 0; i--) {
+				if(arr[i] == value)
+					return true;
+			}
+			return false;
+		}
+		function onClickValue(value) {
+			var valueGotten = value;
+			var dropdownS = document.getElementsByClassName("dropbtn");
+			//
+			dropdownS[0].childNodes[0].value = valueGotten;
+			dropdownS[0].childNodes[0].data = valueGotten;
+			//viet lai Bang
+			if(valueGotten == "Choose A Title")
+			{
+				createDataSheet(myXML);
+			}
+			else
+				createDataSheetWithCondition(myXML,valueGotten);
+		}
+	</script>
+</head>
+<body> 
+	<div class="dropdown">
+		<button class="dropbtn">Choose A Title</button>
+		<div class="dropdown-content">
+		</div>
+	</div>
+	<div id="bang">
+		
+	</div>
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>

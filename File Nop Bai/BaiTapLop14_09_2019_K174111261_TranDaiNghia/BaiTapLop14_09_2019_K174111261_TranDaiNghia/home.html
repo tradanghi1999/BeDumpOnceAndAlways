@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .itemContent {
+            padding: 10px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+
+        .itemName {
+            width: 50px;
+        }
+
+        .itemImg {
+            width: 100px;
+        }
+
+            .itemImg > img {
+                height: 32px;
+            }
+
+        .itemBuyByCash, .itemBuyByCheck, .itemSellByCash, .itemSellByCheck {
+            width: 150px;
+        }
+
+        hr {
+            border-style: solid;
+            border-width: 1px;
+            border-color: grey;
+        }
+
+        .hdr {
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="hdr">
+        <div class="itemContent">
+            <div class="itemName">Đồng</div>
+            <div class="itemImg"><img src="" />Quốc Kỳ</div>
+            <div class="itemBuyByCash">Giá Mua Tiền Mặt</div>
+            <div class="itemBuyByCheck">Giá Mua Séc</div>
+            <div class="itemSellByCash">Giá Bán Tiền Mặt</div>
+            <div class="itemSellByCheck">Giá Bán Séc</div>
+        </div>
+        <hr />
+    </div>
+
+    <div class="item" id="preLoadItem">
+        <div class="itemContent">
+            <div class="itemName">Đồng</div>
+            <div class="itemImg"><img src="" /></div>
+            <div class="itemBuyByCash">Giá Mua </div>
+            <div class="itemBuyByCheck">Giá Mua Séc</div>
+            <div class="itemSellByCash">Giá Bán</div>
+            <div class="itemSellByCheck">Giá Bán Séc</div>
+        </div>
+        <hr />
+    </div>
+    <script type="text/javascript">
+        loadData();
+        function loadData() {
+            //var jSonObject = dTOConvertToItem(dALGetRawData());
+            dALGetJsonObject();
+        }
+        function dALGetJsonObject()
+		 {
+			var xmlhttp;
+			var raw;
+			if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            
+            xmlhttp.open("GET", "http://www.dongabank.com.vn/exchange/export", true);
+            xmlhttp.setRequestHeader("User-Agent","Mozilla/5.0 ( compatible ) ");
+            xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            //xmlhttp.open("GET","NHDA.json",true);// trong cùng thư mục với file html hiện tại
+            
+            xmlhttp.send();
+            xmlhttp.onreadystatechange = function()
+            {
+            	if(xmlhttp.readyState == 4 && xmlhttp.status == 200)
+            	{
+            		raw = xmlhttp.responseText;
+                    var jSonObject = dTOConvertToItem(raw);
+                    viewPushToHtml(jSonObject);
+            	}
+            }
+
+           	//return xmlhttp.responseXML;
+
+        }
+        function bLLCheck(jSonObject) {
+
+        }
+        function dTOConvertToItem(rawData) {
+            var preText = rawData.replace("(", "");
+            var jSonString = preText.replace(")", "");
+            var jSonObject = JSON.parse(jSonString);
+            return jSonObject;
+        }
+        function viewPushToHtml(jSonObject) {
+            var itemLength = jSonObject.items.length;
+            for (var i = 0; i < itemLength; i++) {
+                var itemToPush = jSonObject.items[i];
+                //var itemOnHTML = document.getElementById("preLoadItem").cloneNode();
+                var itemOnHTML = document.createElement("div");
+                itemOnHTML.className = "item";
+                itemOnHTML.innerHTML = document.getElementById("preLoadItem").innerHTML;
+                //
+                var itemContent = itemOnHTML.children[0];
+
+                var itemName = itemContent.children[0];
+                itemName.innerHTML = itemToPush.type;
+
+                var itemIMG = itemContent.children[1];
+                itemIMG.children[0].src = itemToPush.imageurl;
+
+                var itemBuyCash = itemContent.children[2];
+                itemBuyCash.innerHTML = itemToPush.muatienmat;
+
+                var itemBuyCheck = itemContent.children[3];
+                itemBuyCheck.innerHTML = itemToPush.muack;
+
+                var itemSellCash = itemContent.children[4];
+                itemSellCash.innerHTML = itemToPush.bantienmat;
+
+                var itemSellCheck = itemContent.children[5];
+                itemSellCheck.innerHTML = itemToPush.banck;
+
+                document.getElementById("preLoadItem").parentNode.appendChild(itemOnHTML);
+
+            }
+
+            document.getElementById("preLoadItem").style.display = 'none';
+
+        }
+    </script>
+</body>
+</html>

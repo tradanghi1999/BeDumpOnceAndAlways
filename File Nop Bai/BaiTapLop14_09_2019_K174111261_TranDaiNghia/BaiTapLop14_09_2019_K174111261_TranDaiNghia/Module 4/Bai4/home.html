@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body
+        {
+            background-color:#008098;
+            color:white;
+        }
+        .groupBox{
+            display:inline-flex;
+            flex-flow: wrap row;
+            padding:20px 0;
+        }
+        .groupBox >textarea
+        {
+            width: 400px;
+        }
+        .item
+        {
+            display:flex;
+            flex-flow:wrap row;
+            max-width:400px;
+            /**/
+            margin-top:4px;
+            /*border-right: solid 3px #fff;*/
+        }
+        .title
+        {
+            display: inline-block;
+            width: 150px;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div style="text-align:center">
+        <div><img src="Logo.gif" /></div>
+        <h1>Newborn Registration</h1>
+    </div>
+    
+    <form id="myForm" style="padding: 0 150px;">
+        <div class="item" style="padding-left: 40px;">
+            <div class="title">Date</div>
+            <div><input type="text" value="mm/dd/yy"/></div>
+        </div>
+        <ol>
+            <li>
+                <div class="groupBox">
+                    <div class="item">
+                        <div class="title">Infant's first name: </div>
+                        <div><input type="text" /></div>
+                    </div>
+                    <div class="item">&nbsp;</div>
+                    <div class="item">
+                        <div class="title">Last name: </div>
+                        <div><input type="text" /></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="groupBox">
+                    <div class="item">
+                        <div class="title">Medical Record #: </div>
+                        <div><input type="text" /></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="groupBox">
+                    <div class="item">
+                        <div class="title">Date of birth </div>
+                        <div><input type="text" value="mm/dd/yy" /></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="groupBox">
+                    <div class="item">
+                        <div class="title">Birth Weight: </div>
+                        <div><input type="text" /></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="groupBox">
+                    <div class="item">
+                        <div class="title">APGAR score: </div>
+                        <div><input type="text" /></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="groupBox">
+                    <div class="item">
+                        <div class="title">Mother's first name: </div>
+                        <div><input type="text" /></div>
+                    </div>
+                    <div class="item">&nbsp;</div>
+                    <div class="item">
+                        <div class="title">Last name: </div>
+                        <div><input type="text" /></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="groupBox">
+                    <div class="item">
+                        <div class="title">Father's first name: </div>
+                        <div><input type="text" /></div>
+                    </div>
+                    <div class="item">&nbsp;</div>
+                    <div class="item">
+                        <div class="title">Last name: </div>
+                        <div><input type="text" /></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="groupBox">
+                    <div class="item">
+                        <div class="title">Physician (check all that apply)</div>
+                        <div>
+                            <select size="3" multiple>
+                                <option>Dr.Warren Albert</option>
+                                <option>Dr.Maria Alvarer</option>
+                                <option>Dr.Karen Brinkman</option>
+                                <option>Dr.Michael Kerry</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ol>
+        <div class="groupBox" style="
+                                        display:flex;
+                                        justify-content:center;">
+            <div class="item"><input type="button" value="Register" onclick="alert('Success')"/></div>
+            <div class="item">&nbsp;</div>
+            <div class="item"><input type="button" value="Cancle" onclick="document.getElementById('myForm').reset()"/></div>
+        </div>
+    </form>
+</body>
+</html>

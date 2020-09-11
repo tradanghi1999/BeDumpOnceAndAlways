@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .row
+        {
+            display:flex;
+            flex-flow:row wrap;
+            margin-bottom: 10px;
+            justify-content:center;
+        }
+        .title
+        {
+            width: 100px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div style="">
+        <div class="row">
+            <div class="title">a</div>
+            <div><input id="a" name="a" type="text" /></div>
+        </div>
+        <div class="row">
+            <div class=" title">b</div>
+            <div><input id="b" name="b" type="text" /></div>
+        </div>
+        <div class="row">
+            <div class="title">c</div>
+            <div><input id="c" name="c" type="text" /></div>
+        </div>
+        <div class="row">
+            <div class="title">kq</div>
+            <div><input id="kq" name="kq" type="text" /></div>
+        </div>
+        <div class="row">
+            <div><input type="button" value="max" onclick="findMax()" /></div>
+            <div>&nbsp;</div>
+            <div><input type="button" value="min" onclick="findMin()" /></div>
+            <div>&nbsp;</div>
+            <div><input type="button" value="sin(a)" onclick="findSin()" /></div>
+            <div>&nbsp;</div>
+            <div><input type="button" value="cos(a)" onclick="findCos()" /></div>
+            <div>&nbsp;</div>
+            <div><input type="button" value="a^b" onclick="findPow()" /></div>
+        </div>
+    </div>
+    
+    <script>
+        function findMax() {
+            var a = document.getElementById('a').value;
+            var b = document.getElementById('b').value;
+            var c = document.getElementById('c').value;
+            var max = a;
+            if (max < b)
+                max = b;
+            if (max < c)
+                max = c;
+            document.getElementById('kq').value = max;
+        }
+        function findMin() {
+            var a = document.getElementById('a').value;
+            var b = document.getElementById('b').value;
+            var c = document.getElementById('c').value;
+            var min = a;
+            if (min > b)
+                min = b;
+            if (min < c)
+                min = c;
+            document.getElementById('kq').value = min;
+        }
+        function findSin() {
+            var a = document.getElementById('a').value;
+            document.getElementById('kq').value = Math.sin(a);
+        }
+        function findCos() {
+            var a = document.getElementById('a').value;
+            document.getElementById('kq').value = Math.cos(a);
+        }
+        function findPow() {
+            var a = document.getElementById('a').value;
+            var b = document.getElementById('b').value;
+            document.getElementById('kq').value = Math.pow(a,b);
+        }
+    </script>
+</body>
+</html>

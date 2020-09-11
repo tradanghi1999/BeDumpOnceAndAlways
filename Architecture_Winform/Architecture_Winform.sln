@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture_Winform", "Architecture_Winform\Architecture_Winform.csproj", "{42344F2E-6819-4AA9-B50E-91214AC13492}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42344F2E-6819-4AA9-B50E-91214AC13492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42344F2E-6819-4AA9-B50E-91214AC13492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42344F2E-6819-4AA9-B50E-91214AC13492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42344F2E-6819-4AA9-B50E-91214AC13492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77AC82DB-FA32-4E87-B6CE-98B87445181A}
+	EndGlobalSection
+EndGlobal

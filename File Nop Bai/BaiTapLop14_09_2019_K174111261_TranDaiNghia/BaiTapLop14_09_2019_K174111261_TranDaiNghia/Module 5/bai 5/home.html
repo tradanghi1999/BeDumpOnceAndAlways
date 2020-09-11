@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .hdr
+        {
+            text-align:center;
+        }
+        h1
+        {
+            text-align:center;
+        }
+        .row
+        {
+            display:flex;
+            flex-flow:row wrap;
+            margin-bottom: 10px;
+        }
+        .title
+        {
+            width: 200px;
+            margin-right: 10px;
+        }
+        .right
+        {
+            justify-content:flex-end;
+        }
+        .box
+        {
+            display: flex;
+            flex-flow:row wrap;
+            width: 400px;
+            justify-content: space-between;
+        }
+        .num > input
+        {
+           width: 50px;
+        }
+    </style>
+</head>
+<body onload="whenLoad()" style="background-color:blue;">
+    <div style="text-align:center;"><img src="Logo.gif" /></div>
+
+
+    <div>
+        <h1>Neonatal Feeding Study</h1>
+        <div class="row right">
+            <div>Today is:</div>
+            <div class="box">
+                <div><input type="text" id="date"/></div>
+            </div>
+        </div>
+
+        <ol>
+            <li>
+                <div class="row">
+                    <div class="title">Name (first,last):</div>
+                    <div class="box">
+                        <div><input type="text" id="firstName"/></div>
+                        <div><input type="text" id="lastName"/></div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="title">Medical Record #:</div>
+                    <div class="box">
+                        <div><input type="text" /></div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="title">Date of birth:</div>
+                    <div class="box">
+                        <div><input type="date" placeholder="mm/dd/yyyy"/></div>
+                    </div>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="row">
+                    <div class="title">Physician:</div>
+                    <div class="box">
+                        <div>
+                            <select name="physician" onchange="otherSelected(this)">
+                                <option value="WA">Dr.Warrent Albert</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="title">If other (specify):</div>
+                    <div class="box">
+                        <div><input type="text" id="other" onfocusout="alert('Nhập other');"/></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="title">1 Minute APGAR Score: Each Score must be 0, 1, or 2</div>
+                    <div>
+                        <div class="box">
+                            <div>Activity</div>
+                            <div class="num"><input type="number" value="0" id="act" oninput="whenInput(this)"/></div>
+                        </div>
+
+                        <div class="box">
+                            <div>Pulse</div>
+                            <div class="num"><input type="number" value="0" id="pul" oninput="whenInput(this)"/></div>
+                        </div>
+
+                        <div class="box">
+                            <div>Grimace (Reflex, Irritability)</div>
+                            <div class="num"><input type="number" value="0" id="gri" oninput="whenInput(this)"/></div>
+                        </div>
+
+                        <div class="box">
+                            <div>Appearance (Skin Color)</div>
+                            <div class="num"><input type="number" value="0" id="app" oninput="whenInput(this)"/></div>
+                        </div>
+
+                        <div class="box">
+                            <div>Respiration</div>
+                            <div class="num"><input type="number" value="0" id="res" oninput="whenInput(this)"/></div>
+                        </div>
+
+                        <div class="box">
+                            <div style="font-weight:700;">Total</div>
+                            <div class="num"><input type="number" id="tot" value="0" /></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="title">Birth weight (gms): Weights must be >= 1200 gms</div>
+                    <div>
+                        <div><input type="text" /></div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="title">Parent Consent (required):</div>
+                    <div>
+                        <div><input type="checkbox" name="chk" /></div>
+                    </div>
+                </div>
+            </li>
+        </ol>
+
+        <div class="groupBox" style="
+                                        display:flex;
+                                        justify-content:center;">
+            <div class="item"><input type="button" value="Register" onclick="alert('Success')" /></div>
+            <div class="item">&nbsp;</div>
+            <div class="item"><input type="button" value="Cancle" onclick="document.getElementById('myForm').reset()" /></div>
+        </div>        
+    </div>
+    <script type="text/javascript">
+        function whenLoad()
+        {
+            document.getElementById("firstName").focus();
+            var date = new Date();
+            document.getElementById("date").value = "" + date.getMonth() + "/" + date.getDate() + "/" + date.getFullYear();
+        }
+
+        function otherSelected(e) {
+            var valueSelected = e.options[e.selectedIndex].value;
+            if (valueSelected.toUpperCase() == "OTHER") {
+                var item = document.getElementById("other");
+                item.focus();
+            }
+
+        }
+
+        function whenInput(item) {
+            var theValue = item.value;
+            if (theValue > 2 || theValue < 0) {
+                var row = item.parentNode.parentNode;
+                var itemName = row.children[0].innerHTML;
+                alert(itemName);
+            }
+            else {
+                if (
+                    checkValue(document.getElementById("act")) &&
+                    checkValue(document.getElementById("pul")) &&
+                    checkValue(document.getElementById("gri")) &&
+                    checkValue(document.getElementById("app")) &&
+                    checkValue(document.getElementById("res")))
+                {
+                    document.getElementById("tot").value =
+
+                        eval(document.getElementById("act").value) +
+                        eval(document.getElementById("pul").value) +
+                        eval(document.getElementById("gri").value) +
+                        eval(document.getElementById("app").value) +
+                        eval(document.getElementById("res").value);
+                }
+                else {
+                }
+            }
+
+        }
+
+        function checkValue(item) {
+            var theValue = item.value;
+            return !(theValue > 2 || theValue < 0)
+        }
+    </script>
+</body>
+</html>

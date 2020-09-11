@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+
+    </style>
+    
+</head>
+<body>
+    <p>Đây là Bài làm của <b></b> thực hiện ngày <i></i></p>
+    <script type="text/javascript">
+        var ten = document.getElementsByTagName("b")[0];
+        ten.innerHTML = "Trần Đại Nghĩa"
+
+        var myNgay = document.getElementsByTagName("i")[0];
+        var date = new Date();
+        var ngay = date.getDate();
+        var thang = date.getMonth();
+        var nam = date.getFullYear();
+        myNgay.innerHTML = "" + ngay + "/" + thang + "/" + nam;
+    </script>
+</body>
+</html>

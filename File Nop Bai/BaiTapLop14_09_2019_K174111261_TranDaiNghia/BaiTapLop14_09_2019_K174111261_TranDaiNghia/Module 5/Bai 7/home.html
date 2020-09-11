@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .container
+        {
+            display:flex;
+            flex-wrap:wrap;
+        }
+        .floor1{
+            width: 130px;
+            height: 40px;
+            background-color:#f9bcdd;
+            font-size: 20px;
+            font-family:sans-serif;
+            text-align: center;
+            /**/
+            display:flex;
+            flex-flow: column nowrap;
+            justify-content:flex-start;
+        }
+        .floor1:hover .floor2
+        {
+            background-color:#fec9e6;
+            cursor:pointer;
+            display:block;
+        }
+
+        a{
+            text-decoration:none;
+            display:inline-block;
+            width: 100%;
+            height: 100%;
+            
+            box-sizing: inherit;
+            color:#7107fc;
+            font-weight:bold;
+        }
+        
+        .floor1-1
+        {
+            height:40px;
+        }
+        .floor2
+        {
+            background-color:#7107fc;
+            padding-bottom:10px;
+            padding-top:10px;
+            display:none;
+            width: 130px;
+            height: 40px;
+            
+        }
+        .floor2:hover
+        {
+            background-color:#ff6a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="floor1">
+            <a href="#">HOME</a>
+        </div>
+        <div class="floor1"><a href="#">HTML</a></div>
+        <div class="floor1">
+            <a class="link" href="#">CSS</a>
+            <div class="floor2"><a href="#">CSS CĂN BẢN</a></div>
+            <div class="floor2"><a href="#">GIAO DIỆN VỚI CSS</a></div>
+            <div class="floor2"><a href="#">CSS NÂNG CAO</a></div>
+        </div>
+        <div class="floor1">
+            <a class="link" href="#">JAVASCRIPT</a>
+            <div class="floor2"><a href="#">LESSON 01</a></div>
+            <div class="floor2"><a href="#">LESSON 02</a></div>
+            <div class="floor2"><a href="#">LESSON 02</a></div>
+        </div>
+        <div class="floor1"><a href="#">HTML DOM</a></div>
+        <div class="floor1" style="width:200px;"><a href="#">NGÔN NGỮ ASP</a></div>
+    </div>
+   
+</body>
+</html>

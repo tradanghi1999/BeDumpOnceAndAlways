@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .itemLe
+        {
+            background-color:azure;
+        }
+        .itemChan
+        {
+            background-color:burlywood;
+        }
+
+        .itemChan:hover, .itemLe:hover
+        {
+            background-color: brown;
+            cursor:pointer;
+        }
+        /*#khung:nth-child(n):hover
+        {
+            background-color: brown;
+        }*/
+        .hdr
+        {
+            font-weight:700;
+            background-color:darkgreen;
+            color:white;
+        }
+    </style>
+    <script type="text/javascript">
+         function layXMLtuServer()
+		 {
+			var xmlhttp;
+			var xml;
+			if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.open("GET",'NguonXML1.xml',true); // trong cùng thư mục với file html hiện tại
+            xmlhttp.send();
+            xmlhttp.onreadystatechange = function()
+            {
+            	if(xmlhttp.readyState == 4 && xmlhttp.status == 200)
+            	{
+            		xml = xmlhttp.responseXML;
+            		dinhDangHTMLtuFileNhanDuoc(xml);
+            		
+            	}
+            }
+            
+           	//return xmlhttp.responseXML;
+            
+		}
+		function dinhDangHTMLtuFileNhanDuoc(xml)
+		{
+			/// vì asycn nên không chia 2 hàm dc
+			var html = "";
+			//html += "<table>"
+            var svs = xml.getElementsByTagName("sinhvien");
+            if (svs.length == 0)
+                return;
+            var svsLength = svs.length;
+            for (var i = 0; i < svsLength; i++)
+            {
+                if (i % 2 == 0)
+                    html += '<tr class="itemChan" onclick="ClickItem(this)">';
+                else
+                    html += '<tr class="itemLe" onclick="ClickItem(this)">';
+                    html += "<td>";
+                    html += svs[i].getElementsByTagName("mssv")[0].childNodes[0].nodeValue;
+					html += "</td>";
+
+					html += "<td>";
+						html += svs[i].getElementsByTagName("hoTen")[0].childNodes[0].nodeValue;
+					html += "</td>";
+
+					html += "<td>";
+						html += svs[i].getElementsByTagName("ngaySinh")[0].childNodes[0].nodeValue;
+					html += "</td>";
+
+					html += "<td>";
+						html += svs[i].getElementsByTagName("gioiTinh")[0].childNodes[0].nodeValue;
+					html += "</td>";
+
+				html += "</tr>";
+            }
+
+            document.getElementById("khung").innerHTML = "";
+
+            var titleRow = document.createElement("tr");
+            titleRow.className = "hdr";
+
+            var titleTitle = document.createElement("td");
+            titleTitle.style.fontWeight = "700";
+            titleTitle.innerHTML = "mssv";
+
+            var titleArtist= document.createElement("td");
+            titleArtist.style.fontWeight = "700";
+            titleArtist.innerHTML = "hoTen";
+
+            var titleCOUNTRY= document.createElement("td");
+            titleCOUNTRY.style.fontWeight = "700";
+            titleCOUNTRY.innerHTML = "ngaySinh";
+
+            var titleCOMPANY= document.createElement("td");
+            titleCOMPANY.style.fontWeight = "700";
+            titleCOMPANY.innerHTML = "gioiTinh";
+
+            
+
+            
+
+            var khung = document.getElementById("khung");
+            khung.appendChild(titleRow);
+            titleRow.appendChild(titleTitle);
+            titleRow.appendChild(titleArtist);
+            titleRow.appendChild(titleCOUNTRY);
+            titleRow.appendChild(titleCOMPANY);
+            
+
+			document.getElementById("khung").innerHTML += html;
+			
+
+		}
+    </script>
+
+    <script type="text/javascript">
+        function ClickItem(item) {
+            frm.mssv.value = item.childNodes[0].innerHTML;
+            frm.hoTen.value = item.childNodes[1].innerHTML;
+            frm.ngaySinh.value = item.childNodes[2].innerHTML;
+            frm.gioiTinh.value = item.childNodes[3].innerHTML;
+
+            frm.sub.click();
+        }
+    </script>
+</head>
+<body>
+    <input type="button" name="" value="xu ly file Request tu Server" onclick="layXMLtuServer()">
+    <table id="khung"></table>
+    <form id="frm" style="display:none" method="get" action="chiTiet.html">
+        <input type="text" name="mssv" id="mssv"/>
+        <input type="text" name="hoTen" id="hoTen" />
+        <input type="text" name="ngaySinh" id="ngaySinh" />
+        <input type="text" name="gioiTinh" id="gioiTinh" />
+        <input type="submit" id="sub" name="sub" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form id="frm">
+        <div>
+            <div>Họ Tên(*)</div>
+            <div><input type="text" required name="ten" placeholder="Nguyen Van A"/></div>
+        </div>
+
+        <div>
+            <div>Ngày Sinh</div>
+            <div>
+                <div>
+                    <div>Ngày</div>
+                    <div>
+                        <input type="number" required name="ngay"/>
+                    </div>
+                </div>
+                <div>
+                    <div>Tháng</div>
+                    <div><input type="number" required name="thang"/></div>
+                </div>
+                <div>
+                    <div>Năm</div>
+                    <div><input type="number" required name="nam"/></div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div>Giới Tính</div>
+            <div><input type="radio" name="gioiTinh" id="gtNam" value="1"/> Nam</div>
+            <div><input type="radio" name="gioiTinh" id="gtNu" value="0"/> Nữ</div>
+        </div>
+
+        <div>
+            <div>Email(*)</div>
+            <div><input type="text" required placeholder="abc@gmail.com" name="mail"/></div>
+        </div>
+
+        <div>
+            <div>Sở thích</div>
+            <div><input type="checkbox" value="Du Lịch" id="Du Lịch" />Du Lịch</div>
+            <div><input type="checkbox" value="Mua Sắm" id="Mua Sắm" />Mua Sắm</div>
+            <div><input type="checkbox" value="Tán Gẫu" id="Tán Gẫu"/>Tán Gẫu</div>
+            <div><input type="checkbox" value="Đọc Sách" id="Đọc Sách" />Đọc Sách</div>
+            <div><input type="checkbox" value="Nghe Nhạc" id="Nghe Nhạc" />Nghe Nhạc</div>
+        </div>
+
+        <div>
+            <div>Màu Yêu Thích</div>
+            <div><input type="radio" name="mau" value="Xanh Dương" />Xanh Dương</div>
+            <div><input type="radio" name="mau" value="Xanh Lá" />Xanh Lá</div>
+            <div><input type="radio" name="mau" value="Hồng" />Hồng</div>
+            <div><input type="radio" name="mau" value="Tím" />Tím</div>
+            <div><input type="radio" name="mau" value="Đỏ" />Đỏ</div>
+        </div>
+
+        <div>
+            <div><input type="button" value="Đăng Kí" onclick="submitPerson()"/></div>
+            <div>&nbsp;</div>
+            <div><input type="reset" value="Tiếp" /></div>
+        </div>
+    </form>
+    <table id="tbl">
+        <tr>
+            <td>Tên</td>
+            <td>Email</td>
+            <td>Giới Tính</td>
+            <td>Năm Sinh</td>
+            <td>Sở thích</td>
+            <td>Màu Yêu Thích</td>
+        </tr>
+    </table>
+    <script>
+        function submitPerson() {
+
+            var personName = frm.ten.value;
+            var personDate = frm.ngay.value;
+            var personMonth = frm.thang.value;
+            var personYear = frm.nam.value;
+            var personGender = frm.gioiTinh.value;
+            var personMail = frm.mail.value;
+            var personColor = frm.mau.value;
+
+            var personLike = "";
+            var tempItem = document.getElementById("Du Lịch");
+            if (tempItem.checked) {
+                personLike += tempItem.value + "; ";
+            }
+
+            if ((tempItem = document.getElementById("Mua Sắm")).checked) {
+                personLike += tempItem.value + "; ";
+            }
+
+            if ((tempItem = document.getElementById("Tán Gẫu")).checked) {
+                personLike += tempItem.value + "; ";
+            }
+
+            if ((tempItem = document.getElementById("Đọc Sách")).checked) {
+                personLike += tempItem.value + "; ";
+            }
+
+            if ((tempItem = document.getElementById("Nghe Nhạc")).checked) {
+                personLike += tempItem.value + "; ";
+            }
+
+            var isExisted = false;
+            var tbl = document.getElementById("tbl");
+            for (var i = tbl.children.length - 1; i > 0; i--) {
+                var tr = tbl.children[i];
+                var email = tr.children[1].innerHTML;
+
+                if (email == personMail) {
+                    isExisted = true;
+                    break;
+                }
+            }
+
+            if (isExisted) {
+                alert("Account Existed");
+            }
+            else {
+                var newTr = document.createElement("tr");
+
+                var newTdTen = document.createElement("td");
+                newTdTen.innerHTML = personName;
+
+                var newTdEmail = document.createElement("td");
+                newTdEmail.innerHTML = personMail;
+
+                var newTdGender = document.createElement("td");
+                if (personGender > 0) {
+                    newTdGender.innerHTML = "Nam"
+                }
+                else {
+                    newTdGender.innerHTML = "Nữ"
+                }
+
+                var newTdDate = document.createElement("td");
+                newTdDate.innerHTML = personDate + "/" + personMonth + "/" + personYear;
+
+                var newTdLike = document.createElement("td");
+                newTdLike.innerHTML = personLike;
+
+                var newTdColor = document.createElement("td");;
+                newTdColor.innerHTML = personColor;
+
+                newTr.appendChild(newTdTen);
+                newTr.appendChild(newTdEmail);
+                newTr.appendChild(newTdGender);
+                newTr.appendChild(newTdDate);
+                newTr.appendChild(newTdLike);
+                newTr.appendChild(newTdColor);
+
+                tbl.appendChild(newTr);
+            }
+        }
+    </script>
+</body>
+</html>

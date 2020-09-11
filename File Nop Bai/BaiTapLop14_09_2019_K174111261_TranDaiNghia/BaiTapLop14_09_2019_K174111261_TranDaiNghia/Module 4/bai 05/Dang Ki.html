@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .groupbox
+        {
+            max-width: 450px;
+            display:flex;
+            flex-flow: row wrap;
+        }
+        .item
+        {
+            display:flex;
+            flex-flow:wrap row;
+            max-width:800px;
+            /**/
+            margin-top:4px;
+            /*border-right: solid 3px #fff;*/
+        }
+        .title
+        {
+            display: inline-block;
+            width: 100px;
+            
+        }
+        .box
+        {
+            width: 500px;
+        }
+        .btn
+        {
+            width: 200px;
+        }
+        span
+        {
+            cursor:default;
+        }
+    </style>
+    <script type="text/javascript">
+        
+    </script>
+</head>
+<body>
+    <form action="Thong Tin Dang Ki.html" method="get">
+        <div class="item">
+            <div class="title">Họ và tên</div>
+            <div><input class="box" type="text" name="ten" id="ten"/></div>
+        </div>
+        <div class="item">
+            <div class="title">Email</div>
+            <div><input class="box" type="email" name="email" id="email"/></div>
+        </div>
+        <div class="item" style="cursor:default;">
+            <div class="title">Giới Tính</div>
+            <div><span onclick="check(this)"><input type="radio" value="1" name="nn" />Nam</span> <span onclick="check(this)"><input type="radio" value="0" name="nn" />Nữ</span></div>
+        </div>
+        <div class="item">
+            <div class="title">Đến từ</div>
+            <div>
+                <select name="mien" id="mien">
+                    <option value="0">Miền Bắc</option>
+                    <option value="1">Miền Trung</option>
+                    <option value="2">Miền Nam</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div>Nội Dung Gửi đến chúng tôi</div>
+            <div><textarea class="box" name="nd"></textarea></div>
+        </div>
+        <div class="item" style="justify-content:flex-end;">
+            <div><input class="btn" type="submit" value="Gửi Thông Điệp" /></div>
+            <div>&nbsp;</div>
+            <div><input class="btn" type="reset" value="Nhập Lại Tất Cả"/></div>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        function check(item) {
+            var rdo = item.childNodes[0];
+            rdo.checked = true;
+        }
+    </script>
+</body>
+</html>

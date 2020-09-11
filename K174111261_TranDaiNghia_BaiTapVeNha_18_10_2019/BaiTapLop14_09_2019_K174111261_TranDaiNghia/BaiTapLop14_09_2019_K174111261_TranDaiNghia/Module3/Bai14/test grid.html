@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .content {
+            display: grid;
+            grid-template-columns: [left] 80% [right] 20%;
+            grid-template-rows: [hdr] 33% [cntnt] 33% [ftr] 33%;
+            
+        }
+
+        .hdr {
+           grid-row-start: 1;
+           grid-row-gap: 2;
+           grid-column-start:1;
+           grid-column-end: 3;
+            /**/
+            background-color:#808080;
+        }
+
+        .article {
+            grid-column-start:1;
+            grid-column-end: 2;
+        }
+
+        .side {
+            grid-area: right;
+        }
+
+        .hdrContent {
+            background-color: #E5E8A7;
+            border: solid 1px #A7C8CA;
+            text-align: center;
+        }
+
+        h1, h3 {
+            color: #D84593;
+        }
+
+        .side > ul > li {
+            color: #D84593;
+            margin: 16px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0px;
+        }
+
+            ul > li {
+            }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="hdr">ui</div>
+        <div class="article"    style="background-color:#D84593; grid-row-start:2; grid-row-end:3;">IO</div>
+        <div class="article"    style="background-color:#A7C8CA; grid-row-start:3; grid-row-end:4;">IO</div>
+    </div>
+    
+</body>
+</html>

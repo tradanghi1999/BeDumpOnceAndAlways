@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .groupbox
+        {
+            max-width: 450px;
+            display:flex;
+            flex-flow: row wrap;
+        }
+        .item
+        {
+            display:flex;
+            flex-flow:wrap row;
+            max-width:800px;
+            /**/
+            margin-top:4px;
+            /*border-right: solid 3px #fff;*/
+        }
+        .title,.hdr > div,.item > div
+        {
+            display: inline-block;
+            width: 150px;
+            
+        }
+
+        .item > div > input
+        {
+            width: 100px;
+        }
+        .box
+        {
+            width: 500px;
+        }
+        .btn
+        {
+            width: 200px;
+        }
+        .hdr
+        {
+            font-weight:700;
+        }
+        .hdr > div
+        {
+
+        }
+        form
+        {
+            padding:100px;
+        }
+    </style>
+    <script type="text/javascript">
+        
+    </script>
+</head>
+<body>
+    <form action="Thong Tin Dang Ki.html" method="get">
+        <div class="item hdr">
+            <div>
+                Part Number
+            </div>
+            <div>
+                Description
+            </div>
+            <div>
+                Price
+            </div>
+            <div>
+                Qty
+            </div>
+            <div>
+                Item table
+            </div>
+        </div>
+        <div class="item">
+            <div>
+                C112
+            </div>
+            <div>
+                Chuột Quang
+            </div>
+            <div>
+                19.95$
+            </div>
+            <div>
+                <input type="text" name="slChuot" oninput="tinh(this)"/>
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+        </div>
+        <div class="item">
+            <div>
+                B124
+            </div>
+            <div>
+                Bàn Phím
+            </div>
+            <div>
+                29.95$
+            </div>
+            <div>
+                <input type="text" name="slBanPhim" oninput="tinh(this)"/>
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+        </div>
+        <div class="item">
+            <div>
+                U125
+            </div>
+            <div>
+                USB Kingston
+            </div>
+            <div>
+                39.95$
+            </div>
+            <div>
+                <input type="text" name="slUSB" oninput="tinh(this)"/>
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+        </div>
+        <hr />
+        <div class="item" style="">
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>Total</div>
+            <div><input type="text" /></div>
+        </div>
+        <div class="item" style="">
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            
+            <div><input type="submit" value="cal"/></div>
+        </div>
+    </form>
+    <script type="text/javascript">
+        function tinh(textSL) {
+            var value = eval(textSL.value);
+            var item = textSL.parentNode.parentNode;
+            var textSingle = item.children[4].children[0];
+
+            var divDonGia = item.children[2];
+            var donGia = eval(divDonGia.innerHTML.substring(0, divDonGia.innerHTML.indexOf("$")));
+
+            textSingle.value = donGia * value + "";
+        }
+    </script>
+</body>
+</html>

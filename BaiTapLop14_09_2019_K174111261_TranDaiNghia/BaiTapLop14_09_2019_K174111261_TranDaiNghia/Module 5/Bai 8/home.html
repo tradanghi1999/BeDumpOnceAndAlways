@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .grid
+        {
+            display:grid;
+            grid-template-columns: [left] 1fr [right] 1fr;
+            
+            
+        }
+        .left
+        {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            /*border-style:inset;
+            border-width: 2px;
+            border-color: black;*/
+            padding: 20px;
+            
+        }
+        .right
+        {
+            grid-column-start:2;
+            grid-column-end:3;
+            border-style:double;
+            border-width: 2px;
+            border-color: black;
+            padding: 20px;
+        }
+
+        .box
+        {
+            display:grid;
+            grid-template-areas:
+                "a b"
+                "c d"
+                "e f";
+            grid-template-columns: 1fr 4fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-gap: 0.5rem 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>A Simple Color Picker</h1>
+    <div class="grid">
+        <div class="left">
+            <div>Background (enter values from '00' to 'FF')</div>
+            <div class="box">
+                <div style="grid-area: a;">RED: </div>
+                <div style="grid-area: b;"><input id="bgRed" type="text" /></div>
+                <div style="grid-area: c;">YELLOW: </div>
+                <div style="grid-area: d;"><input id="bgYellow" type="text" /></div>
+                <div style="grid-area: e;">BLUE: </div>
+                <div style="grid-area: f;"><input id="bgBlue" type="text" /></div>
+            </div>
+            <div>Text (enter values from '00' to 'FF')</div>
+            <div class="box">
+                <div style="grid-area: a;">RED: </div>
+                <div style="grid-area: b;"><input id="clrRed" type="text" /></div>
+                <div style="grid-area: c;">YELLOW: </div>
+                <div style="grid-area: d;"><input id="clrYellow" type="text" /></div>
+                <div style="grid-area: e;">BLUE: </div>
+                <div style="grid-area: f;"><input id="clrBlue" type="text" /></div>
+            </div>
+            <div style="display:flex; flex-flow:wrap row; justify-content:center; margin-top:20px;">
+                <div><input type="button" value="apply" id="apply" onclick="apply()"/></div>
+                <div>&nbsp;</div>
+                <div><input type="button" value="reload" id="reload" onclick="reload()"/></div>
+            </div>
+        </div>
+        <div id="appZone" class="right">
+            <h3>HAMLET:</h3>
+            <p>Speak the speech, I pray you, as I pronounced it to you, trippingly on the tongue: but if you mouth it, as many of your players do, I had as lief the town-cner spoke my lines.</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function apply() {
+
+            var bgColor = document.getElementById("bgRed").value + "" + document.getElementById("bgYellow").value + "" + document.getElementById("bgBlue").value;
+            var clrColor = document.getElementById("clrRed").value + "" + document.getElementById("clrYellow").value + "" + document.getElementById("clrBlue").value;
+
+            var re = /[0-9A-Fa-f]{6}/g;
+            if (re.test(bgColor)) {
+                document.getElementById("appZone").style.backgroundColor = "#" + bgColor;
+            }
+            else {
+                alert("wrong bg");
+            }
+
+
+            var er = /[0-9A-Fa-f]{6}/g; 
+            if (er.test(clrColor)) {
+                document.getElementById("appZone").style.color = "#" + clrColor;
+            }
+            else {
+                alert("wrong clr");
+            }
+
+        }
+
+        function reload() {
+            window.location.reload();
+        }
+    </script>
+</body>
+</html>

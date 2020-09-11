@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        body
+        {
+            background-color:#8DCCFF;
+        }
+        .hdr
+        {
+            text-align:center;
+        }
+        .cntnt
+        {
+            padding: 0 200px;
+        }
+        .cntnt > h3, .cntnt > div
+        {
+            text-align:center;
+            
+        }
+        .item
+        {
+            display:flex;
+            flex-flow:wrap row;
+            max-width:400px;
+            /**/
+            margin-top:4px;
+            /*border-right: solid 3px #fff;*/
+        }
+        .title
+        {
+            display: inline-block;
+            width: 200px;
+            
+        }
+        .line
+        {
+            display:flex;
+            flex-flow:row wrap;
+            padding: 2px;
+            max-width: 1200px;
+            
+            align-content:space-between;
+            /*justify-content: space-between;*/
+        }
+        .groupBox
+        {
+            max-width: 450px;
+            display:flex;
+            flex-flow: row wrap;
+        }
+        .box
+        {
+            display: block;
+            width: 160px;
+        }
+        .btn
+        {
+            justify-content:center;
+        }
+        .btn > div
+        {
+            padding: 10px;
+        }
+        textarea
+        {
+            width: 500px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hdr"><img src="hinh/Jackson.gif" /></div>
+    <div class="cntnt">
+        <h3>Registration Form</h3>
+        <div>Register your Jackson Electronics product here</div>
+        <form id="myForm">
+            <div class="line">
+                <div class="item">
+                    <div class="title">First Name:</div>
+                    <div><input type="text"/></div>
+                </div>
+                <div class="item">
+                    &nbsp;
+                </div>
+                <div class="item">
+                    <div class="title">Last Name:</div>
+                    <div><input type="text" /></div>
+                </div>
+                
+            </div>
+            <div class="line">
+                <div class="title">Address #1:</div>
+                <div><input type="text" /></div>
+            </div>
+            <div class="line">
+                <div class="title">Address #2:</div>
+                <div><input type="text" /></div>
+            </div>
+            <div class="line">
+                <div class="item">
+                    <div class="title">City:</div>
+                    <div><input type="text" /></div>
+                </div>
+                <div class="item">
+                    &nbsp;
+                </div>
+                <div class="item">
+                    <div class="title">State:</div>
+                    <div><input type="text" /></div>
+                </div>
+                <div class="item">
+                    &nbsp;
+                </div>
+                <div class="item">
+                    <div class="title">Zip:</div>
+                    <div><input type="text" /></div>
+                </div>
+
+            </div>
+            <div class="line">
+                <div class="title">Counntry:</div>
+                <div><input type="text" /></div>
+            </div>
+            <hr />
+            <div class="line">
+                <div class="title">Product:</div>
+                <div>
+                    <select>
+                        <option>ScanMaster</option>
+                        <option>&nbsp;</option>
+                        <option>&nbsp;</option>
+                    </select>
+                </div>
+            </div>
+            <div class="line">
+                <div class="title">Date Purchased:</div>
+                <div><input type="text" /></div>
+            </div>
+            <div class="line">
+                <div class="title">Serial #:</div>
+                <div><input type="text" /></div>
+            </div>
+            <div class="line">
+                <div class="title">Used For:</div>
+                <div class="groupBox">
+                    <div class="box"><input type="radio" name="used" />Home</div>
+                    <div class="box"><input type="radio" name="used" />Education Institution</div>
+                    <div class="box"><input type="radio" name="used" />Business</div>
+                    <div class="box"><input type="radio" name="used" />Other</div>
+                    <div class="box"><input type="radio" name="used" />Government</div>
+
+                </div>
+            </div>
+            
+            <div class="line">
+                <div class="title">System (check all that apply):</div>
+                <div class="item">
+                    <div class="box"><input type="checkbox" name="system" />Windows</div>
+                    <div class="box"><input type="checkbox" name="system" />UNIX</div>
+                    <div class="box"><input type="checkbox" name="system" />MAC</div>
+                    <div class="box"><input type="checkbox" name="system" />Other</div>
+                </div>
+            </div>
+            <!--<div class="line">
+                <div class="title">&nbsp;</div>
+                <div class="item">
+                    
+                </div>
+                
+            </div>-->
+            <hr />
+            <div class="line">
+                <div class="title">Comments:</div>
+                <div><textarea></textarea></div>
+            </div>
+            <div class="line btn">
+                <div><input type="button" value="Register" onclick="alert('Dang Ki Thanh Cong');"/></div>
+                <div><input type="button" value="Cancle" onclick="document.getElementById('myForm').reset();"/></div>
+            </div>
+
+        </form>
+    </div>
+    <div class="ftr"></div>
+</body>
+</html>

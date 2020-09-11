@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .container
+        {
+            background-color:#000000;
+            display:flex;
+            flex-flow:row wrap;
+        }
+        .sideBar
+        {
+            display:flex;
+            flex-flow: wrap column;
+            background-color:#000000;
+            padding:1px;
+            width:320px;
+            flex-grow:0;
+        }
+        .sideBarItem
+        {
+            border-style:solid;
+            border-width: 4px;
+            border-color:   #CDFF00; 
+            width: 300px;
+            background-color:#FF0000;
+            color:white;
+            font-weight:700;
+            font-family:sans-serif;
+            margin: 5px;
+            padding: 2px;
+        }
+        .content
+        {
+            color:white;
+            text-align:center;
+            margin-left:50px;
+            flex-grow:1;
+            
+        }
+        .content .header h1
+        {
+            font-family:sans-serif;
+            text-align:center;
+        }
+        p
+        {
+            width: 400px;
+            margin-left:auto;
+            margin-right:auto
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sideBar">
+            <div class="sideBarItem">
+                <span>A</span>ntiques
+            </div>
+            <div class="sideBarItem">
+                <span>B</span>ooks
+            </div>
+            <div class="sideBarItem">
+                <span>C</span>lothes
+            </div>
+            <div class="sideBarItem">
+                <span>E</span>lectronics
+            </div>
+            <div class="sideBarItem">
+                <span>F</span>urniture
+            </div>
+            <div class="sideBarItem">
+                <span>J</span>ewelry
+            </div>
+            <div class="sideBarItem">
+                <span>M</span>usic and Videos
+            </div>
+            <div class="sideBarItem">
+                <span>S</span>porting Goods
+            </div>
+        </div>
+        <div class="content">
+            <div class="header">
+                <h1 style="padding:0; margin-bottom:-15px;">THE</h1>
+                <h1 style="padding:0; margin-top:-15px;margin-bottom:-15px;">STUFF</h1>
+                <h1 style="padding:0; margin-top:-15px;">SHOP</h1>
+            </div>
+            <p>
+                The Stuff Shop is our online home for the buying, selling, and trading of used mechandise and unique collectibes.
+            </p>
+            <p>
+                Click a link on the left to browse the store
+            </p>
+            <div class="ImgList">
+                <img src="hinh/bike.jpg" />
+                <img src="hinh/pc.jpg" />
+                <img src="hinh/gloves.jpg" />
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

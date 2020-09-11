@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .grid
+        {
+            display:grid;
+            
+            grid-template-rows: [hdr] 1fr  [line1] 1fr [line2] 1fr [line3] 1fr [line4] 1fr [line5] 1fr [ftr] 1fr;
+            /*grid-template-areas: 
+                "left ... right"
+                "left ... right"
+                "left ... right"
+                "left ... right"
+                "left ... right"
+                "left ... right"
+                "footer footer footer";*/
+
+            /**/
+            grid-template-areas:
+                "header"
+                "header"
+                "header"
+                "header"
+                "header"
+                "header"
+                "header";
+            max-width:500px;
+            max-height:200px;
+            border: outset 1px #FFFFFC;
+        }
+        .gridItem
+        {
+            display: grid;
+            grid-template-columns: [stt] 1fr [ma] 2.5fr [ten] 5fr;
+            grid-template-areas: 
+                "left ... right";
+            
+        }
+
+        .grid > .gridItem:nth-child(2n)
+        {
+            background-color: #F5F5F2;
+        }
+        .grid > .gridItem:nth-child(2n+1)
+        {
+            background-color: #FFC0BD;
+        }
+        .grid >.gridItem:hover
+        {
+            background-color: yellow;
+            cursor:pointer;
+        }
+        .gridItem > div, .hdr > div, .ftr > div
+        {
+            border-style:outset;
+            border-width: 1px;
+            border-color:#FFFFFC;
+            /**/
+            padding: 2px;
+        }
+        .stt
+        {
+            grid-row-start: 1; 
+            grid-row-end: 2;
+            grid-column-start: 1; 
+            grid-column-end: 2;
+            /**/
+            
+        }
+        .ma
+        {
+            grid-row-start: 1; 
+            grid-row-end: 2;
+            grid-column-start: 2; 
+            grid-column-end: 3;
+        }
+        .ten
+        {
+            grid-row-start: 1; 
+            grid-row-end: 2;
+            grid-column-start: 3; 
+            grid-column-end: 4;
+        }
+        .hdr
+        {
+            display: grid;
+            grid-template-columns: [stt] 1fr [ma] 2.5fr [ten] 5fr;
+            grid-template-areas: 
+                "left ... right";
+            background-color:#3200FF;
+            color: white;
+            text-align:center;
+        }
+        .ftr
+        {
+            
+            /**/
+            background-color:#3200FF;
+            color:white;
+            padding: 3px;
+           
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="hdr" style="
+                grid-row: hdr / hdr;
+             ">
+            <div class="stt">STT</div>
+            <div class="ma">Mã</div>
+            <div class="ten">Tên</div>
+        </div>
+        <div class="gridItem" style="
+                grid-row: line1 / line1;
+             ">
+            <div class="stt">1</div>
+            <div class="ma">K174111253</div>
+            <div class="ten">Trần Thị Yến Linh</div>
+        </div>
+        <div class="gridItem" style="
+                grid-row: line2 / line2;
+             ">
+            <div class="stt">2</div>
+            <div class="ma">K174111260</div>
+            <div class="ten">Trần Trọng Nghiêm</div>
+        </div>
+        <div class="gridItem" style="
+                grid-row: line3 / line3;
+             ">
+            <div class="stt">3</div>
+            <div class="ma">K164060845</div>
+            <div class="ten">Nguyễn Khiếu Thành Huy</div>
+        </div>
+        <div class="gridItem" style="
+                grid-row: line4 / line4;
+             ">
+            <div class="stt">4</div>
+            <div class="ma">K164080854</div>
+            <div class="ten">Trịnh Thị Hồng Vân</div>
+        </div>
+        <div class="gridItem" style="
+                grid-row: line5 / line5;
+             ">
+            <div class="stt">5</div>
+            <div class="ma">K184111428</div>
+            <div class="ten">Nguyễn Thị Tiên</div>
+        </div>
+
+        <div class="ftr" style="
+                grid-row: ftr / ftr;
+             ">
+            Designed by Dai Nghia
+        </div>
+    </div>
+</body>
+</html>

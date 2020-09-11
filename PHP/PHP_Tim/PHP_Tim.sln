@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "PHP_Tim", "..\..\..\..\..\..\Users\trada\source\repos\PHP\PHP_Tim\PHP_Tim\PHP_Tim.phpproj", "{F9517313-4001-451F-B353-52F63E40E4F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9517313-4001-451F-B353-52F63E40E4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9517313-4001-451F-B353-52F63E40E4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {711D08B5-6171-46F1-BDA1-DA0A89A8D50A}
+	EndGlobalSection
+EndGlobal

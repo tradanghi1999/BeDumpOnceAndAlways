@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function layXMLtuServer()
+		{
+			var xmlhttp;
+			var xml;
+			if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.open("GET",'catalogue.xml',true); // trong cùng thư mục với file html hiện tại
+            xmlhttp.send();
+            xmlhttp.onreadystatechange = function()
+            {
+            	if(xmlhttp.readyState == 4 && xmlhttp.status == 200)
+            	{
+            		xml = xmlhttp.responseXML;
+            		dinhDangHTMLtuFileNhanDuoc(xml);
+            		
+            	}
+            }
+            
+           	//return xmlhttp.responseXML;
+            
+		}
+		function dinhDangHTMLtuFileNhanDuoc(xml)
+		{
+			/// vì asycn nên không chia 2 hàm dc
+			var html = "";
+			//html += "<table>"
+			var cds = xml.getElementsByTagName("CD");
+			if(cds.length == 0)
+				return;
+			var cdsLength = cds.length;
+			for(var i = 0; i < cdsLength; i++)
+			{
+				html += "<tr>";
+					html += "<td>";
+						html += cds[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue;
+					html += "</td>";
+
+					html += "<td>";
+						html += cds[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue;
+					html += "</td>";
+
+					html += "<td>";
+						html += cds[i].getElementsByTagName("COUNTRY")[0].childNodes[0].nodeValue;
+					html += "</td>";
+
+					html += "<td>";
+						html += cds[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue;
+					html += "</td>";
+
+					html += "<td>";
+						html += cds[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
+					html += "</td>";
+
+					html += "<td>";
+						html += cds[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue;
+					html += "</td>";
+				html += "</tr>";
+            }
+
+            document.getElementById("khung").innerHTML = "";
+
+            var titleRow = document.createElement("tr");
+
+            var titleTitle = document.createElement("td");
+            titleTitle.style.fontWeight = "700";
+            titleTitle.innerHTML = "Title";
+
+            var titleArtist= document.createElement("td");
+            titleArtist.style.fontWeight = "700";
+            titleArtist.innerHTML = "Artist";
+
+            var titleCOUNTRY= document.createElement("td");
+            titleCOUNTRY.style.fontWeight = "700";
+            titleCOUNTRY.innerHTML = "COUNTRY";
+
+            var titleCOMPANY= document.createElement("td");
+            titleCOMPANY.style.fontWeight = "700";
+            titleCOMPANY.innerHTML = "COMPANY";
+
+            
+
+            var titlePRICE= document.createElement("td");
+            titlePRICE.style.fontWeight = "700";
+            titlePRICE.innerHTML = "PRICE";
+
+            var titleYEAR= document.createElement("td");
+            titleYEAR.style.fontWeight = "700";
+            titleYEAR.innerHTML = "YEAR";
+
+            var khung = document.getElementById("khung");
+            khung.appendChild(titleRow);
+            titleRow.appendChild(titleTitle);
+            titleRow.appendChild(titleArtist);
+            titleRow.appendChild(titleCOUNTRY);
+            titleRow.appendChild(titleCOMPANY);
+            titleRow.appendChild(titlePRICE);
+            titleRow.appendChild(titleYEAR);
+
+			document.getElementById("khung").innerHTML += html;
+			
+
+		}
+    </script>
+</head>
+<body>
+    <input type="button" name="" value="xu ly file Request tu Server" onclick="layXMLtuServer()">
+    <table id="khung"></table>
+</body>
+</html>

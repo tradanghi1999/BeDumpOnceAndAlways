@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function getItem() {
+            var url = new URL(window.location.href);
+
+            var mssv = url.searchParams.get("mssv");
+            document.getElementById("mssv").innerHTML = mssv;
+
+            var hoten = url.searchParams.get("hoTen");
+            document.getElementById("hoten").innerHTML = hoten;
+
+            var ngaySinh = url.searchParams.get("ngaySinh");
+            document.getElementById("ngaysinh").innerHTML = ngaySinh;
+
+            var gioiTinh = url.searchParams.get("gioiTinh");
+            document.getElementById("gioitinh").innerHTML = gioiTinh;
+        }
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>mssv</td>
+            <td id="mssv"></td>
+        </tr>
+        <tr>
+            <td>hoten</td>
+            <td id="hoten"></td>
+        </tr>
+        <tr>
+            <td>ngaysinh</td>
+            <td id="ngaysinh"></td>
+        </tr>
+        <tr>
+            <td>gioitinh</td>
+            <td id="gioitinh"></td>
+        </tr>
+    </table>
+    <script>
+        getItem();
+    </script>
+</body>
+</html>

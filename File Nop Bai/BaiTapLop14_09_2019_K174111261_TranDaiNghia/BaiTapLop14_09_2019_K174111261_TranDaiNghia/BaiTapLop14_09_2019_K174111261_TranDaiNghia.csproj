@@ -1,0 +1,384 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{31E65D89-C89D-4E0E-8795-51343EC279A4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BaiTapLop14_09_2019_K174111261_TranDaiNghia</RootNamespace>
+    <AssemblyName>BaiTapLop14_09_2019_K174111261_TranDaiNghia</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="home.html" />
+    <Content Include="Module 4\bai 05\Dang Ki.html" />
+    <Content Include="Module 4\bai 05\Thong Tin Dang Ki.html" />
+    <Content Include="Module 4\Bai 06\Dang Ki.html" />
+    <Content Include="Module 4\Bai 06\Thong Tin Dang Ki.html" />
+    <Content Include="Module 4\Bai1\hinh\Jackson.gif" />
+    <Content Include="Module 4\Bai1\home.html" />
+    <Content Include="Module 4\Bai2\Cancel.gif" />
+    <Content Include="Module 4\Bai2\Help.gif" />
+    <Content Include="Module 4\Bai2\home.html" />
+    <Content Include="Module 4\Bai2\Search.gif" />
+    <Content Include="Module 4\Bai3\DeLong.jpg" />
+    <Content Include="Module 4\Bai3\home.html" />
+    <Content Include="Module 4\Bai4\home.html" />
+    <Content Include="Module 4\Bai4\Logo.gif" />
+    <Content Include="Module 5\Bai 1\home.html" />
+    <Content Include="Module 5\Bai 2\home.html" />
+    <Content Include="Module 5\Bai 3\home.html" />
+    <Content Include="Module 5\Bai 4\Dang Ki.html" />
+    <Content Include="Module 5\bai 5\home.html" />
+    <Content Include="Module 5\bai 5\Logo.gif" />
+    <Content Include="Module 5\Bai 7\home.html" />
+    <Content Include="Module 5\Bai 8\home.html" />
+    <Content Include="Module 6\Bai 02\home.html" />
+    <Content Include="Module 6\Bai 06\chiTiet.html" />
+    <Content Include="Module 6\Bai 06\home.html" />
+    <Content Include="Module 6\Bai 06\NguonXML1.xml" />
+    <Content Include="Module 6\Bai 07\catalogue.xml" />
+    <Content Include="Module 6\Bai 07\home.html" />
+    <Content Include="Module 6\Bai 08\Employee.html" />
+    <Content Include="Module 6\Bai 08\Employee.xml" />
+    <Content Include="Module 8\Bai Ngan Hang Dong A\home.html" />
+    <None Include="Module 8\Bai Ngan Hang Dong A\NHDA.json" />
+    <Content Include="Module 8\Bai Ngan Hang Vietcombank\home.html" />
+    <Content Include="Module 8\Bai Ngan Hang Vietcombank\myXML.xml" />
+    <Content Include="Module2\Bai 10\Comments.html" />
+    <Content Include="Module2\Bai 10\Picture\Taylor.jpg" />
+    <Content Include="Module2\Bai 10\Picture\Tick.PNG" />
+    <Content Include="Module2\Bai 10\Reference.html" />
+    <Content Include="Module2\Bai 10\Resume.html" />
+    <Content Include="Module2\bai 11\bai11_dulieu.txt" />
+    <Content Include="Module2\bai 11\Brinktxt.htm" />
+    <Content Include="Module2\bai 11\Brydtxt.htm" />
+    <Content Include="Module2\bai 11\Expo.html" />
+    <Content Include="Module2\bai 11\hinh\1092px-Asterisk.svg.png" />
+    <Content Include="Module2\bai 11\hinh\Center.jpg" />
+    <Content Include="Module2\bai 11\hinh\Check.jpg" />
+    <Content Include="Module2\bai 11\hinh\Floor.gif" />
+    <Content Include="Module2\bai 11\hinh\LogoAnim.gif" />
+    <Content Include="Module2\bai 11\hinh\Space.jpg" />
+    <Content Include="Module2\bai 11\Mitchtxt.htm" />
+    <Content Include="Module2\bai 12\bai12_dulieu.txt" />
+    <Content Include="Module2\bai 12\hinh\Bars.jpg" />
+    <Content Include="Module2\bai 12\hinh\Jackson.jpg" />
+    <Content Include="Module2\bai 12\hinh\Product.jpg" />
+    <Content Include="Module2\bai 12\Jackson.html" />
+    <Content Include="Module2\bai 12\Printext.htm" />
+    <Content Include="Module2\bai 12\PStext.htm" />
+    <Content Include="Module2\bai 12\Scantext.htm" />
+    <Content Include="Module2\bai 13\Bai13_dulieu.txt" />
+    <Content Include="Module2\bai 13\Charntxt.htm" />
+    <Content Include="Module2\bai 13\Forsttxt.htm" />
+    <Content Include="Module2\bai 13\hinh\Charnas.jpg" />
+    <Content Include="Module2\bai 13\hinh\Forrest.jpg" />
+    <Content Include="Module2\bai 13\hinh\Guests.jpg" />
+    <Content Include="Module2\bai 13\hinh\SFSF.gif" />
+    <Content Include="Module2\bai 13\hinh\Unwin.jpg" />
+    <Content Include="Module2\bai 13\SFSF.html" />
+    <Content Include="Module2\bai 13\Unwintxt.htm" />
+    <Content Include="Module2\bai 15\hinh\MAA2.jpg" />
+    <Content Include="Module2\bai 15\hinh\Marble.jpg" />
+    <Content Include="Module2\bai 15\MAA.html" />
+    <Content Include="Module2\Bai 16\hinh\MAA2.jpg" />
+    <Content Include="Module2\Bai 16\hinh\Marble.jpg" />
+    <Content Include="Module2\Bai 16\Middle Age Arts.html" />
+    <Content Include="Module2\Bai 17\hinh\Cassini.jpg" />
+    <Content Include="Module2\Bai 17\hinh\GBar.jpg" />
+    <Content Include="Module2\Bai 17\hinh\Glogo.jpg" />
+    <Content Include="Module2\Bai 17\hinh\MAA2.jpg" />
+    <Content Include="Module2\Bai 17\hinh\Marble.jpg" />
+    <Content Include="Module2\Bai 17\hinh\Oneil.jpg" />
+    <Content Include="Module2\Bai 17\The GaGoyle Collection.html" />
+    <Content Include="Module2\bai 18\Bai18_dulieu.txt" />
+    <Content Include="Module2\bai 18\Duston.html" />
+    <Content Include="Module2\bai 18\hinh\Adams.jpg" />
+    <Content Include="Module2\bai 18\hinh\DLogo.jpg" />
+    <Content Include="Module2\bai 18\hinh\Dunston.jpg" />
+    <Content Include="Module2\Bai 19\ColoradoRoot.html" />
+    <Content Include="Module2\Bai 19\Colorado_div.html" />
+    <Content Include="Module2\Bai 19\Diamond.html" />
+    <Content Include="Module2\Bai 19\Eldorado.html" />
+    <Content Include="Module2\Bai 19\Grepon.html" />
+    <Content Include="Module2\Bai 19\hinh\Diamond.jpg" />
+    <Content Include="Module2\Bai 19\hinh\Eldorado.jpg" />
+    <Content Include="Module2\Bai 19\hinh\Grepon.jpg" />
+    <Content Include="Module2\Bai 19\hinh\Kieners.jpg" />
+    <Content Include="Module2\Bai 19\hinh\Lessons.jpg" />
+    <Content Include="Module2\Bai 19\hinh\Logo.jpg" />
+    <Content Include="Module2\Bai 19\hinh\Lumpy.jpg" />
+    <Content Include="Module2\Bai 19\hinh\Mountain.jpg" />
+    <Content Include="Module2\Bai 19\hinh\NFace.jpg" />
+    <Content Include="Module2\Bai 19\hinh\Philosph.jpg" />
+    <Content Include="Module2\Bai 19\hinh\TCE.jpg" />
+    <Content Include="Module2\Bai 19\hinh\Wall2.jpg" />
+    <Content Include="Module2\Bai 19\Kieners.html" />
+    <Content Include="Module2\Bai 19\Lessons.html" />
+    <Content Include="Module2\Bai 19\Link.html" />
+    <Content Include="Module2\Bai 19\Logo.html" />
+    <Content Include="Module2\Bai 19\Lumpy.html" />
+    <Content Include="Module2\Bai 19\NFace.html" />
+    <Content Include="Module2\Bai 19\Philosph.html" />
+    <Content Include="Module2\Bai 19\TCE.html" />
+    <Content Include="Module2\bai 20\Colorado.html" />
+    <Content Include="Module2\bai 20\DuMont.html" />
+    <Content Include="Module2\bai 20\hinh\Bester.jpg" />
+    <Content Include="Module2\bai 20\hinh\Bester2.jpg" />
+    <Content Include="Module2\bai 20\hinh\DuMont.jpg" />
+    <Content Include="Module2\bai 20\hinh\DuMont2.jpg" />
+    <Content Include="Module2\bai 20\hinh\Jacobs.jpg" />
+    <Content Include="Module2\bai 20\hinh\Jacobs2.jpg" />
+    <Content Include="Module2\bai 20\hinh\Laurent.jpg" />
+    <Content Include="Module2\bai 20\hinh\Laurent2.jpg" />
+    <Content Include="Module2\bai 20\hinh\LOGO.JPG" />
+    <Content Include="Module2\bai 20\hinh\Mountain.jpg" />
+    <Content Include="Module2\bai 20\hinh\Staford.jpg" />
+    <Content Include="Module2\bai 20\hinh\Staford2.jpg" />
+    <Content Include="Module2\bai 20\hinh\TCELogo.gif" />
+    <Content Include="Module2\bai 20\hinh\Wall2.jpg" />
+    <Content Include="Module2\bai 20\Jacobs.html" />
+    <Content Include="Module2\bai 20\Laurent.html" />
+    <Content Include="Module2\bai 20\Link.html" />
+    <Content Include="Module2\bai 20\Logo.html" />
+    <Content Include="Module2\bai 20\People.html" />
+    <Content Include="Module2\bai 20\Staford.html" />
+    <Content Include="Module2\Bai 21\Bai21_dulieu.txt" />
+    <Content Include="Module2\Bai 21\Chart.html" />
+    <Content Include="Module2\Bai 21\hinh\DCCLogo.jpg" />
+    <Content Include="Module2\Bai 21\hinh\Map.jpg" />
+    <Content Include="Module2\Bai 21\hinh\MWChart.jpg" />
+    <Content Include="Module2\Bai 21\hinh\NEChart.jpg" />
+    <Content Include="Module2\Bai 21\hinh\SChart.jpg" />
+    <Content Include="Module2\Bai 21\hinh\WChart.jpg" />
+    <Content Include="Module2\Bai 21\Logo.html" />
+    <Content Include="Module2\Bai 21\Midwest.html" />
+    <Content Include="Module2\Bai 21\Northeast.html" />
+    <Content Include="Module2\Bai 21\Region.html" />
+    <Content Include="Module2\Bai 21\South.html" />
+    <Content Include="Module2\Bai 21\West.html" />
+    <Content Include="Module2\bai 22\Cast.html" />
+    <Content Include="Module2\bai 22\Castjpg.html" />
+    <Content Include="Module2\bai 22\Casttour.html" />
+    <Content Include="Module2\bai 22\Hebd.html" />
+    <Content Include="Module2\bai 22\Hebdjpg.html" />
+    <Content Include="Module2\bai 22\Hebdtour.html" />
+    <Content Include="Module2\bai 22\High.html" />
+    <Content Include="Module2\bai 22\Highjpg.html" />
+    <Content Include="Module2\bai 22\Hightour.html" />
+    <Content Include="Module2\bai 22\hinh\Castles.jpg" />
+    <Content Include="Module2\bai 22\hinh\Hebrides.jpg" />
+    <Content Include="Module2\bai 22\hinh\Highland.jpg" />
+    <Content Include="Module2\bai 22\hinh\Lake.jpg" />
+    <Content Include="Module2\bai 22\hinh\Tour.png" />
+    <Content Include="Module2\bai 22\Lake.html" />
+    <Content Include="Module2\bai 22\Lakejpg.html" />
+    <Content Include="Module2\bai 22\Laketour.html" />
+    <Content Include="Module2\bai 22\Nav.html" />
+    <Content Include="Module2\bai 22\Tour.html" />
+    <Content Include="Module2\bai 24\BuongDoiTayNhauRa-SonTungMTP-4184408.mp3" />
+    <Content Include="Module2\bai 24\home.html" />
+    <Content Include="Module2\bai 24\Tan - Tuan Hung %28NhacPro.net%29.flac" />
+    <Content Include="Module2\bai 24\Tan - Tuan Hung %28NhacPro.net%29.mp3" />
+    <Content Include="Module2\Bai 7\Beethoven.css" />
+    <Content Include="Module2\Bai 7\FirstMovement.html" />
+    <Content Include="Module2\Bai 7\FourthMovement.html" />
+    <Content Include="Module2\Bai 7\Picture\LVB1.jpg" />
+    <Content Include="Module2\Bai 7\Picture\LVB2.jpg" />
+    <Content Include="Module2\Bai 7\Picture\LVB3.jpg" />
+    <Content Include="Module2\Bai 7\Picture\LVB4.jpg" />
+    <Content Include="Module2\Bai 6\Picture\Taylor.jpg" />
+    <Content Include="Module2\Bai 6\Resume.html" />
+    <Content Include="Module2\Bai 7\SecondMovement.html" />
+    <Content Include="Module2\Bai 7\ThirdMovement.html" />
+    <Content Include="Module2\Bai 8\Euler.html" />
+    <Content Include="Module2\Bai 8\hinh\cu1.JPG" />
+    <Content Include="Module2\Bai 9\Chester.html" />
+    <Content Include="Module2\Bai 9\hinh\Chester.jpg" />
+    <Content Include="Module2\Bai 9\hinh\Diamonds.jpg" />
+    <Content Include="Module2\bai23\header.html" />
+    <Content Include="Module2\bai23\home.html" />
+    <Content Include="Module2\bai23\Scottxt.html" />
+    <Content Include="Module2\bai23\SnTOC.html" />
+    <Content Include="Module2\bai23\SonES54.html" />
+    <Content Include="Module2\bai23\SonES64.html" />
+    <Content Include="Module2\bai23\SonES79.html" />
+    <Content Include="Module2\bai23\SonJD1.html" />
+    <Content Include="Module2\bai23\SonJD10.html" />
+    <Content Include="Module2\bai23\SonJD5.html" />
+    <Content Include="Module2\bai23\Sontxt.html" />
+    <Content Include="Module2\bai23\SonWS116.html" />
+    <Content Include="Module2\bai23\SonWS12.html" />
+    <Content Include="Module2\bai23\SonWS130.html" />
+    <Content Include="Module2\bai23\SonWS18.html" />
+    <Content Include="Module3\Bai 01\hinh\camel.gif" />
+    <Content Include="Module3\Bai 01\home.html" />
+    <Content Include="Module3\Bai 02\Bai02_DuLieu.txt" />
+    <Content Include="Module3\Bai 02\hinh\camel.gif" />
+    <Content Include="Module3\Bai 02\home.html" />
+    <Content Include="Module3\Bai 04\hinh\h3.png" />
+    <Content Include="Module3\Bai 04\hinh\li.png" />
+    <Content Include="Module3\Bai 04\hinh\ul.png" />
+    <Content Include="Module3\Bai 04\part1.html" />
+    <Content Include="Module3\Bai 04\script.js" />
+    <Content Include="Module3\Bai 04\style.css" />
+    <Content Include="Module3\Bai 03\Bai03_Dulieu.txt" />
+    <Content Include="Module3\Bai 03\hinh\camel.gif" />
+    <Content Include="Module3\Bai 03\home.html" />
+    <Content Include="Module3\Bai 03\style.css" />
+    <Content Include="Module3\Bai 05\Bai05_Dulieu.txt" />
+    <Content Include="Module3\Bai 05\home.html" />
+    <Content Include="Module3\Bai 08\home.html" />
+    <Content Include="Module3\Bai 15\home.html" />
+    <Content Include="Module3\Bai10\bai10.txt" />
+    <Content Include="Module3\Bai10\hinh\Apple.jpg" />
+    <Content Include="Module3\Bai10\hinh\m20.jpg" />
+    <Content Include="Module3\Bai10\hinh\MWSLogo.gif" />
+    <Content Include="Module3\Bai10\home.html" />
+    <Content Include="Module3\Bai11\hinh\bike.jpg" />
+    <Content Include="Module3\Bai11\hinh\gloves.jpg" />
+    <Content Include="Module3\Bai11\hinh\pc.jpg" />
+    <Content Include="Module3\Bai11\home.html" />
+    <Content Include="Module3\Bai12\Bai12_dulieu.txt" />
+    <Content Include="Module3\Bai12\hinh\TKDLogo.jpg" />
+    <Content Include="Module3\Bai12\home.html" />
+    <Content Include="Module3\Bai13\Bai13_dulieu.txt" />
+    <Content Include="Module3\Bai13\hinh\back.jpg" />
+    <Content Include="Module3\Bai13\home.html" />
+    <Content Include="Module3\Bai14\Bai14_dulieu.txt" />
+    <Content Include="Module3\Bai14\hinh\Logo.gif" />
+    <Content Include="Module3\Bai14\hinh\MRIM.jpg" />
+    <Content Include="Module3\Bai14\hinh\Singers.jpg" />
+    <Content Include="Module3\Bai14\home.html" />
+    <Content Include="Module3\Bai14\test grid.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Module2\Bai 8\hinh\Thumbs.db" />
+    <Content Include="Module2\Bai 9\hinh\Thumbs.db" />
+    <Content Include="Module2\Bai 17\hinh\Thumbs.db" />
+    <Content Include="Module2\bai 11\hinh\Thumbs.db" />
+    <Content Include="Module2\bai 12\hinh\Thumbs.db" />
+    <Content Include="Module2\bai 13\hinh\Thumbs.db" />
+    <Content Include="Module2\bai 18\hinh\Thumbs.db" />
+    <Content Include="Module2\Bai 19\hinh\Thumbs.db" />
+    <Content Include="Module2\bai 20\hinh\Thumbs.db" />
+    <Content Include="Module2\Bai 21\hinh\Thumbs.db" />
+    <Content Include="Module3\Bai10\hinh\Thumbs.db" />
+    <Content Include="Module3\Bai11\hinh\Thumbs.db" />
+    <Content Include="Module3\Bai12\hinh\Thumbs.db" />
+    <Content Include="Module3\Bai14\hinh\Thumbs.db" />
+    <Content Include="Module 4\Bai1\hinh\Thumbs.db" />
+    <Content Include="Module 4\Bai2\Thumbs.db" />
+    <Content Include="Module 4\Bai3\Thumbs.db" />
+    <Content Include="Module 4\Bai4\Thumbs.db" />
+    <Content Include="Module 5\bai 5\Thumbs.db" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53769</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53769/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

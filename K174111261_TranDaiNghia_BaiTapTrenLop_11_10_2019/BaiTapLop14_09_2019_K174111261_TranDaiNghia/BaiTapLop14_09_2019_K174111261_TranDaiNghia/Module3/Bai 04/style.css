@@ -1,0 +1,17 @@
+﻿body {
+    display:flex;
+}
+div{
+    width: 20%;
+}
+div h1{
+    background-image:url(hinh/h3.png);
+    background-repeat:no-repeat;
+}
+div ul{
+    background-image:url(hinh/ul.png);
+}
+div ul li
+{
+    list-style-image:url(hinh/li.png);
+}

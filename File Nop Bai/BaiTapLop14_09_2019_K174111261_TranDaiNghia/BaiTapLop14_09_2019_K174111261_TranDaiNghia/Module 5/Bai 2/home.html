@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .row {
+            display: flex;
+            flex-flow: row wrap;
+            margin-bottom: 10px;
+            justify-content:center;
+            align-content:center;
+        }
+
+        .title {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form id="myForm">
+        <div class="row">
+            <div class="title">a</div>
+            <div><input id="a" name="a" type="text" /></div>
+        </div>
+        <div class="row">
+            <div class=" title">b</div>
+            <div><input id="b" name="b" type="text" /></div>
+        </div>
+        <div class="row">
+            <div class="title">c</div>
+            <div><input id="c" name="c" type="text" /></div>
+        </div>
+        <div class="row">
+            <div class="title">kq</div>
+            <div><input id="kq" name="kq" type="text" /></div>
+        </div>
+        <div class="row" style="">
+            <div><input type="button" value="tinh" onclick="tinh()" /></div>
+            <div>&nbsp;</div>
+            <div><input type="button" value="tiep" onclick="document.getElementById('myForm').reset();" /></div>
+
+        </div>
+    </form>
+    <script type="text/javascript">
+        function tinh() {
+            var a = document.getElementById('a').value;
+            var b = document.getElementById('b').value;
+            var c = document.getElementById('c').value;
+            var kq = '';
+            if (a == 0) {
+                kq = 'Suy biến ';
+                if (b == 0) {
+                    if (c != 0)
+                        kq += 'Vô nghiệm ';
+                    else
+                        kq += 'Vô số Nghiệm ';
+
+                }
+                else {
+                    kq += 'x = ' + (-c / b);
+                }
+            }
+            else {
+                var delta = b * b - 4 * a * c;
+                if (delta < 0) {
+                    kq = 'Vô Nghiệm'
+
+                }
+                else if (delta == 0) {
+                    kq = "Nghiệm Kép x = " + (-b / 2 / a);
+
+                }
+                else {
+                    kq = "Hai Nghiệm Phân biệt x1 = " + ((-b + Math.sqrt(delta)) / 2 / a) + " x2 = " +((-b - Math.sqrt(delta)) / 2 / a) 
+                }
+            }
+            document.getElementById('kq').value = kq;
+        }
+    </script>
+</body>
+</html>

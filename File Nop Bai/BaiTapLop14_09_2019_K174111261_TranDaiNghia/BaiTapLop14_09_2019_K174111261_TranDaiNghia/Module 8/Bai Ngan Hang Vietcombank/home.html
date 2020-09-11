@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .itemContent {
+            padding: 10px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+
+        .itemName {
+            width: 50px;
+        }
+
+        .itemImg {
+            width: 100px;
+        }
+
+            .itemImg > img {
+                height: 32px;
+            }
+
+        .itemBuyByCash, .itemBuyByCheck, .itemSellByCash, .itemSellByCheck {
+            width: 150px;
+        }
+
+        hr {
+            border-style: solid;
+            border-width: 1px;
+            border-color: grey;
+        }
+
+        .hdr {
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="hdr">
+        <div class="itemContent">
+            <div class="itemName">Đồng</div>
+            <div class="itemImg">Name</div>
+            <div class="itemBuyByCash">Giá Mua Tiền Mặt</div>
+            
+            <div class="itemSellByCash">Giá Bán Tiền Mặt</div>
+            
+        </div>
+        <hr />
+    </div>
+
+    <div class="item" id="preLoadItem">
+        <div class="itemContent">
+            <div class="itemName">Đồng</div>
+            <div class="itemImg">Name</div>
+            <div class="itemBuyByCash">Giá Mua </div>
+            
+            <div class="itemSellByCash">Giá Bán</div>
+            
+        </div>
+        <hr />
+    </div>
+
+    <script type="text/javascript">
+        loadData();
+        function loadData() {
+            //var jSonObject = dTOConvertToItem(dALGetRawData());
+            dALGetXMLObject();
+        }
+        function dALGetXMLObject() {
+            var xmlhttp;
+            var xml;
+            if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp = new XMLHttpRequest();
+            }
+            else {// code for IE6, IE5
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.open("GET", "http://www.vietcombank.com.vn/ExchangeRates/ExrateXML.aspx", true);
+            //xmlhttp.open("GET", "myXML.xml", true); // trong cùng thư mục với file html hiện tại
+            xmlhttp.send();
+            xmlhttp.onreadystatechange = function () {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    xml = xmlhttp.responseXML;
+
+                    viewPushToHtml(xml);
+                }
+            }
+
+            //return xmlhttp.responseXML;
+
+        }
+        function bLLCheck(jSonObject) {
+
+        }
+
+        function viewPushToHtml(xml) {
+            var extras = xml.getElementsByTagName("Exrate");
+            var extrasLength = extras.length;
+            for (var i = 0; i < extrasLength; i++) {
+                var itemToPush = extras[i];
+                //var itemOnHTML = document.getElementById("preLoadItem").cloneNode();
+                var itemOnHTML = document.createElement("div");
+                itemOnHTML.className = "item";
+                itemOnHTML.innerHTML = document.getElementById("preLoadItem").innerHTML;
+                //
+                var itemContent = itemOnHTML.children[0];
+
+                var itemCode = itemContent.children[0];
+                itemCode.innerHTML =
+                    itemToPush.attributes["CurrencyCode"].value;
+
+                var itemName = itemContent.children[1];
+                itemName.innerHTML = itemToPush.attributes["CurrencyName"].value;
+
+                
+
+                var itemBuyCash = itemContent.children[2];
+                itemBuyCash.innerHTML = itemToPush.attributes["Buy"].value;
+
+               
+
+                var itemSellCash = itemContent.children[3];
+                itemSellCash.innerHTML = itemToPush.attributes["Sell"].value;
+
+               
+
+                document.getElementById("preLoadItem").parentNode.appendChild(itemOnHTML);
+
+            }
+
+            document.getElementById("preLoadItem").style.display = 'none';
+
+        }
+    </script>
+</body>
+</html>

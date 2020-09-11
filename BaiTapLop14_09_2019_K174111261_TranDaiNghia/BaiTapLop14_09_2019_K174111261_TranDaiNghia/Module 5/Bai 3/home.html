@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .hdr
+        {
+            font-size: 36px;
+            text-align:center;
+        }
+        .grid
+        {
+            display:grid;
+            grid-template-areas:
+                "a b"
+                "c d"
+                "e f"
+                "g h"
+                "i k"
+                "l l";
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: 3fr 1fr 1fr 1fr 1fr 1fr;
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            
+        }
+        textarea
+        {
+            width:100%;
+        }
+        input
+        {
+            width:100%;
+            /*padding: 10px;*/
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="hdr">Sử dụng các hàm xử lý chuỗi</div>
+    
+        <div class="grid">
+            <div style="grid-area:a;"><fieldset><legend>Nhập Dữ Liệu</legend><textarea id="inputBox"></textarea></fieldset></div>
+            <div style="grid-area:b;"><fieldset><legend>Kết Quả</legend><textarea id="result"></textarea></fieldset></div>
+            <div style="grid-area:c;"><input type="button" value="Nhập dữ liệu" id="getString" onclick="getString()"/></div>
+            <div style="grid-area:d;"><input type="button" value="In Chữ Hoa" id="makeUppercase" onclick="makeUpperCase()" /></div>
+            <div style="grid-area:e;"><input type="button" value="In Chữ Thường" id="makeLowercase" onclick="makeLowercase()"/></div>
+            <div style="grid-area:f;"><input type="button" value="Đếm số kí tự thường" id="countLowerText" onclick="countLowerText()"/></div>
+            <div style="grid-area:g;"><input type="button" value="Đếm số kí tự hoa" id="countUpperText" onclick="countUpperText()"/></div>
+            <div style="grid-area:h;"><input type="button" value="In mỗi từ trên một dòng" id="makePararph" onclick="makePararph()" /></div>
+            <div style="grid-area:i;"><input type="button" value="Đếm số từ" id="countWord" onclick="countText()"/></div>
+            <div style="grid-area:k;"><input type="button" value="In Nguyên Âm" id="printAllVowel" onclick="printVowel()"/></div>
+            <div style="grid-area:l;"><input type="button" value="Xem Website xử lý chuỗi W3C" id="goToW3C" /></div>
+        </div>
+    
+    <script type="text/javascript">
+        var inputText = "";
+        function getString() {
+            inputText = document.getElementById("inputBox").value;
+            alert("get " + inputText);
+        }
+        function makeUpperCase() {
+            var result = inputText.toUpperCase();
+            document.getElementById("result").value = result;
+        }
+        function makeLowercase() {
+            var result = inputText.toLowerCase();
+            document.getElementById("result").value = result;
+        }
+        function countLowerText() {
+            var dem = 0;
+
+            for (var i = inputText.length - 1; i >= 0; i--) {
+                var charGotten = inputText.charAt(i);
+                if (charGotten == charGotten.toLowerCase() && charGotten != " ") {
+                    dem++;
+                }
+            }
+
+
+            document.getElementById("result").value = dem + "";
+        }
+
+        function countUpperText() {
+            var dem = 0;
+
+            for (var i = inputText.length - 1; i >= 0; i--) {
+                var charGotten = inputText.charAt(i);
+                if (charGotten == charGotten.toUpperCase() && charGotten != " ") {
+                    dem++;
+                }
+            }
+
+           // document.getElementById("result").value = dem + "";
+
+
+            document.getElementById("result").value = dem + "";
+        }
+
+        function makePararph() {
+
+            
+            // get rid of all first " "
+            //
+            inputText = document.getElementById("inputBox").value;
+            inputText.replace(/[!;:?+=-\s]/gi,'')
+
+
+            var lastCharIndex = inputText.length - 1;
+            var dem = 0
+            for (var i = 0; i <= lastCharIndex; i++) {
+                var charGotten = inputText.charAt(i);
+                if (charGotten == " ") {
+                    dem++;
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            var inputTextWithoutSpaceAtFirst = inputText.substring(dem, lastCharIndex+1);
+            dem = inputTextWithoutSpaceAtFirst.length - 1;
+
+            for (var i = dem; i >= 0; i--) {
+                var charGotten = inputTextWithoutSpaceAtFirst.charAt(i);
+                if (charGotten == " ") {
+                    dem--;
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            var inputTextGotten = inputTextWithoutSpaceAtFirst.substring(0, dem+1);
+            dem = inputTextGotten.length - 1;
+
+            var result = "";
+
+            for (var i = 0; i <= dem; i++) {
+                var charGotten = inputTextWithoutSpaceAtFirst.charAt(i);
+
+                if (charGotten != " ") {
+                    result += charGotten;
+                }
+                else {
+                    // gap chuoi " " lan dau
+                    result += "\n";
+                    i++;
+
+                    for (var j = 0; j > -1; j++) {
+                        var spaceGotten = inputTextWithoutSpaceAtFirst.charAt(i);
+                        if (spaceGotten == " ") {
+                            i++;
+                        }
+                        else {
+                            break;
+                        }
+                    }
+
+                    i--;
+
+                }
+
+                
+            }
+
+            document.getElementById("result").value = result;
+
+        }
+
+
+        function countText() {
+
+
+            inputText = document.getElementById("inputBox").value;
+            inputText.replace(/[!;:?+=-\s]/gi,'')
+
+
+
+            var lastCharIndex = inputText.length - 1;
+            // get rid of all first " "
+
+            var dem = 0
+            for (var i = 0; i <= lastCharIndex; i++) {
+                var charGotten = inputText.charAt(i);
+                if (charGotten == " ") {
+                    dem++;
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            var inputTextWithoutSpaceAtFirst = inputText.substring(dem, lastCharIndex+1);
+            dem = inputTextWithoutSpaceAtFirst.length - 1;
+
+            for (var i = dem; i >= 0; i--) {
+                var charGotten = inputTextWithoutSpaceAtFirst.charAt(i);
+                if (charGotten == " ") {
+                    dem--;
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            var inputTextGotten = inputTextWithoutSpaceAtFirst.substring(0, dem+1);
+            dem = inputTextGotten.length - 1;
+
+            var result = "";
+
+            for (var i = 0; i <= dem; i++) {
+                var charGotten = inputTextWithoutSpaceAtFirst.charAt(i);
+
+                if (charGotten != " ") {
+                    result += charGotten;
+                }
+                else {
+                    // gap chuoi " " lan dau
+                    result += "\n";
+                    i++;
+
+                    for (var j = 0; j > -1; j++) {
+                        var spaceGotten = inputTextWithoutSpaceAtFirst.charAt(i);
+                        if (spaceGotten == " ") {
+                            i++;
+                        }
+                        else {
+                            break;
+                        }
+                    }
+
+                    i--;
+
+                }
+
+                
+            }
+
+            result = (result.split("\n").length) + "";
+            document.getElementById("result").value = result;
+        }
+
+        function printVowel() {
+            inputText = document.getElementById("inputBox").value;
+            inputText.replace(/[!;:?+=-\s]/gi, '')
+            inputText = xoa_dau(inputText);
+            var result = "";
+            var lastDigit = inputText.length - 1;
+            var nguyenAm = "aeuoi";
+            for (var i = 0; i <= lastDigit; i++) {
+                var charGotten = inputText.charAt(i);
+                if (nguyenAm.indexOf(charGotten) >= 0 ) {
+                    if (!(result.indexOf(charGotten) >= 0))
+                        {
+                        result += charGotten;
+                    }
+                }
+            }
+
+            for (var i = 0; i <= lastDigit; i++) {
+                var charGotten = inputText.charAt(i);
+                if (!(nguyenAm.indexOf(charGotten) >= 0) && charGotten!=" ") {
+                    if (!(result.indexOf(charGotten) >= 0))
+                        {
+                        result += charGotten;
+                    }
+                }
+            }
+
+            
+            document.getElementById("result").value = result;
+        }
+
+        function xoa_dau(str) {
+            str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
+            str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
+            str = str.replace(/ì|í|ị|ỉ|ĩ/g, "i");
+            str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o");
+            str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
+            str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y");
+            str = str.replace(/đ/g, "d");
+            str = str.replace(/À|Á|Ạ|Ả|Ã|Â|Ầ|Ấ|Ậ|Ẩ|Ẫ|Ă|Ằ|Ắ|Ặ|Ẳ|Ẵ/g, "A");
+            str = str.replace(/È|É|Ẹ|Ẻ|Ẽ|Ê|Ề|Ế|Ệ|Ể|Ễ/g, "E");
+            str = str.replace(/Ì|Í|Ị|Ỉ|Ĩ/g, "I");
+            str = str.replace(/Ò|Ó|Ọ|Ỏ|Õ|Ô|Ồ|Ố|Ộ|Ổ|Ỗ|Ơ|Ờ|Ớ|Ợ|Ở|Ỡ/g, "O");
+            str = str.replace(/Ù|Ú|Ụ|Ủ|Ũ|Ư|Ừ|Ứ|Ự|Ử|Ữ/g, "U");
+            str = str.replace(/Ỳ|Ý|Ỵ|Ỷ|Ỹ/g, "Y");
+            str = str.replace(/Đ/g, "D");
+            return str;
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        body
+        {
+            background-color:aqua;
+
+        }
+        .hdr
+        {
+            font-weight:700;
+        }
+        .groupBox{
+            display:inline-flex;
+            flex-flow: wrap row;
+            padding:20px 0;
+        }
+        .groupBox >textarea
+        {
+            width: 400px;
+        }
+        .item
+        {
+            display:flex;
+            flex-flow:wrap row;
+            max-width:400px;
+            /**/
+            margin-top:4px;
+            /*border-right: solid 3px #fff;*/
+        }
+        .groupTbl{
+            display:flex;
+            flex-flow: wrap row;
+            padding:0px 0;
+        }
+        .groupTbl >div
+        {
+            border-style:outset;
+            border-width: 2px;
+            border-color:white;
+        }
+        .groupTbl > div:nth-child(1)
+        {
+            width: 100px;
+            text-align:center;
+        }
+        .groupTbl > div:nth-child(1) > input
+        {
+            width: 80px;
+            
+        }
+        .groupTbl > div:nth-child(2)
+        {
+            width: 200px;
+            text-align:center;
+        }
+        .groupTbl > div:nth-child(2) > input
+        {
+            width: 180px;
+        }
+        .groupTbl > div:nth-child(3)
+        {
+            width: 150px;
+            text-align:center;
+        }
+        .groupTbl > div:nth-child(3) > input
+        {
+            width: 140px;
+        }
+        .groupTbl > div:nth-child(4)
+        {
+            width: 150px;
+            text-align:center;
+        }
+        .groupTbl > div:nth-child(4) > input
+        {
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align:center;"><img src="DeLong.jpg"/></div>
+    <h3>Travel Expense Report:</h3>
+    <hr />
+    <form id="myForm">
+    <ol>
+        <li>
+            <div class="groupBox">
+                <div class="item">
+                    <div>First Name:</div>
+                    <div><input type="text" /></div>
+                </div>
+                <div class="item">
+                    &nbsp;
+                </div>
+                <div class="item">
+                    <div>Last Name:</div>
+                    <div><input type="text" /></div>
+                </div>
+            </div>
+
+        </li>
+        <li>
+            <div class="groupBox">
+                <div class="item">
+                    <div>Social Security Number:</div>
+                    <div><input type="text" /></div>
+                </div>
+            </div>
+
+        </li>
+        <li>
+            <div class="groupBox">
+                <div class="item">
+                    <div>Department:</div>
+                    <div>
+                        <select name="diemDen">
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+        </li>
+        <li>
+            <div>
+                <div>Decribe the purpose of your trip:</div>
+            </div>
+        </li>
+        <div class="groupBox">
+            <textarea></textarea>
+        </div>
+        <li>
+            <div>
+                <div>Itemize your travel expenses:</div>
+            </div>
+        </li>
+        <div class="groupTbl hdr">
+            <div>
+                Date
+            </div>
+            <div>
+                Description
+            </div>
+            <div>Categogry</div>
+            <div>Amount</div>
+        </div>
+        <div class="groupTbl">
+            <div>
+                <input type="text" value="mm/dd/yy" />
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+            <div>
+                <select>
+                    <option>Meal</option>
+                    <option>Steak</option>
+                    <option>Egg</option>
+                </select>
+            </div>
+            <div><input type="text" /></div>
+        </div>
+        <div class="groupTbl">
+            <div>
+                <input type="text" value="mm/dd/yy" />
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+            <div>
+                <select>
+                    <option>Meal</option>
+                    <option>Steak</option>
+                    <option>Egg</option>
+                </select>
+            </div>
+            <div><input type="text" /></div>
+        </div>
+        <div class="groupTbl">
+            <div>
+                <input type="text" value="mm/dd/yy" />
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+            <div>
+                <select>
+                    <option>Meal</option>
+                    <option>Steak</option>
+                    <option>Egg</option>
+                </select>
+            </div>
+            <div><input type="text" /></div>
+        </div>
+        <div class="groupTbl">
+            <div>
+                <input type="text" value="mm/dd/yy" />
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+            <div>
+                <select>
+                    <option>Meal</option>
+                    <option>Steak</option>
+                    <option>Egg</option>
+                </select>
+            </div>
+            <div><input type="text" /></div>
+        </div>
+        <li>
+            <div>
+                <div>Have you submitted your receipts? <input type="radio" value="Yes" name="yn" />Yes <input type="radio" value="No" name="yn" />No</div>
+            </div>
+        </li>
+        <div>
+            <input type="button" value="Submit travel expense" onclick="alert('Done')"/> <input type="button" value="Reject" onclick="document.getElementById('myForm').reset();"/>
+        </div>
+    </ol>
+    </form>
+    <div>Question? Contact Debbie Larson in Accounting (ext. 2150)</div>
+</body>
+</html>

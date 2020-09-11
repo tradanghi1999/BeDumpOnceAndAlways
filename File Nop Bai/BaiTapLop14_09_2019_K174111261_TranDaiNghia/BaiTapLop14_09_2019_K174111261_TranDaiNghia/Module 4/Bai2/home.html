@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .groupBox{
+            display:flex;
+            flex-flow: wrap row;
+            padding:20px 0;
+        }
+        .rdo
+        {
+            max-width:300px;
+        }
+        .rdo > .box
+        {
+            width: 150px;
+        }
+        .chk
+        {
+            max-width: 600px;
+        }
+        .chk > .box
+        {
+            width: 200px;
+        }
+        li
+        {
+            font-weight:700;
+            line-height: 1.5;
+        }
+        .search
+        {
+            width: 500px;
+        }
+        body
+        {
+            background-color:#B6FFFF;
+        }
+        h1
+        {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Online Classified Search Form</h1>
+    <hr />
+    <form id="myForm">
+    <ol>
+        <li>Search for a classified in the following section</li>
+        <div class="groupBox rdo">
+            <div class="box"><input type="radio" name="used" />Employment</div>
+            <div class="box"><input type="radio" name="used" />Personal</div>
+            <div class="box"><input type="radio" name="used" />For Sale</div>
+            <div class="box"><input type="radio" name="used" />Miscellanecus</div>
+            <div class="box"><input type="radio" name="used" />Housing</div>
+            <div class="box"><input type="radio" name="used" />All of the albove</div>
+        </div>
+        <li>Search the following publications:</li>
+        <div class="groupBox chk">
+            <div class="box"><input type="checkbox" name="used" />Midwest times</div>
+            <div class="box"><input type="checkbox" name="used" />Modern News</div>
+            <div class="box"><input type="checkbox" name="used" />Employment Today</div>
+            <div class="box"><input type="checkbox" name="used" />Great Lakes Classifieds</div>
+            <div class="box"><input type="checkbox" name="used" />Middleton Daily</div>
+            <div class="box"><input type="checkbox" name="used" />Cashtown Daily News</div>
+        </div>
+        <li>From to <input type="text" value="mm/dd/yy" /> to <input type="text" value="mm/dd/yy" /></li>
+        <div>
+            &nbsp;
+        </div>
+        <li>Enter a few keyword to describe the classified</li>
+        <div class="groupBox">
+            <input class="search" type="text" />
+        </div>
+        <li>Click one of the options below:</li>
+        <div class="groupBox">
+            <div><img onclick="search()" src="Search.gif" /></div>
+            <div><img onclick="goToGoogle()" src="Help.gif" /></div>
+            <div><img onclick="reset()" src="Cancel.gif" /></div>
+        </div>
+    </ol>
+    </form>
+    <script type="text/javascript">
+        function search() {
+            alert("Not Found")
+        }
+        function goToGoogle() {
+            window.open("https://google.com.vn");
+        }
+        function reset() {
+            document.getElementById("myForm").reset();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "AppTuDien", "..\..\..\..\..\Users\trada\source\repos\AppTuDien\AppTuDien\AppTuDien.phpproj", "{67B387F1-5073-4DB3-B7D5-9FA6F61519CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67B387F1-5073-4DB3-B7D5-9FA6F61519CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B387F1-5073-4DB3-B7D5-9FA6F61519CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C0789BD-A889-491A-AF95-6384FF703624}
+	EndGlobalSection
+EndGlobal

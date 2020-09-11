@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+    <div>Họ và Tên</div>
+    <div id="name"></div>
+    <div>Email</div>
+    <div id="email"></div>
+    <div>Giới Tính</div>
+    <div id="gt"></div>
+    <div>Đến từ</div>
+    <div id="from"></div>
+    <div>Nội Dung Phản Hồi</div>
+    <div id="nd"></div>
+    <script>
+        var url = new URL(window.location.href);
+        var ten = url.searchParams.get("ten");
+        document.getElementById("name").innerHTML = ten;
+
+        var email = url.searchParams.get("email");
+        document.getElementById("email").innerHTML = email;
+
+        var nn = url.searchParams.get("nn");
+        if (nn == 1)
+            document.getElementById("gt").innerHTML = "nam";
+        else
+            document.getElementById("gt").innerHTML = "nữ";
+        var mien = url.searchParams.get("mien");
+        if(mien==0)
+            document.getElementById("from").innerHTML = "Miền Bắc";
+        else if (mien == 1)
+            document.getElementById("from").innerHTML = "Miền Trung";
+        else if (mien == 2)
+            document.getElementById("from").innerHTML = "Miền Nam";
+
+        var nd = url.searchParams.get("nd");
+            document.getElementById("nd").innerHTML = nd;
+    </script>
+</body>
+</html>
