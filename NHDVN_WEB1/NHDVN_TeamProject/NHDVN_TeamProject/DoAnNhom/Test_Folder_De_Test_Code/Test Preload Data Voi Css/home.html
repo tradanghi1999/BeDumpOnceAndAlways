@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .preload > .item
+        {
+            background-color: gray;
+        }
+        .item
+        {
+            background-color:blueviolet;
+        }
+        
+    </style>
+</head>
+<body class="preload">
+    <div class="item"> May Bi Khung A</div>
+    <script type="text/javascript">
+        loadData();
+        function loadData() {
+            var body = document.getElementsByClassName("preload")[0];
+            body.className = "";
+        }
+    </script>
+</body>
+
+</html>

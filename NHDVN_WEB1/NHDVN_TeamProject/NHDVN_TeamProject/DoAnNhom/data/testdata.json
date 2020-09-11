@@ -1,0 +1,102 @@
+﻿[
+  {
+    "id": "#sp1",
+    "title": "Giỏ Hoa Rose Land",
+    "price": 299000.0,
+    "description": "Giỏ hoa rực rỡ và đầy sức sống với các loại Hoa Hồng nhiều màu sắc. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nGiỏ Hoa Rose Land gồm:\n\n \n\n- 10 bông Hoa Hồng\n\n- 3 bông Cẩm Chướng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh1.jpg",
+    "color": "hồng;đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp2",
+    "title": "Hộp Hoa Gỗ Tròn Violet Lover",
+    "price": 499000.0,
+    "description": "Bó hoa mang gam màu đầy trang nhã và duyên dáng với sự kết hợp của hoa Hồng pastel & hoa Hồng Tím lãng mạn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Gỗ Tròn Violet Lover bao gồm:\n\n \n\n- 20 bông Hoa Hồng\n\n- Hộp gỗ cillinder\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh2.jpg",
+    "color": "tím",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp3",
+    "title": "Bó Hoa Purple Desire",
+    "price": 299000.0,
+    "description": "Bó hoa độc đáo với sự kết hợp của hoa Cẩm chướng và Cát tường. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh3.jpg",
+    "color": "tím;hồng;trắng",
+    "type": "hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp4",
+    "title": "Giỏ Hoa Be Happy",
+    "price": 299000.0,
+    "description": " Giỏ hoa rực rỡ và đầy sức sống với hoa Hướng Dương và Cúc vàng tươi tắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nGiỏ Hoa Be Happy gồm:\n\n \n\n- 5 bông Hoa Hướng Dương\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh4.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;kỷ niệm;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp5",
+    "title": "Bó Hoa Aurora Light",
+    "price": 299000.0,
+    "description": "Bó hoa xinh xắn và ngọt ngào với sự kết hợp của hoa Hồng và Cẩm chướng. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\nBó Hoa Aurora Light gồm:\n\n- 8 bông Hoa Hồng\n\n- 5 bông Cẩm Chướng",
+    "imgLink": "/img/hinh5.jpg",
+    "color": "hồng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp6",
+    "title": "Giỏ Hoa Spring Garden",
+    "price": 299000.0,
+    "description": "Giỏ hoa rực rỡ và đầy sức sống với hoa Hồng, Đồng Tiền & Cẩm Chướng tươi tắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nGiỏ Hoa Spring Garden gồm:\n\n \n\n- 6 bông Hoa Hồng\n\n- 7 bông Hoa Đồng Tiền\n\n- 4 bông Hoa Cẩm Chướng",
+    "imgLink": "/img/hinh6.jpg",
+    "color": "hồng cam",
+    "type": "hoa hồng;hoa đồng tiền;hoa cẩm chướng",
+    "category": "sinh nhật;kỷ niệm;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp7",
+    "title": "Bó Hoa Hồng 1 Pink Rose",
+    "price": 149000.0,
+    "description": "Một cành hoa hồng được gói thành bó hoa đẹp mắt, thanh lịch. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh7.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp8",
+    "title": "Bó Hoa Hồng Fall For You",
+    "price": 399000.0,
+    "description": "Bó hoa Hồng đỏ đầy lãng mạn là món quà hoàn hảo thay lời muốn nói gửi đến người thương cũa bạn vào Valentine hoặc ngày kỷ niệm, sinh nhật.\n\n Gồm:\n\n- 24 cành Hoa Hồng",
+    "imgLink": "/img/hinh8.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp9",
+    "title": "Bó Hoa The Ocean Breeze",
+    "price": 349000.0,
+    "description": "Bó hoa mang gam màu pastel đầy trang nhã và duyên dáng với sự kết hợp của nhiều loại hoa tươi như hoa Hồng, Cẩm chướng, Cát tường và Cẩm tú cầu. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa The Ocean Breeze bao gồm:\n\n- 4 bông Hoa Hồng\n\n- 3 bông Cẩm Chướng Trắng\n\n- Cát Tường\n\n- Cẩm Tú Cầu\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh9.jpg",
+    "color": "hồng;trắng",
+    "type": "hoa hồng; hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cảm ơn;xin lỗi"
+  },
+  {
+    "id": "#sp10",
+    "title": "Hộp Hoa Gỗ Have A Sweet Day",
+    "price": 349000.0,
+    "description": "Hộp hoa bằng gỗ màu xanh da trời kết hợp các loại hoa tươi như hoa Hồng, Cát Tường và Cúc trắng đầy thanh lịch và ngọt ngào sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Hồng Have A Sweet Day bao gồm:\n\n \n\n- 10 bông Hoa Hồng\n\n- Hoa Cát Tường\n\n- Hộp gỗ\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh10.jpg",
+    "color": "hồng;trắng",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;xin lỗi"
+  }
+]

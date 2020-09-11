@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .item {
+            /*text-align: center;
+            background-color: white;
+            
+            height: 300px;
+            border-left: solid 20px #d2d2d2;
+            border-right: solid 20px #d2d2d2;
+            border-bottom: solid 0px #d2d2d2;
+
+            display:flex;
+            flex-flow: column wrap;
+            justify-content:flex-end;*/
+            max-width: 250px;
+            text-align:center;
+            display:flex;
+            flex-flow:column wrap;
+            min-height:300px;
+
+            justify-content:flex-end;
+            
+        }
+
+        .itemImg {
+            /*Mockup propertise*/
+            height: 180px;
+            width: 180px;
+            border: none;
+            /*Real Propertise*/
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            justify-self:flex-start;
+        }
+
+            .itemImg > img {
+                width: 100%;
+                border: none;
+                width: 100%;
+                height: 100%;
+                /*Xoá border lạ*/
+            }
+
+        .itemName {
+            font-size: 18px;
+            color: #444444;
+            /*height: 35px;*/
+            min-height: 40px;
+            vertical-align:central;
+            justify-self:flex-start;
+        }
+
+            .itemName:hover {
+                color: #6f6f6f;
+                cursor: pointer;
+            }
+
+            .itemName:active {
+                color: #c2c0c0;
+            }
+
+            .itemName > a {
+                text-decoration: none;
+            }
+
+        .itemPrice {
+            font-size: 25px;
+            font-weight: lighter;
+            font-family: HelveticaNeue,'Arial Rounded MT',Montserrat,HelveticaNeue, sans-serif,sans-serif,'Quicksand','Segoe UI';
+            color: #727272;
+            padding: 5px 0;
+            /**/
+            
+        }
+
+        .addToCart {
+            font-size: 16px;
+            background-color: #f1d0ff;
+            padding: 14px;
+            color: #008b8b;
+            font-weight: 700;
+            /**/
+            
+        }
+
+            .addToCart:hover {
+                background-color: #eec4ff;
+                cursor: pointer;
+            }
+
+            .addToCart:active {
+                background-color: #ebb9ff;
+            }
+    </style>
+</head>
+<body style="display: flex; flex-wrap:wrap;">
+    <div class="item">
+        <div class="itemImg"><img src="Mockup.png" /> </div>
+        <div class="itemName">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="itemPrice">120 000</div>
+        <div class="addToCart"> + Lorem ipsum</div>
+    </div>
+
+    <div class="item">
+        <div class="itemImg"><img src="Mockup.png" /> </div>
+        <div class="itemName">Lorem ipsum dolor sit amet</div>
+        <div class="itemPrice">120 000</div>
+        <div class="addToCart"> + Lorem ipsum</div>
+    </div>
+</body>
+</html>

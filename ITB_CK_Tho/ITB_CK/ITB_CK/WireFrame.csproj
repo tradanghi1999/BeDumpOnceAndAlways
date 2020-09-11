@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{830B69B7-7EAA-4B54-850A-99E01B957DE1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ITB_CK</RootNamespace>
+    <AssemblyName>ITB_CK</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IT\IT_Vong3_ChiTietLichSuThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IT\IT_Vong3_ChiTietLichSuThi.Designer.cs">
+      <DependentUpon>IT_Vong3_ChiTietLichSuThi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IT\IT_MoDau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IT\IT_MoDau.Designer.cs">
+      <DependentUpon>IT_MoDau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IT\IT_Vong1_ChonDoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IT\IT_Vong1_ChonDoi.Designer.cs">
+      <DependentUpon>IT_Vong1_ChonDoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IT\IT_Vong1_ThiDoiDuocChon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IT\IT_Vong1_ThiDoiDuocChon.Designer.cs">
+      <DependentUpon>IT_Vong1_ThiDoiDuocChon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IT\IT_Vong2_NhapDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IT\IT_Vong2_NhapDiem.Designer.cs">
+      <DependentUpon>IT_Vong2_NhapDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IT\IT_Vong3_CuopCo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IT\IT_Vong3_CuopCo.designer.cs">
+      <DependentUpon>IT_Vong3_CuopCo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IT\Wireframe_Items\ucChiTietCau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IT\Wireframe_Items\ucChiTietCau.Designer.cs">
+      <DependentUpon>ucChiTietCau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LED\LED_TongKet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LED\LED_TongKet.Designer.cs">
+      <DependentUpon>LED_TongKet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LED\LED_Vong1_Thi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LED\LED_Vong1_Thi.Designer.cs">
+      <DependentUpon>LED_Vong1_Thi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LED\LED_Vong2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LED\LED_Vong2.Designer.cs">
+      <DependentUpon>LED_Vong2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LED\LED_Vong3_Thi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LED\LED_Vong3_Thi.Designer.cs">
+      <DependentUpon>LED_Vong3_Thi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MC\MC_Vong1_KetQua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MC\MC_Vong1_KetQua.Designer.cs">
+      <DependentUpon>MC_Vong1_KetQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MC\MC_Vong1_Thi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MC\MC_Vong1_Thi.Designer.cs">
+      <DependentUpon>MC_Vong1_Thi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Team\Team_Laptop\Team_Laptop_Vong1_KetQua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team\Team_Laptop\Team_Laptop_Vong1_KetQua.Designer.cs">
+      <DependentUpon>Team_Laptop_Vong1_KetQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Team\Team_Laptop\Team_Laptop_Vong1_Thi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team\Team_Laptop\Team_Laptop_Vong1_Thi.Designer.cs">
+      <DependentUpon>Team_Laptop_Vong1_Thi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Team\Team_Laptop\Team_Laptop_Vong3_Thi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team\Team_Laptop\Team_Laptop_Vong3_Thi.Designer.cs">
+      <DependentUpon>Team_Laptop_Vong3_Thi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Team\Team_PointScreen\Team_PointScrean.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team\Team_PointScreen\Team_PointScrean.Designer.cs">
+      <DependentUpon>Team_PointScrean.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="IT\IT_Vong3_ChiTietLichSuThi.resx">
+      <DependentUpon>IT_Vong3_ChiTietLichSuThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IT\IT_MoDau.resx">
+      <DependentUpon>IT_MoDau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IT\IT_Vong1_ChonDoi.resx">
+      <DependentUpon>IT_Vong1_ChonDoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IT\IT_Vong1_ThiDoiDuocChon.resx">
+      <DependentUpon>IT_Vong1_ThiDoiDuocChon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IT\IT_Vong2_NhapDiem.resx">
+      <DependentUpon>IT_Vong2_NhapDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IT\IT_Vong3_CuopCo.resx">
+      <DependentUpon>IT_Vong3_CuopCo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IT\Wireframe_Items\ucChiTietCau.resx">
+      <DependentUpon>ucChiTietCau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LED\LED_TongKet.resx">
+      <DependentUpon>LED_TongKet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LED\LED_Vong1_Thi.resx">
+      <DependentUpon>LED_Vong1_Thi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LED\LED_Vong3_Thi.resx">
+      <DependentUpon>LED_Vong3_Thi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MC\MC_Vong1_KetQua.resx">
+      <DependentUpon>MC_Vong1_KetQua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MC\MC_Vong1_Thi.resx">
+      <DependentUpon>MC_Vong1_Thi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Team\Team_Laptop\Team_Laptop_Vong1_KetQua.resx">
+      <DependentUpon>Team_Laptop_Vong1_KetQua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Team\Team_Laptop\Team_Laptop_Vong1_Thi.resx">
+      <DependentUpon>Team_Laptop_Vong1_Thi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Team\Team_Laptop\Team_Laptop_Vong3_Thi.resx">
+      <DependentUpon>Team_Laptop_Vong3_Thi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Team\Team_PointScreen\Team_PointScrean.resx">
+      <DependentUpon>Team_PointScrean.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Ghi Chú Thêm.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

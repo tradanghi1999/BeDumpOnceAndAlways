@@ -1,0 +1,224 @@
+﻿{
+  "gaubong": [
+    {
+      "id": "#qt6",
+      "title": "Chó Shiba Bánh Bèo Xám",
+      "price": 440000,
+      "description": "<ul><li></li></ul>",
+      "imgLink": "/img/gift/hinh1.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt1",
+      "title": "Hamster",
+      "price": 330000,
+      "description": "<ul><li>Khuôn mặt hờn dỗi nhưng mang một trái tim ấm áp. Với thiết kế đơn giản, nhỏ nhắn rất phù hợp để tựa lưng, tựa đầu sau những giờ làm việc căng thẳng. Cậu có muốn ai đó ngã đầu vào chú Hamster này và nhớ về cậu không?</li></ul>",
+      "imgLink": "/img/gift/hinh1.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt2",
+      "title": "Chim Cánh Cụt Xanh",
+      "price": 385000,
+      "description": "<ul><li>Chim cánh cụt thường được miêu tả là thân thiện và thông minh, ví dụ trong anime Neon Genesis Evangelion, có chim cánh cụt nước ấm có tên Pen Pen. Với thể chất như chậm chạp và cục mịch, hình ảnh này làm người nhìn phải phì cười nhưng vô cùng đáng yêu. Hãy tặng sản phẩm này cho người mà bạn thấy cá tính tương tự nhá. Không những vậy, đây còn là món quà vô cùng thích thú cho các bạn nhỏ nữa nè.</li></ul>",
+      "imgLink": "/img/gift/hinh2.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt3",
+      "title": "Chim Cánh Cụt Xám",
+      "price": 385000,
+      "description": "<ul><li>Chim cánh cụt thường được miêu tả là thân thiện và thông minh, ví dụ trong anime Neon Genesis Evangelion, có chim cánh cụt nước ấm có tên Pen Pen. Với thể chất như chậm chạp và cục mịch, hình ảnh này làm người nhìn phải phì cười nhưng vô cùng đáng yêu. Hãy tặng sản phẩm này cho người mà bạn thấy cá tính tương tự nhá. Không những vậy, đây còn là món quà vô cùng thích thú cho các bạn nhỏ nữa nè.</li></ul>",
+      "imgLink": "/img/gift/hinh3.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt4",
+      "title": "Teddy Pink I Love You",
+      "price": 1100000,
+      "description": "<ul><li>Độ ngọt của mía đường hoặc mật ong cũng khó có thể sánh ngang với màu hồng ngọt ngào của chú gấu này. Bạn đã yêu ai chưa, bạn có đắm chìm trong sự ngọt ngào của ai đó chưa. Có thể bạn sẽ ngại để nói ra những tâm tư tình cảm của mình. Hãy để chú gấu xinh xắn này chuyển lời thay hộ bạn nhé, ai đó sẽ hiểu rằng, mình đáng yêu và ngọt ngào biết nhường nào. Còn thông điệp trọng tâm hơn, đã thể hiện hết trên áo rồi đây này.</li></ul>",
+      "imgLink": "/img/gift/hinh4.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt5",
+      "title": "Chó Shiba Bánh Bèo Nâu",
+      "price": 440000,
+      "description": "<ul><li>Em có thấy con thú nhồi bông này không? Nó thật đáng yêu và sau nhiều năm nữa nó vẫn sẽ đáng yêu như bây giờ. Em cũng vậy, trong mắt của anh em mãi là cô gái đáng yêu nhất, xinh đẹp nhất. Anh nghĩ mình không cần phải chúc em xinh đẹp nữa vì em đã rất xinh rồi.</li></ul>",
+      "imgLink": "/img/gift/hinh5.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt6",
+      "title": "Chó Shiba Bánh Bèo Xám",
+      "price": 440000,
+      "description": "<ul><li>Em có thấy con thú nhồi bông này không? Nó thật đáng yêu và sau nhiều năm nữa nó vẫn sẽ đáng yêu như bây giờ. Em cũng vậy, trong mắt của anh em mãi là cô gái đáng yêu nhất, xinh đẹp nhất. Anh nghĩ mình không cần phải chúc em xinh đẹp nữa vì em đã rất xinh rồi.</li></ul>",
+      "imgLink": "/img/gift/hinh6.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt7",
+      "title": "Gấu Angel Tím",
+      "price": 495000,
+      "description": "<ul><li>Ai bảo màu tím buồn, màu tím là màu thủy chung đấy, màu tím của sự tương tư, mộng mị. Đặc biệt, trên ngực chú gấu bông khổng lồ này còn có một trái tim với đôi cánh thiên thần. Do đó, nếu như các chàng trai mà tặng cho người yêu mình chú gấu này nó sẽ thay chàng thể hiện tình yêu. Ngoài ra, trên cổ của chú gấu teddy angel tím này còn được trang trí thêm một chiếc nơ rất xinh xắn, kết hợp với đôi mắt đáng yêu khiến bất cứ ai cũng cảm thấy như bị hút hồn.</li></ul>",
+      "imgLink": "/img/gift/hinh7.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt8",
+      "title": "Chó Shiba Tím",
+      "price": 495000,
+      "description": "<ul><li>Chú Chó Shiba này với chất liệu mềm mại, êm ái rất thoải mái khi ôm, sẽ là món quà rất đáng yêu và tiện nghi cho mọi lứa tuổi. Bạn đã sẵn sàng chọn sản phẩm này cho người thân của mình chưa?</li></ul>",
+      "imgLink": "/img/gift/hinh8.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt9",
+      "title": "Chó Shiba Hồng",
+      "price": 495000,
+      "description": "<ul><li>Chú Chó Shiba này với chất liệu mềm mại, êm ái rất thoải mái khi ôm, sẽ là món quà rất đáng yêu và tiện nghi cho mọi lứa tuổi. Bạn đã sẵn sàng chọn sản phẩm này cho người thân của mình chưa?</li></ul>",
+      "imgLink": "/img/gift/hinh9.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt10",
+      "title": "Totoro Hoạt Hình 2",
+      "price": 220000,
+      "description": "<ul><li>Totoro với một thiết kế mới là khuôn mặt lém tỉnh, đôi mắt mở to rất phù hợp cho các bạn làm văn phòng hoặc dùng để ôm thư giãn sau một ngày làm việc mệt mỏi, chất liệu lông mềm tạo cảm giác vô cùng thoải mái, dễ chịu.</li></ul>",
+      "imgLink": "/img/gift/hinh10.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt11",
+      "title": "Heo Choàng Khăn Tua Rua",
+      "price": 770000,
+      "description": "<ul><li>Cuộc sống chất chứa bao điều tuyệt vời cần khám phá, hãy đối mặt với những khó khăn và đón nhận những ấm áp mà cuộc sống ban tặng. Với món quà là chú heo hồng này, đâu đó sẽ là một điểm nhấn trong cuộc đời ai đó, là kỉ niệm, là những thiết tha, là thanh xuân.</li></ul>",
+      "imgLink": "/img/gift/hinh11.jpg",
+      "type": "gấu bông",
+      "category": "quà tặng kèm"
+    }
+  ],
+  "keo": [
+    {
+      "id": "#qt12",
+      "title": "Kỷ niệm",
+      "price": 660000,
+      "description": "<ul><li>Kỉ Niệm: Hộp socola gồm 16 viên chocolate tươi được chế tác theo hình dạng khác nhau.Mỗi viên cũng ẩn chứa một dòng hương vị riêng biệt chắc chắn sẽ là món quà tặng kèm với hoa tuyệt vời.</li></ul>",
+      "imgLink": "/img/gift/hinh12.jpg",
+      "type": "kẹo",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt13",
+      "title": "Big Gift",
+      "price": 1320000,
+      "description": "<ul><li>Big Gift: Hộp socola gồm 48 viên chocolate tươi được chế tác theo hình dạng khác nhau.Mỗi viên cũng ẩn chứa một dòng hương vị riêng biệt chắc chắn sẽ là món quà tặng kèm với hoa tuyệt vời.</li></ul>",
+      "imgLink": "/img/gift/hinh13.jpg",
+      "type": "kẹo",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt14",
+      "title": "Vị tình yêu",
+      "price": 605000,
+      "description": "<ul><li>Vị Tình Yêu: Hộp socola gồm 11 viên chocolate tươi được chế tác theo hình dạng khác nhau.Mỗi viên cũng ẩn chứa một dòng hương vị riêng biệt chắc chắn sẽ là món quà tặng kèm với hoa tuyệt vời.</li></ul>",
+      "imgLink": "/img/gift/hinh14.jpg",
+      "type": "kẹo",
+      "category": "quà tặng kèm"
+    }
+  ],
+  "banhkem": [
+    {
+      "id": "#qt15",
+      "title": "Socola Love",
+      "price": 550000,
+      "description": "<ul><li>Được phủ một lớp kem trắng tuyết mềm mịn được làm từ sữa tươi cùng với sự tài hoa của những người thợ làm bánh tạo nên những bông hoa bằng kem thật đẹp và sang trọng. Bánh kem Brodard là một thương hiệu bánh danh tiếng của Sài Gòn với bề dày lịch sử hơn 60 năm. Mẫu bánh có thể được sử dụng trong tất cả các dịp chúc mừng.</li></ul>",
+      "imgLink": "/img/gift/hinh15.jpg",
+      "type": "bánh kem",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt16",
+      "title": "Ngọt ngào",
+      "price": 440000,
+      "description": "<ul><li>Được phủ một lớp kem trắng tuyết mềm mịn được làm từ sữa tươi cùng với sự tài hoa của những người thợ làm bánh tạo nên những bông hoa bằng kem thật đẹp và sang trọng.Bánh kem Givral là một thương hiệu bánh danh tiếng của Sài Gòn với bề dày lịch sử hơn 60 năm. Mẫu bánh có thể được sử dụng trong tất cả các dịp chúc mừng.</li></ul>",
+      "imgLink": "/img/gift/hinh16.jpg",
+      "type": "bánh kem",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt17",
+      "title": "Tomorrow",
+      "price": 550000,
+      "description": "<ul><li>Được phủ một lớp kem trắng tuyết mềm mịn được làm từ sữa tươi cùng với sự tài hoa của những người thợ làm bánh tạo nên những bông hoa bằng kem thật đẹp và sang trọng. Bánh kem Brodard là một thương hiệu bánh danh tiếng của Sài Gòn với bề dày lịch sử hơn 60 năm. Mẫu bánh có thể được sử dụng trong tất cả các dịp chúc mừng.</li></ul>",
+      "imgLink": "/img/gift/hinh17.jpg",
+      "type": "bánh kem",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt18",
+      "title": "Bánh bắp",
+      "price": 605000,
+      "description": "<ul><li>Được phủ một lớp kem trắng tuyết mềm mịn được làm từ sữa tươi cùng với sự tài hoa của những người thợ làm bánh tạo nên những bông hoa bằng kem thật đẹp và sang trọng.Bánh kem Brodard là một thương hiệu bánh danh tiếng của Sài Gòn với bề dày lịch sử hơn 60 năm. Mẫu bánh có thể được sử dụng trong tất cả các dịp chúc mừng</li></ul>",
+      "imgLink": "/img/gift/hinh18.jpg",
+      "type": "bánh kem",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt19",
+      "title": "Windy",
+      "price": 550000,
+      "description": "<ul><li>Được phủ một lớp kem trắng tuyết mềm mịn được làm từ sữa tươi cùng với sự tài hoa của những người thợ làm bánh tạo nên những bông hoa bằng kem thật đẹp và sang trọng. Bánh kem Brodard là một thương hiệu bánh danh tiếng của Sài Gòn với bề dày lịch sử hơn 60 năm. Mẫu bánh có thể được sử dụng trong tất cả các dịp chúc mừng.</li></ul>",
+      "imgLink": "/img/gift/hinh19.jpg",
+      "type": "bánh kem",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt20",
+      "title": "Tiramisu Pas",
+      "price": 550000,
+      "description": "<ul><li>Được phủ một lớp kem trắng tuyết mềm mịn được làm từ sữa tươi cùng với sự tài hoa của những người thợ làm bánh tạo nên những bông hoa bằng kem thật đẹp và sang trọng. Bánh kem Brodard là một thương hiệu bánh danh tiếng của Sài Gòn với bề dày lịch sử hơn 60 năm. Mẫu bánh có thể được sử dụng trong tất cả các dịp chúc mừng.</li></ul>",
+      "imgLink": "/img/gift/hinh20.jpg",
+      "type": "bánh kem",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt21",
+      "title": "Tiramisu White",
+      "price": 660000,
+      "description": "<ul><li>Được phủ một lớp kem trắng tuyết mềm mịn được làm từ sữa tươi cùng với sự tài hoa của những người thợ làm bánh tạo nên những bông hoa bằng kem thật đẹp và sang trọng. Bánh kem Brodard là một thương hiệu bánh danh tiếng của Sài Gòn với bề dày lịch sử hơn 60 năm. Mẫu bánh có thể được sử dụng trong tất cả các dịp chúc mừng.</li></ul>",
+      "imgLink": "/img/gift/hinh21.jpg",
+      "type": "bánh kem",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt22",
+      "title": "Bông tuyết",
+      "price": 572000,
+      "description": "<ul><li>Được phủ một lớp kem trắng tuyết mềm mịn được làm từ sữa tươi cùng với sự tài hoa của những người thợ làm bánh tạo nên những bông hoa bằng kem thật đẹp và sang trọng. Bánh kem Brodard là một thương hiệu bánh danh tiếng của Sài Gòn với bề dày lịch sử hơn 60 năm. Mẫu bánh có thể được sử dụng trong tất cả các dịp chúc mừng.</li></ul>",
+      "imgLink": "/img/gift/hinh22.jpg",
+      "type": "bánh kem",
+      "category": "quà tặng kèm"
+    },
+    {
+      "id": "#qt23",
+      "title": "Bánh sinh nhật",
+      "price": 550000,
+      "description": "<ul><li>Bánh kem đặc biệt chọn lọc những nguyên liệu tốt cho sức khỏe cũng như chú trọng sự tươi mới của từng sản phẩm khi đến tay khách hàng. Trải qua hơn 10 năm phát triển, Bánh kem đã dần khẳng định vị trí dẫn đầu trong lĩnh vực bánh mì và bánh ngọt tại thị trường Việt Nam. Tại davuflower.vn, chúng tôi hiểu rằng những chiếc bánh mới ra lò là những chiếc bánh ngon nhất.</li></ul>",
+      "imgLink": "/img/gift/hinh23.jpg",
+      "type": "bánh kem",
+      "category": "quà tặng kèm"
+    }
+  ]
+}

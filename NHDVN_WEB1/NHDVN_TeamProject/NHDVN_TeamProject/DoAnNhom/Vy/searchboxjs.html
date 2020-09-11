@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Search Box</title>
+    <style>
+        .container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .form-control {
+            display: block;
+            width: 97%;
+            height: 2rem;
+            border-radius: .4rem;
+            border: 1px solid #c4c2c2;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        input:focus, select:focus, textarea:focus, button:focus {
+            outline: none;
+            box-shadow: 0px 0px 0px 2px rgb(133, 203, 254);
+        }
+
+        table {
+            border-collapse: collapse;
+            z-index: -1
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        tr:hover {
+            background-color: blanchedalmond;
+        }
+
+        .recommend-hints {
+            outline: none;
+            width: inherit;
+            flex-direction: column;
+            border-radius: .2rem;
+            margin: 1rem 0 0 0;
+            overflow: hidden;
+            z-index: 10;
+        }
+
+        .recommend-hints-entry {
+            padding: 0.2rem 1rem 0.2rem 1rem;
+            width: 100%;
+            text-decoration: none;
+            background-color: white;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+            .recommend-hints-entry:hover {
+                background-color: lightgrey;
+            }
+    </style>
+    <script src="../JS/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Filterable Table</h2>
+        <p id="status"></p>
+        <div style="display:flex; direction:ltr">
+            <input style="width:auto" class="form-control" type="text" id="searchTitle" placeholder="Search title.." oninput="search('title')">
+            <input style="width:auto; margin-left: 1rem" class="form-control" type="text" id="searchColor" placeholder="Search color.." oninput="search('color')">
+            <input style="width:auto; margin-left: 1rem" class="form-control" type="text" id="searchFlower" placeholder="Search flower.." oninput="search('type')">
+        </div>
+        <div class="recommend-hints" id="recommendHints"></div>
+        <br>
+        <table class="table table-bordered table-striped" width="100%" border="1" id="table">
+        </table>
+        <p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+    </div>
+    <script>
+
+        var data;
+
+        function fetchJSONFile(path, callback) {
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = function () {
+                if (httpRequest.readyState === 4) {
+                    if (httpRequest.status === 200) {
+                        data = JSON.parse(httpRequest.responseText);
+                        if (callback) callback(data)
+                    }
+                }
+            };
+            httpRequest.open('GET', path);
+            httpRequest.send();
+        }
+
+        fetchJSONFile('../data/data.json', function (data) {
+            let table = $("#table")
+            let thead = $("<thead></thead>").appendTo(table)
+            var tr = $("<tr>").appendTo(thead)
+            for (let key in data[0]) {
+                let cell = $("<th>").appendTo(tr)
+                cell.text(key).appendTo(cell)
+            }
+
+            let tbody = $("<tbody></tbody>").appendTo(table)
+            for (let element of data) {
+                let tr = $("<tr>").appendTo(tbody)
+
+                for (let key in element) {
+                    let cell = $("<td>").appendTo(tr)
+                    cell.attr("name", key)
+                    let tdData = element[key] + ""
+
+                    if (tdData.indexOf(".jpg") != -1 || tdData.indexOf(".png") != -1) {
+                        $("<img>").attr({
+                            "src": "../data" + tdData,
+                            "width": "150",
+                            "height": "auto",
+                        }).appendTo(cell)
+                    } else {
+                        cell.text(tdData).appendTo(cell)
+                    }
+                }
+            }
+        });
+
+        function search(dataType) {
+            generateRecommendBox(dataType, 7);
+        }
+
+        var recommendedItems = [];
+        var title = [];
+        var color = [];
+        var type = [];
+        var imgLink = [];
+
+        function generateRecommendBox(dataType, itemNum) {
+            reset();
+            var word = getSearchWord(dataType).toLowerCase();
+            if (word.length != 0) {
+                getRecommendItems(word, dataType, itemNum);
+                show();
+            }
+        }
+
+        function reset() {
+            title = [];
+            color = [];
+            type = [];
+            imgLink = [];
+            let recommendBox = $("#recommendHints")
+            $(recommendBox).empty();
+            $(recommendBox).css("display", "none");
+        }
+
+        function show() {
+            let recommendBox = $("#recommendHints")
+            $(recommendBox).css("display", "flex");
+            for (let i = 0; i < recommendedItems.length; i++) {
+                let a = $("<a></a>").attr("href", imgLink[i])
+                    .attr("target", "blank")
+                    .append($("<span name='title'><span>").text(title[i]))
+                    .append($("<span></span>").text("______").css("color", "transparent"))
+                    .append($("<span name='color'><span>").text(color[i]))
+                    .append($("<span></span>").text("______").css("color", "transparent"))
+                    .append($("<span name='type'><span>").text(type[i]))
+                    .append($("<span></span>").text("______").css("color", "transparent"))
+                    .addClass("recommend-hints-entry")
+                    .appendTo(recommendBox)
+                    .show();
+            }
+        }
+
+        function getRecommendItems(word, dataType, itemNum) {
+            if (recommendedItems.length != 0) {
+                recommendedItems = getItems(word, dataType, itemNum);
+            }
+            getItemsFromJSON(word, dataType, itemNum);
+        }
+
+        function getItemsFromJSON(word, dataType, itemNum) {
+            if (precondition(recommendedItems, itemNum)) {
+                let addedItems = []
+
+                if (recommendedItems.length != 0) {
+                    addedItems = getItems(word, dataType, itemNum);
+                }
+                for (let i = 0; i < data.length && recommendedItems.length < itemNum; i++) {
+                    let comparingdata = getComparingData(i, dataType);
+                    let comparingTitle = data[i].title;
+
+                    if (isRelevant(word, comparingdata) && !recommendedItems.includes(comparingdata) && !title.includes(comparingTitle)) {
+                        recommendedItems.push(comparingdata);
+                        getShowData(i);
+                    }
+                }
+            }
+        }
+
+        function getShowData(i) {
+            title.push(data[i].title);
+            color.push(data[i].color);
+            type.push(data[i].type);
+            imgLink.push(data[i].imgLink);
+        }
+
+        function getComparingData(i, dataType) {
+            switch (dataType) {
+                case "title": {
+                    return data[i].title
+                }
+                case "color": {
+                    return data[i].color
+                }
+                case "type": {
+                    return data[i].type
+                }
+            }
+        }
+
+        function precondition(items, itemNum) {
+            return items.length < itemNum ? true : false;
+        }
+
+        function getItems(word, dataType, itemNum) {
+            let result = [];
+            let comparingItem = [];
+            comparingItem = getComparingItem(dataType);
+            for (let i = 0; i < comparingItem.length; i++) {
+                if (isRelevant(word, comparingItem[i])) {
+                    result.push(comparingItem[i]);
+                    getShowData(i);
+                }
+            }
+            return result;
+        }
+
+        function isRelevant(word, comparingItem) {
+            let result = false;
+            if (word.length != 0 && word != undefined
+                && comparingItem.length != 0 && comparingItem != undefined
+                && comparingItem.toLowerCase().includes(word.toLowerCase())) {
+                result = true;
+            }
+            return result;
+        }
+
+        function getComparingItem(dataType) {
+            let comparingItem = [];
+
+            let recommendBox = $("#recommendHints>.recommend-hints-entry");
+            let spanIndex = getspanIndex(dataType)
+
+            for (let i = 0; i < getRecommendItems.length; i++) {
+                let item = $(recommendBox).eq(i).find("span").eq(spanIndex).text();
+                if (item.length != 0 && item != "") {
+                    comparingItem.push(item);
+                }
+            }
+            return comparingItem
+        }
+
+
+        function getspanIndex(dataType) {
+            switch (dataType) {
+                case "title": {
+                    return 0
+                }
+                case "color": {
+                    return 1
+                }
+                case "type": {
+                    return 2
+                }
+            }
+        }
+
+        function getSearchWord(dataType) {
+            switch (dataType) {
+                case "title": {
+                    return $("#searchTitle").val()
+                }
+                case "color": {
+                    return $("#searchColor").val()
+                }
+                case "type": {
+                    return $("#searchFlower").val()
+                }
+            }
+        }
+
+
+    </script>
+</body>
+</html>

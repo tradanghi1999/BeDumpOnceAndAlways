@@ -1,0 +1,1432 @@
+﻿[
+  {
+    "id": "#sp1",
+    "title": "Giỏ Hoa Rose Land",
+    "price": 299000.0,
+    "description": "Giỏ hoa rực rỡ và đầy sức sống với các loại Hoa Hồng nhiều màu sắc. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nGiỏ Hoa Rose Land gồm:\n\n \n\n- 10 bông Hoa Hồng\n\n- 3 bông Cẩm Chướng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh1.jpg",
+    "color": "hồng;đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp2",
+    "title": "Hộp Hoa Gỗ Tròn Violet Lover",
+    "price": 499000.0,
+    "description": "Bó hoa mang gam màu đầy trang nhã và duyên dáng với sự kết hợp của hoa Hồng pastel & hoa Hồng Tím lãng mạn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Gỗ Tròn Violet Lover bao gồm:\n\n \n\n- 20 bông Hoa Hồng\n\n- Hộp gỗ cillinder\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh2.jpg",
+    "color": "tím",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp3",
+    "title": "Bó Hoa Purple Desire",
+    "price": 299000.0,
+    "description": "Bó hoa độc đáo với sự kết hợp của hoa Cẩm chướng và Cát tường. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh3.jpg",
+    "color": "tím;hồng;trắng",
+    "type": "hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp4",
+    "title": "Giỏ Hoa Be Happy",
+    "price": 299000.0,
+    "description": " Giỏ hoa rực rỡ và đầy sức sống với hoa Hướng Dương và Cúc vàng tươi tắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nGiỏ Hoa Be Happy gồm:\n\n \n\n- 5 bông Hoa Hướng Dương\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh4.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;kỷ niệm;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp5",
+    "title": "Bó Hoa Aurora Light",
+    "price": 299000.0,
+    "description": "Bó hoa xinh xắn và ngọt ngào với sự kết hợp của hoa Hồng và Cẩm chướng. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\nBó Hoa Aurora Light gồm:\n\n- 8 bông Hoa Hồng\n\n- 5 bông Cẩm Chướng",
+    "imgLink": "/img/hinh5.jpg",
+    "color": "hồng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp6",
+    "title": "Giỏ Hoa Spring Garden",
+    "price": 299000.0,
+    "description": "Giỏ hoa rực rỡ và đầy sức sống với hoa Hồng, Đồng Tiền & Cẩm Chướng tươi tắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nGiỏ Hoa Spring Garden gồm:\n\n \n\n- 6 bông Hoa Hồng\n\n- 7 bông Hoa Đồng Tiền\n\n- 4 bông Hoa Cẩm Chướng",
+    "imgLink": "/img/hinh6.jpg",
+    "color": "hồng cam",
+    "type": "hoa hồng;hoa đồng tiền;hoa cẩm chướng",
+    "category": "sinh nhật;kỷ niệm;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp7",
+    "title": "Bó Hoa Hồng 1 Pink Rose",
+    "price": 149000.0,
+    "description": "Một cành hoa hồng được gói thành bó hoa đẹp mắt, thanh lịch. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh7.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp8",
+    "title": "Bó Hoa Hồng Fall For You",
+    "price": 399000.0,
+    "description": "Bó hoa Hồng đỏ đầy lãng mạn là món quà hoàn hảo thay lời muốn nói gửi đến người thương cũa bạn vào Valentine hoặc ngày kỷ niệm, sinh nhật.\n\n Gồm:\n\n- 24 cành Hoa Hồng",
+    "imgLink": "/img/hinh8.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp9",
+    "title": "Bó Hoa The Ocean Breeze",
+    "price": 349000.0,
+    "description": "Bó hoa mang gam màu pastel đầy trang nhã và duyên dáng với sự kết hợp của nhiều loại hoa tươi như hoa Hồng, Cẩm chướng, Cát tường và Cẩm tú cầu. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa The Ocean Breeze bao gồm:\n\n- 4 bông Hoa Hồng\n\n- 3 bông Cẩm Chướng Trắng\n\n- Cát Tường\n\n- Cẩm Tú Cầu\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh9.jpg",
+    "color": "hồng;trắng",
+    "type": "hoa hồng; hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cảm ơn;xin lỗi"
+  },
+  {
+    "id": "#sp10",
+    "title": "Hộp Hoa Gỗ Have A Sweet Day",
+    "price": 349000.0,
+    "description": "Hộp hoa bằng gỗ màu xanh da trời kết hợp các loại hoa tươi như hoa Hồng, Cát Tường và Cúc trắng đầy thanh lịch và ngọt ngào sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Hồng Have A Sweet Day bao gồm:\n\n \n\n- 10 bông Hoa Hồng\n\n- Hoa Cát Tường\n\n- Hộp gỗ\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh10.jpg",
+    "color": "hồng;trắng",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;xin lỗi"
+  },
+  {
+    "id": "#sp11",
+    "title": "Bó Hoa Hồng Forever",
+    "price": 299000.0,
+    "description": "Bó hoa sang trọng với sự kết hợp của lá bạc với hoa Hồng trắng và đỏ nồng nàn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Hồng Trắng & Đỏ Forever bao gồm:\n\n- 12 bông Hoa Hồng\n\n- Các loại hoa và là khác",
+    "imgLink": "/img/hinh11.jpg",
+    "color": "hồng;trắng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;"
+  },
+  {
+    "id": "#sp12",
+    "title": "Bó Hoa Hồng True Love (99 bông)",
+    "price": 1199000.0,
+    "description": "Bó hoa sang trọng và lộng lẫy với 99 bông hoa Hồng đỏ rực rỡ là lựa chọn hoàn hảo gửi đến người thân yêu trong ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh12.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp13",
+    "title": "Hộp Hoa Gỗ City Of Stars",
+    "price": 349000.0,
+    "description": "Hộp hoa bằng gỗ kết hợp các loại hoa tươi như hoa Hồng tím, Cẩm Chướng và Cúc tím đầy trang nhã, lãng mạn sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Gỗ City Of Stars bao gồm:\n\n \n\n- 8 bông Hoa Hồng\n\n- 3 bông Cẩm Chướng\n\n- Hoa Cúc tím\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh13.jpg",
+    "color": "tím;hồng",
+    "type": "hoa hồng;hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp14",
+    "title": "Bó Hoa Sweet Velvet",
+    "price": 399000.0,
+    "description": "Bó hoa nữ tính và lãng mạn với hoa Hồng và Cẩm chướng. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Sweet Velvet gồm:\n\n \n\n- 24 bông Hoa Hồng\n\n- 5 bông Hoa Cẩm Chướng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh14.jpg",
+    "color": "đỏ;hồng",
+    "type": "hoa hồng;hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp15",
+    "title": "Bó Hoa Hồng Always",
+    "price": 249000.0,
+    "description": "Bó hoa sang trọng với sự kết hợp của lá bạc với hoa Hồng trắng và đỏ nồng nàn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Hồng Trắng & Đỏ Always bao gồm:\n\n \n\n- 6 bông Hoa Hồng\n\n- Các loại hoa và là khác",
+    "imgLink": "/img/hinh15.jpg",
+    "color": "đỏ;trắng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;cảm ơn;xin lỗi"
+  },
+  {
+    "id": "#sp16",
+    "title": "Bó Hướng Dương Sunny Morning",
+    "price": 149000.0,
+    "description": "Bông Hướng Dương và Salem tím được kết hợp hài hòa và đẹp mắt với nhau, là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh16.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;cảm ơn;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp17",
+    "title": "Bó Hoa Love In Rome",
+    "price": 249000.0,
+    "description": "Bó hoa mang gam màu tím lãng mạn với sự kết hợp của nhiều loại hoa tươi như hoa Hồng và Cúc tím. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Love In Rome bao gồm:\n\n \n\n- 4 bông Hoa Hồng tím\n\n- Hoa Cúc \n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh17.jpg",
+    "color": "tím",
+    "type": "hoa hồng;hoa cúc",
+    "category": "tình yêu;kỷ niệm;cầu hôn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp18",
+    "title": "Bó Hướng Dương Sunset Love",
+    "price": 249000.0,
+    "description": "Hoa Hướng Dương được kết hợp cùng hoa Hồng rất hiện đại và độc đáo. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBạn có thể lựa chọn hoa xếp dọc hoặc xếp ngang như hình (Ghi chú khi thanh toán)\n\n \n\nGồm:\n\n- 03 bông hoa Hồng\n\n- 03 bông hoa Hướng Dương\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh18.jpg",
+    "color": "vàng;đỏ",
+    "type": "hoa hướng dương;hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp19",
+    "title": "Bó Hoa Sunny Smile",
+    "price": 199000.0,
+    "description": "Bó hoa được gói đẹp mắt và hiện đại với sự kết hợp của Hướng Dương và Salem tím xinh xắn là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Sunny Smile gồm:\n\n- 03 bông Hướng Dương\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh19.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;tình yêu;chúc mừng;cảm ơn;mừng tốt nghiệp;"
+  },
+  {
+    "id": "#sp20",
+    "title": "Bó Hoa Hồng Đỏ 1 Red Rose",
+    "price": 149000.0,
+    "description": "Một cành hoa hồng đỏ được gói thành bó hoa rất thanh lịch và đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh20.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp21",
+    "title": "Bó Hoa Fall For You Đặc Biệt",
+    "price": 449000.0,
+    "description": "Bó hoa Hồng đỏ đầy lãng mạn là món quà hoàn hảo thay lời muốn nói gửi đến người thương cũa bạn vào Valentine hoặc ngày kỷ niệm, sinh nhật.\n\n \n\nBó Hoa Fall For You Đặc Biệt gồm:\n\n- 30 cành Hoa Hồng đỏ\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh21.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp22",
+    "title": "Bó Hoa Hồng Ecuador Red Romance",
+    "price": 399000.0,
+    "description": "Bó hoa Hồng đỏ Ecuador nồng nàn sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Red Romance gồm:\n\n \n\n- 2 bông hoa Hồng Ecuador\n\n- 12 bông Hoa Hồng",
+    "imgLink": "/img/hinh22.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;xin lỗi"
+  },
+  {
+    "id": "#sp23",
+    "title": "Bình Hoa Thủy Tinh Fire For The Soul",
+    "price": 499000.0,
+    "description": "Bình hoa thủy tinh kết hợp các loại hoa tươi như hoa Hồng, Cẩm Chướng và Cát Tường thanh lịch nhưng không kém phần rực rỡ và vui tươi sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBình Hoa Thủy Tinh Fire For The Soul bao gồm:\n\n \n\n- 8 bông Hoa Hồng\n\n- Cầm Chướng\n\n- Cát Tường\n\n- Bình thủy tinh\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh23.jpg",
+    "color": "vàng",
+    "type": "hoa hồng;hoa cẩm chướng",
+    "category": "sinh nhật;kỷ niệm;chúc mừng;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp24",
+    "title": "Bó Hoa Doors To Heaven",
+    "price": 249000.0,
+    "description": "Bó hoa mang gam màu pastel đầy trang nhã và duyên dáng với sự kết hợp của nhiều loại hoa tươi như hoa Hồng, Cẩm chướng, Cát tường và Cẩm tú cầu. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Doors To Heaven bao gồm:\n\n \n\n- 4 bông Hoa Hồng\n\n- Cẩm Tú Cầu\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh24.jpg",
+    "color": "tím",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;cảm ơn;xin lỗi"
+  },
+  {
+    "id": "#sp25",
+    "title": "Bó Hoa Hồng Grand Gesture",
+    "price": 399000.0,
+    "description": "Bó hoa hồng đỏ được gói rất đẹp mắt và thanh lịch. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Hồng Grand Gesture gồm:\n\n- 24 bông hoa Hồng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh25.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;cầu hôn"
+  },
+  {
+    "id": "#sp26",
+    "title": "Bó Hoa Joyful Life",
+    "price": 249000.0,
+    "description": "Bó hoa rực rỡ và tươi tắn với hoa Hướng Dương được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Joyful Life gồm:\n\n \n\n- 06 bông Hoa Hướng Dương\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh26.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;kỷ niệm;chúc mừng;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp27",
+    "title": "Ngày Tốt Lành!",
+    "price": 199000.0,
+    "description": "Bó hoa Cúc vàng & Cẩm chướng xinh xắn sẽ là món quà nhỏ đáng yêu dành tặng bạn bè hay người thương của bạn.\n\n \n\nNgày Tốt Lành! gồm:\n\n- 02 bông Cúc\n\n- 03 bông Cẩm Chướng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh27.jpg",
+    "color": "vàng",
+    "type": "hoa cúc;hoa cẩm chướng",
+    "category": "mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp28",
+    "title": "Bó Hoa Yellow Garden",
+    "price": 349000.0,
+    "description": "Bó hoa màu vàng lộng lẫy và rực rỡ với sự kết hợp của nhiều loại hoa tươi như hoa Hướng Dương và Cúc vàng. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Hướng Dương Yellow Garden bao gồm:\n\n \n\n- 4 bông Hướng Dương\n\n- Hoa Cúc\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh28.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp29",
+    "title": "Bó Hoa Hồng Pretty in Pink",
+    "price": 349000.0,
+    "description": "Bó hoa Hồng được gói rất đẹp mắt và thanh lịch là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Hồng Pretty in Pink gồm:\n\n- 24 bông hoa Hồng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh29.jpg",
+    "color": "hồng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;cảm ơn"
+  },
+  {
+    "id": "#sp30",
+    "title": "Bó Hướng Dương Chloe",
+    "price": 249000.0,
+    "description": "Bó hoa khổng lồ được gói đẹp mắt với 3 bông Hướng Dương & 6 bông Hồng đỏ két hợp cùng Salem tím. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh30.jpg",
+    "color": "vàng;đỏ",
+    "type": "hoa hướng dương;hoa hồng",
+    "category": "sinh nhật;tình yêu;cầu hôn;chúc mừng;cảm ơn;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp31",
+    "title": "Bó Hoa Purple Desire Đặc Biệt",
+    "price": 499000.0,
+    "description": "Bó hoa độc đáo với sự kết hợp của hoa Cẩm chướng và Cát tường. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào. Là phiên bản size lớn của bó Purple Desire.",
+    "imgLink": "/img/hinh31.jpg",
+    "color": "trắng;tím",
+    "type": "hoa hồng;hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp32",
+    "title": "Giỏ Hoa Eternal Love",
+    "price": 249000.0,
+    "description": "Bó hoa độc đáo với sự kết hợp của hoa Cẩm chướng và Cát tường. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào. Là phiên bản size lớn của bó Purple Desire.",
+    "imgLink": "/img/hinh32.jpg",
+    "color": "trắng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp33",
+    "title": "Hộp Hoa Gỗ Sunshine Box",
+    "price": 449000.0,
+    "description": "Hộp hoa bằng gỗ kết hợp các loại hoa tươi như hoa Hướng Dương và Cát Tường tươi tắn sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Gỗ Sunshine Box bao gồm:\n\n \n\n- 4 bông Hoa Hướng Dương\n\n- Hoa Cát Tường\n\n- Hộp gỗ\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh33.jpg",
+    "color": "vàng;trắng",
+    "type": "hoa hướng dương;hoa cát tường",
+    "category": "sinh nhật;kỷ niệm;xin lỗi"
+  },
+  {
+    "id": "#sp34",
+    "title": "Bó Hoa Pinky",
+    "price": 249000.0,
+    "description": "Bó hoa thanh lịch và độc đáo gồm Hoa Hồng, Cẩm Chướng & Đồng Tiền được gói rất trang nhã và đẹp mắt. Là sự lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Pinky gồm:\n\n- 03 bông hoa Hồng\n\n- 04 bông Đồng Tiền\n\n- 07 bông Cẩm Chướng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh34.jpg",
+    "color": "hồng",
+    "type": "hoa hồng;hoa đồng tiền;hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp35",
+    "title": "Em Ơi!",
+    "price": 179000.0,
+    "description": "Bó hoa Cúc trắng và Calimero xinh xắn sẽ là món quà nhỏ đáng yêu dành tặng bạn bè hay người thương của bạn.",
+    "imgLink": "/img/hinh35.jpg",
+    "color": "trắng",
+    "type": "hoa cúc",
+    "category": "chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp36",
+    "title": "Bình Hoa Thủy Tinh Loving Me Softly",
+    "price": 499000.0,
+    "description": "Bình hoa thủy tinh kết hợp các loại hoa tươi như hoa Cát Tường và Cúc trắng đầy thanh lịch và nhẹ nhàng sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBình Hoa Thủy Tinh Loving Me Softly bao gồm:\n\n \n\n- Hoa Cát Tường\n\n- Hoa Cúc trắng\n\n- Bình thủy tinh\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh36.jpg",
+    "color": "hồng;vàng;trắng",
+    "type": "hoa cúc;hoa cát tường",
+    "category": "sinh nhật;tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp37",
+    "title": "Bó Hoa Hướng Dương Shiny Baby",
+    "price": 499000.0,
+    "description": "Bó hoa màu vàng lộng lẫy và rực rỡ với sự kết hợp của nhiều loại hoa tươi như hoa Hướng Dương và Cúc vàng. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Hướng Dương Shiny Baby bao gồm:\n\n \n\n- 06 bông Hướng Dương\n\n- Hoa Cúc vàng\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh37.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp38",
+    "title": "Miss Grand",
+    "price": 299000.0,
+    "description": "Hộp hoa gồm các loại hoa như hoa Hồng, Đồng tiền & Cẩm chướng rất thanh lịch và sang trọng là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nMiss Grand gồm:\n\n- 03 bông hoa Hồng\n\n- 04 bông Đồng Tiền\n\n- 06 bông Cẩm Chướng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh38.jpg",
+    "color": "hồng",
+    "type": "hoa hồng;hoa đồng tiền;hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;chúc sức khoẻ"
+  },
+  {
+    "id": "#sp39",
+    "title": "Bó Hoa Hồng Trắng 1 White Rose",
+    "price": 149000.0,
+    "description": "Một cành hoa hồng được gói thành bó hoa đẹp mắt, thanh lịch. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh39.jpg",
+    "color": "trắng",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp40",
+    "title": "Bó Hoa Sunny Days",
+    "price": 249000.0,
+    "description": "Bó hoa rực rỡ kết hợp Hướng dương và Salem tím hài hòa đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Sunny Days gồm:\n\n- 05 bông Hướng Dương\n\n- Salem tím\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh40.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;tình yêu;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp41",
+    "title": "Chúc Vui!",
+    "price": 179000.0,
+    "description": "Bó hoa rực rỡ kết hợp Hướng dương và Salem tím hài hòa đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Sunny Days gồm:\n\n- 05 bông Hướng Dương\n\n- Salem tím\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh41.jpg",
+    "color": "hồng",
+    "type": "hoa cẩm chướng",
+    "category": "tình yêu"
+  },
+  {
+    "id": "#sp42",
+    "title": "Bó Hoa Cẩm Chướng Violetta",
+    "price": 249000.0,
+    "description": "Bó hoa độc đáo và xinh xắn với hoa Hồng trắng và Cẩm chướng 2 màu là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Cẩm Chướng Violetta gồm:\n\n- 03 bông hoa Hồng\n\n- 04 bông Cúc\n\n- 04 bông Cẩm Chướng",
+    "imgLink": "/img/hinh42.jpg",
+    "color": "tím",
+    "type": "hoa cẩm chướng",
+    "category": "sinh nhật;cảm ơn;chúc sức khoẻ"
+  },
+  {
+    "id": "#sp43",
+    "title": "Combo Happy Birthday Ocean Breeze",
+    "price": 429000.0,
+    "description": "Combo gồm Bó Hoa The Ocean Breeze, Gấu bông và Bóng bay Happy Birthday lãng mạn sẽ giúp bạn hạ gục trái tim người thương một cách đầy bất ngờ. Tiết kiệm 15% so với mua lẻ từng sản phẩm.\n\n \n\nBộ Hoa, Gấu Bông & Bóng Bay Happy Birthday bao gồm:\n\n \n\n- Bó Hoa The Ocean Breeze\n\n- Bóng Bay Happy Birthday\n\n- Gấu Bông",
+    "imgLink": "/img/hinh43.jpg",
+    "color": "hồng;trắng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu"
+  },
+  {
+    "id": "#sp44",
+    "title": "Bó Hoa Hồng Forbidden Love",
+    "price": 399000.0,
+    "description": "Bó hoa mang gam màu đỏ - trắng với sự kết hợp của hoa Hồng và hoa Thược Dược đỏ nồng nàn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Hồng Forbidden Love bao gồm:\n\n \n\n- 20 bông Hoa Hồng\n\n- 4 bông Thược Dược đỏ\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh44.jpg",
+    "color": "đỏ;hồng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;xin lỗi"
+  },
+  {
+    "id": "#sp45",
+    "title": "Sen Đá Corgi Cam",
+    "price": 249000.0,
+    "description": "Sen đá đựng trong chậu hình chó Corgi đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh45.jpg",
+    "color": "cam",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn;"
+  },
+  {
+    "id": "#sp46",
+    "title": "Bó Hoa Pink Blush",
+    "price": 249000.0,
+    "description": "Bó hoa Hồng & Đồng Tiền được gói rất thanh lịch và trang nhã là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Pink Blush gồm:\n\n- 03 bông hoa Hồng\n\n- 02 bông Đồng Tiền\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh46.jpg",
+    "color": "đỏ;hồng",
+    "type": "hoa hồng;hoa đồng tiền",
+    "category": "sinh nhật;tình yêu;cầu hôn;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp47",
+    "title": "Bó Hoa Hồng My Darling",
+    "price": 249000.0,
+    "description": "Bó 6 bông hoa hồng đỏ được gói rất đẹp mắt và thanh lịch. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh47.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu"
+  },
+  {
+    "id": "#sp48",
+    "title": "Bó Hoa Hồng Ecuador First Love",
+    "price": 299000.0,
+    "description": "Bó hoa Hồng đỏ rực rỡ và nồng nàn sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa First Love gồm: \n\n \n\n- 1 bông Hoa Hồng Ecuador\n\n- 4 bông Hoa Hồng đỏ\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh48.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp49",
+    "title": "Bó Hoa Romantic Escape",
+    "price": 349000.0,
+    "description": "Bó hoa mang gam màu pastel đầy trang nhã và duyên dáng với sự kết hợp của nhiều loại hoa tươi như hoa Hồng, Cát tường và Cẩm tú cầu... Đây sẽ là món quà lãng mạn và bất ngờ dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Cẩm Tú Cầu Romantic Escape bao gồm:\n\n \n\n- 6 bông Hoa Hồng\n\n- Cát Tường\n\n- Cẩm Tú Cầu\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh49.jpg",
+    "color": "trắng;tím",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp50",
+    "title": "Combo 3 Sản Phẩm Crush On You",
+    "price": 349000.0,
+    "description": "Combo gồm Bó Hoa Hồng đỏ Beautiful You, Gấu bông và Bóng bay trái tim siêu lãng mạn sẽ giúp bạn hạ gục trái tim người thương một cách đầy bất ngờ. Tiết kiệm 15% so với mua lẻ từng sản phẩm.",
+    "imgLink": "/img/hinh50.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp51",
+    "title": "Bó Hoa Đồng Tiền Berry Cute",
+    "price": 249000.0,
+    "description": "Bó hoa Đồng Tiền hồng phấn kết hợp cùng hoa Hồng Trắng xinh xắn và trang nhã là sự lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Đồng Tiền Berry Cute gồm:\n\n- 03 bông hoa Hồng\n\n- 03 bông Đồng Tiền\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh51.jpg",
+    "color": "hồng;trắng",
+    "type": "hoa hồng;hoa đồng tiền",
+    "category": "tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp52",
+    "title": "Miss World",
+    "price": 349000.0,
+    "description": "Hộp hoa Hồng, Lily và hoa Cúc rất thanh lịch và sang trọng là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nMiss world gồm:\n\n- 03 bông hoa Hồng\n\n- 02 bông hoa Ly\n\n- 08 bông Cúc\n\n- 04 bông Đồng Tiền",
+    "imgLink": "/img/hinh52.jpg",
+    "color": "đỏ;hồng",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;cầu hôn;chúc sức khoẻ"
+  },
+  {
+    "id": "#sp53",
+    "title": "Miss Universe",
+    "price": 349000.0,
+    "description": "Hộp hoa hồng thanh lịch và sang trọng là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\nGồm:\n\n- 12 bông Hoa Hồng",
+    "imgLink": "/img/hinh53.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;cầu hôn;chúc sức khoẻ"
+  },
+  {
+    "id": "#sp54",
+    "title": "Bó Hoa Jasmine",
+    "price": 349000.0,
+    "description": "Bó hoa kiểu độc đáo và lạ mắt gồm Cẩm chướng 2 màu, hoa Hồng và Cúc xanh được gói rất thanh lịch và sang trọng. Đây là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Jasmine gồm:\n\n- 12 bông hoa Hồng\n\n- 03 bông Cúc\n\n- 10 bông Cẩm Chướng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh54.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng;hoa cẩm chướng",
+    "category": "sinh nhật;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp55",
+    "title": "Bó Hoa Under The Blue Sky",
+    "price": 199000.0,
+    "description": "Bó hoa ngọt ngào và thanh khiết với hoa Cẩm Tú Cầu được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Under The Blue Sky gồm:\n\n- 02 bông Cẩm Tú Cầu\n\n- Hoa Cúc\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh55.jpg",
+    "color": "xanh tím",
+    "type": "hoa cẩm tú cầu",
+    "category": "sinh nhật;tình yêu;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp56",
+    "title": "Bó Hoa Bonjour Paris",
+    "price": 349000.0,
+    "description": "Bó hoa sang trọng và thanh lịch với sự kết hợp hoa Hồng tím và Tulip trắng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Bonjour Paris gồm:\n\n \n\n- 10 bông Hoa Hồng\n\n- 4 bông Tulip\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh56.jpg",
+    "color": "tím",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp57",
+    "title": "Bó Hoa Make Me Smile",
+    "price": 299000.0,
+    "description": "Bó hoa nữ tính và ngọt ngào với hoa Đồng Tiền nhiều màu sắc. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Make Me Smile gồm:\n\n \n\n- 24 bông Hoa Đồng Tiền",
+    "imgLink": "/img/hinh57.jpg",
+    "color": "hồng;cam",
+    "type": "hoa đồng tiền",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp58",
+    "title": "Chào Buổi Sáng!",
+    "price": 179000.0,
+    "description": "Bó hoa Hướng Dương mini xinh xắn sẽ là món quà nhỏ đáng yêu dành tặng bạn bè hay người thương của bạn.\n\n \n\nChào Buổi Sáng! gồm:\n\n- 02 bông Hướng Dương\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh58.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "xin lỗi"
+  },
+  {
+    "id": "#sp59",
+    "title": "Combo Forbidden Love",
+    "price": 529000.0,
+    "description": "Combo gồm Bó Hoa Forbidden Love, Gấu bông và Bóng bay trái tim lãng mạn sẽ giúp bạn hạ gục trái tim người thương một cách đầy bất ngờ. Tiết kiệm 15% so với mua lẻ từng sản phẩm.\n\n \n\n \n\nBộ Hoa, Gấu Bông & Bóng Bay Forbidden Love bao gồm:\n\n- Bó Hoa Forbidden Love\n\n- Bóng Bay trái tim\n\n- Gấu Bông",
+    "imgLink": "/img/hinh59.jpg",
+    "color": "đỏ;hồng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;xin lỗi"
+  },
+  {
+    "id": "#sp60",
+    "title": "Bó Hoa Hồng Pink Love",
+    "price": 299000.0,
+    "description": "Bó hoa tuyệt đẹp với Hoa hồng chất lượng cao được gói thanh lịch và sang trọng. Là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh60.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp61",
+    "title": "Bó Hoa Make Me Blush",
+    "price": 349000.0,
+    "description": "Bó hoa kiểu độc đáo và lạ mắt gồm hoa Hồng, Cẩm Chướng 2 màu & Cát Tường được gói rất thanh lịch và sang trọng. Đây là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Make Me Blush gồm:\n\n- 09 bông hoa Hồng\n\n- 06 bông Cẩm Chướng\n\n- 01 bông Cát Tường\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh61.jpg",
+    "color": "đỏ;hồng;trắng",
+    "type": "hoa hồng; hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp62",
+    "title": "Bó Hoa Hồng 3 Roses",
+    "price": 199000.0,
+    "description": "Ba cành hoa hồng được gói thành bó hoa đẹp mắt, thanh lịch. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh62.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp63",
+    "title": "Bó Hoa Mindful Soul",
+    "price": 249000.0,
+    "description": "Bó hoa nhỏ nhắn đáng yêu với hoa Hướng Dương cùng Cẩm Tú Cầu được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Mindful Soul gồm:\n\n- 03 bông Hướng Dương\n\n- 01 bông Cẩm Tú Cầu\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh63.jpg",
+    "color": "vàng;xanh",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;kỷ niệm;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp64",
+    "title": "Bó Hoa Green Garden",
+    "price": 299000.0,
+    "description": "Bó hoa mộc mạc và lạ mắt với hoa Hướng Dương rực rỡ. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Green Garden gồm:\n\n \n\n- 9 bông Hoa Hướng Dương\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh64.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp65",
+    "title": "Bó Hoa Cẩm Chướng Carla",
+    "price": 299000.0,
+    "description": "Bó hoa thanh lịch và độc đáo gồm Cẩm chướng 2 màu, Violet và Cúc hồng. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh65.jpg",
+    "color": "hồng;tím",
+    "type": "hoa cẩm chướng",
+    "category": "cảm ơn"
+  },
+  {
+    "id": "#sp66",
+    "title": "Bó Hoa White & Red Rose",
+    "price": 299000.0,
+    "description": "Bó hoa gồm hoa Hồng trắng và hoa Hồng đỏ được kết hợp rất thanh lịch và sang trọng. Đây là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa White & Red Rose gồm:\n\n- 12 bông hoa Hồng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh66.jpg",
+    "color": "đỏ;trắng",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;cầu hôn;xin lỗi"
+  },
+  {
+    "id": "#sp67",
+    "title": "Bó Hoa Purple Passion",
+    "price": 299000.0,
+    "description": "Bó hoa độc đáo và lạ mắt với sự kết hợp của hoa Mulberry, Cúc xanh & Cát Tường lãng mạn nữ tính là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh67.jpg",
+    "color": "hồng;tím",
+    "type": "hoa cát tường",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp68",
+    "title": "Bó Hoa Hồng My Romance",
+    "price": 199000.0,
+    "description": "Bó 3 bông hoa hồng đỏ được gói rất đẹp mắt và thanh lịch là sự lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh68.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu"
+  },
+  {
+    "id": "#sp69",
+    "title": "Bó Hoa Michelle",
+    "price": 299000.0,
+    "description": "Bó hoa độc đáo và lạ mắt gồm hoa Hồng đỏ, hoa Đồng Tiền, hoa Cúc và Cẩm Chướng được gói rất thanh lịch và sang trọng. Đây là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Michelle gồm:\n\n- 06 bông hoa Hồng\n\n- 06 bông Cúc\n\n- 04 bông Đồng Tiền\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh69.jpg",
+    "color": "trắng;đỏ;hồng",
+    "type": "hoa hồng;hoa cúc;hoa đồng tiền",
+    "category": "sinh nhật;chúc mừng;cảm ơn;xin lỗi"
+  },
+  {
+    "id": "#sp70",
+    "title": "Bó Hoa Autumn Melody",
+    "price": 349000.0,
+    "description": "Bó hoa siêu to rực rỡ với sự kết hợp của các loại hoa màu vàng. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Autumn Melody gồm:\n\n- 06 bông Đồng Tiền\n\n- 08 bông Cẩm Chướng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh70.jpg",
+    "color": "vàng",
+    "type": "hoa đồng tiền",
+    "category": "sinh nhật;kỷ niệm;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp71",
+    "title": "Bó Hoa For My Barbie",
+    "price": 299000.0,
+    "description": "Bó hoa sang trọng và ngọt ngào với hoa Hồng và các loại hoa khác được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa For My Barbie gồm:\n\n- 12 bông Hoa Hồng\n\n- Hoa Mõm Sói\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh71.jpg",
+    "color": "đỏ;trắng",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ"
+  },
+  {
+    "id": "#sp72",
+    "title": "Bó Hoa Fabulously Red",
+    "price": 299000.0,
+    "description": "Bó hoa sang trọng và thanh khiết với hoa Hồng đỏ được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Fabulously Red gồm:\n\n - 12 bông Hoa Hồng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh72.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp73",
+    "title": "Bó Hoa Sway Into Love",
+    "price": 299000.0,
+    "description": "Bó hoa sang trọng và thanh lịch với các loại hoa Hồng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Sway Into Love gồm:\n\n- 10 bông Hoa Hồng\n\n- 04 bông Cẩm Chướng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh73.jpg",
+    "color": "trắng;hồng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp74",
+    "title": "Bó Hoa Beautiful In White",
+    "price": 349000.0,
+    "description": "Bó hoa sang trọng và thanh khiết với hoa Hồng trắng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Beautiful In White gồm:\n\n \n\n- 24 bông Hoa Hồng trắng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh74.jpg",
+    "color": "trắng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp75",
+    "title": "Bình Hoa Thủy Tinh Wonderful Life",
+    "price": 399000.0,
+    "description": "Bình hoa thủy tinh kết hợp các loại hoa tươi như hoa Hồng, Cát Tường và Cẩm Chướng đầy ngọt ngào và tươi sáng sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBình Hoa Thủy Tinh Wonderful Life bao gồm:\n\n \n\n- 4 bông Hoa Hồng\n\n- Cẩm Chướng\n\n- Cát Tường\n\n- Bình thủy tinh\n\n- Các loại Hoa và Lá khác",
+    "imgLink": "/img/hinh75.jpg",
+    "color": "đỏ;hồng",
+    "type": "hoa hồng;hoa cẩm chướng",
+    "category": "sinh nhật;kỷ niệm;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp76",
+    "title": "Bó Hoa Sunny Queen",
+    "price": 299000.0,
+    "description": "Bó hoa khổng lồ được kết hợp nhiều loại hoa như Hướng Dương, Lily, Cúc, Đồng Tiền & Salem. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Sunny Queen gồm:\n\n- 03 bông Hướng Dương\n\n- 02 bông hoa Ly\n\n- 03 bông Cúc\n\n- 03 bông Đồng Tiền",
+    "imgLink": "/img/hinh76.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "tình yêu;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp77",
+    "title": "Sen Đá Cá Voi Xanh",
+    "price": 249000.0,
+    "description": "Sen đá đựng trong chậu hình cá voi đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh77.jpg",
+    "color": "xanh",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp78",
+    "title": "Sen Đá Gấu Trúc",
+    "price": 279000.0,
+    "description": "Sen đá đựng trong chậu hình gấu trúc đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh78.jpg",
+    "color": "trắng",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp79",
+    "title": "Sen Đá Hà Mã Xanh",
+    "price": 279000.0,
+    "description": "Sen đá đựng trong chậu hình hà mã đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh79.jpg",
+    "color": "xanh",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp80",
+    "title": "Sen Đá Voi Xanh",
+    "price": 249000.0,
+    "description": "Sen đá đựng trong chậu hình chú voi đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh80.jpg",
+    "color": "xanh",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp81",
+    "title": "Sen Đá Cá Sấu",
+    "price": 249000.0,
+    "description": "Sen đá đựng trong chậu hình cá sấu đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh81.jpg",
+    "color": "xanh",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp82",
+    "title": "Bó Hoa Hồng White Magic",
+    "price": 299000.0,
+    "description": "Bó hoa Hồng trắng được gói đẹp mắt và thanh lịch là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh82.jpg",
+    "color": "trắng",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp83",
+    "title": "Bó Hoa Hồng Trinity Love",
+    "price": 199000.0,
+    "description": "Bó 3 bông hoa Hồng trắng được gói đẹp mắt và thanh lịch là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh83.jpg",
+    "color": "trắng",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp84",
+    "title": "Bó Hoa Purple Love",
+    "price": 299000.0,
+    "description": "Bó hoa Cát Tường lãng mạn và nữ tính là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh84.jpg",
+    "color": "trắng",
+    "type": "hoa cát tường",
+    "category": "tình yêu;kỷ niệm;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp85",
+    "title": "Miss Globe",
+    "price": 349000.0,
+    "description": "Hộp hoa Cát Tường, Cẩm Chướng & Salem rất thanh lịch và sang trọng là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nMiss Globe gồm:\n\n- 06 bông Cẩm Chướng\n\n- 01 bông Cát Tường\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh85.jpg",
+    "color": "hồng",
+    "type": "hoa cẩm chướng",
+    "category": "tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp86",
+    "title": "Bó Hoa Angela",
+    "price": 349000.0,
+    "description": "Bó hoa gồm hoa Hồng, hoa Cẩm chướng và hoa Đồng tiền được gói rất thanh lịch và đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Angela gồm:\n\n- 03 bông hoa Hồng\n\n- 08 bông Cúc\n\n- 06 bông Đồng Tiền\n\n- 06 bông Cẩm Chướng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh86.jpg",
+    "color": "đỏ;trắng;hồng",
+    "type": "hoa hồng",
+    "category": "tình yêu;xin lỗi"
+  },
+  {
+    "id": "#sp87",
+    "title": "Bó Hoa Magical Land",
+    "price": 549000.0,
+    "description": "Bó hoa sang trọng và thanh khiết với hoa Hồng trắng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Magical Land gồm:\n\n- 11 bông Hoa Cúc\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh87.jpg",
+    "color": "tím;trắng",
+    "type": "hoa cúc",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp88",
+    "title": "Bó hoa Be Grateful",
+    "price": 399000.0,
+    "description": "Bó hoa sang trọng với các loại hoa Cúc được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó hoa Be Grateful gồm:\n\n- 06 bông hoa Cúc\n\n- 03 bông Cẩm Chướng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh88.jpg",
+    "color": "tím",
+    "type": "hoa cúc",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp89",
+    "title": "Giỏ Hoa Trái Cây Wish You Health",
+    "price": 599000.0,
+    "description": "Giỏ hoa trái cây nhập khẩu sang trọng và trang nhã là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nGiỏ Hoa Trái Cây Wish You Health gồm:\n\n- 04 bông Hướng Dương\n\n- 1.5 kg Cam (5 quả)",
+    "imgLink": "/img/hinh89.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;tình yêu;kỷ niệm;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp90",
+    "title": "Bó Hoa My Only Sunshine",
+    "price": 399000.0,
+    "description": "Bó hoa xinh xắn và đáng yêu với Hướng Dương và Baby trắng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa My Only Sunshine gồm:\n\n- 01 bông hoa Hướng Dương\n\n- Hoa Baby trắng",
+    "imgLink": "/img/hinh90.jpg",
+    "color": "vàng;trắng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp91",
+    "title": "Giỏ Hoa Trái Cây Wish You Luck",
+    "price": 699000.0,
+    "description": "Giỏ hoa trái cây nhập khẩu sang trọng và trang nhã là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\n Giỏ Hoa Trái Cây Wish You Luck gồm:\n\n- 04 bông Đồng Tiền\n\n- 02 bông Cẩm Chướng\n\n- 0.5 kg Nho\n\n- 1.5 kg Táo (Khoảng 10 quả)",
+    "imgLink": "/img/hinh91.jpg",
+    "color": "đỏ;trắng",
+    "type": "hoa đồng tiền",
+    "category": "sinh nhật;tình yêu;kỷ niệm;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp92",
+    "title": "Hộp Hoa Gỗ California Lover",
+    "price": 599000.0,
+    "description": "Bó hoa sang trọng và thanh khiết với hoa Hồng trắng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Gỗ California Lover gồm:\n\n- 24 bông Hoa Hồng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh92.jpg",
+    "color": "vàng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp93",
+    "title": "Bó Hoa Only You",
+    "price": 649000.0,
+    "description": "Bó hoa sang trọng và thanh khiết với hoa Hồng trắng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Only You gồm:\n\n- 01 bông hoa Hồng Ecuador\n\n- Hoa Baby\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh93.jpg",
+    "color": "đỏ;trắng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp94",
+    "title": "Hộp Hoa Moonlight Lover",
+    "price": 549000.0,
+    "description": "Hộp hoa sang trọng và thanh lịch với các loại hoa Hồng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Moonlight Lover gồm:\n\n- 24 bông Hoa Hồng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh94.jpg",
+    "color": "trắng;hồng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp95",
+    "title": "Hộp Hoa Secret Lover",
+    "price": 599000.0,
+    "description": "Hộp hoa sang trọng và thanh khiết với các loại hoa Hồng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Secret Lover gồm:\n\n- 24 bông Hoa Hồng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh95.jpg",
+    "color": "đỏ;hồng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp96",
+    "title": "Bó Hoa Mystery Of Love",
+    "price": 349000.0,
+    "description": "Bó hoa nữ tính và lãng mạn với hoa Hồng và Cát Tường tím. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Mystery Of Love gồm:\n\n- 01 bông hoa Hồng\n\n- Cát Tường\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh96.jpg",
+    "color": "tím",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp97",
+    "title": "Chiều Gặp!",
+    "price": 179000.0,
+    "description": "Bó hoa Cúc xanh & Cúc trắng xinh xắn sẽ là món quà nhỏ đáng yêu dành tặng bạn bè hay người thương của bạn.",
+    "imgLink": "/img/hinh97.jpg",
+    "color": "xanh",
+    "type": "hoa cúc",
+    "category": "xin lỗi"
+  },
+  {
+    "id": "#sp98",
+    "title": "Thương Thương!",
+    "price": 149000.0,
+    "description": "Bó hoa Hồng mini xinh xắn sẽ là món quà nhỏ đáng yêu dành tặng bạn bè hay người thương của bạn.\n\n \n\nThương Thương! gồm:\n\n- 01 bông hoa Hồng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh98.jpg",
+    "color": "hồng",
+    "type": "hoa hồng",
+    "category": "tình yêu"
+  },
+  {
+    "id": "#sp99",
+    "title": "Sen Đá Chó Bull",
+    "price": 249000.0,
+    "description": "Sen đá đựng trong chậu hình chó Bull đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh99.jpg",
+    "color": "vàng",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp100",
+    "title": "Sen Đá Gấu Trắng",
+    "price": 229000.0,
+    "description": "Sen đá đựng trong chậu hình gấu trắng siêu đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay để trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh100.jpg",
+    "color": "trắng",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp101",
+    "title": "Bó Hoa Angel",
+    "price": 299000.0,
+    "description": "Bó hoa kiểu cổ điển gồm Cẩm chướng trắng & hồng cùng hoa cúc xanh được gói rất thanh lịch và đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Angel gồm:\n\n- 08 bông Cúc\n\n- 14 bông Cảm Chướng\n\n- Cac loại hoa & lá khác",
+    "imgLink": "/img/hinh101.jpg",
+    "color": "trắng;đỏ",
+    "type": "hoa cúc;hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp102",
+    "title": "Bó Hoa Samantha",
+    "price": 349000.0,
+    "description": "Bó hoa độc đáo với sự kết hợp của hoa Hồng, Cẩm chướng, Đồng Tiền và hoa Baby xanh. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Samantha gồm:\n\n- 12 bông hoa Hồng\n\n- 04 bông Đồng Tiền\n\n- 10 bông Cẩm Chướng",
+    "imgLink": "/img/hinh102.jpg",
+    "color": "đỏ;hồng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp103",
+    "title": "Bó Hoa Purple Sunset",
+    "price": 299000.0,
+    "description": "Bó hoa độc đáo và lạ mắt với sự kết hợp của Cẩm Chướng & Cát Tường nhiều màu sắc phối hợp hài hòa với nhau. Là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh103.jpg",
+    "color": "tím",
+    "type": "hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp104",
+    "title": "Bó Hoa Hồng Trắng Pure Love",
+    "price": 249000.0,
+    "description": "Bó 6 bông hoa Hồng trắng được gói đẹp mắt và thanh lịch. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh104.jpg",
+    "color": "trắng",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp105",
+    "title": "Bó Hoa Passionate Heart",
+    "price": 299000.0,
+    "description": "Bó hoa sang trọng và thanh khiết với các loại hoa màu đỏ được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Passionate Heart gồm:\n\n- 06 bông Hoa Hồng\n\n- 06 bông Đồng Tiền\n\n- 06 bông Cẩm Chướng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh105.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng;hoa đồng tiền",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp106",
+    "title": "Hộp Hoa Sweet Surprise",
+    "price": 399000.0,
+    "description": "Hộp hoa theo phong cách vintage với hoa Hồng, Cúc & Baby được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Sweet Surprise gồm:\n\n- 11 bông Hoa Hồng\n\n- 01 bông hoa Hồng Ecuador\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh106.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp107",
+    "title": "Hộp Hoa & Chocolate Treat Of Love",
+    "price": 449000.0,
+    "description": "Hộp hoa chocolate sang trọng và thanh lịch với các loại hoa Hồng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa & Chocolate Treat Of Love gồm:\n\n- 12 bông Hoa Hồng\n\n- 08 viên kẹo chocolate Ferrero Rocher\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh107.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp108",
+    "title": "Bó Hoa Gentle Love",
+    "price": 599000.0,
+    "description": "Bó hoa sang trọng và thanh khiết với hoa Hồng trắng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Gentle Love gồm:\n\n- 01 bông Hoa Hồng\n\n- Hoa Baby\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh108.jpg",
+    "color": "trắng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;xin lỗi"
+  },
+  {
+    "id": "#sp109",
+    "title": "Bó Hoa Cúc Tana Pure Joy",
+    "price": 299000.0,
+    "description": "Bó hoa nhẹ nhàng và thanh khiết với hoa Cúc Tana được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.",
+    "imgLink": "/img/hinh109.jpg",
+    "color": "trắng",
+    "type": "hoa cúc",
+    "category": "sinh nhật;kỷ niệm;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp110",
+    "title": "Hộp Hoa Poetic Lover",
+    "price": 549000.0,
+    "description": "Hộp hoa sang trọng và thanh khiết với các loại hoa Hồng được gói xinh xắn. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nHộp Hoa Poetic Lover gồm:\n\n- 24 bông Hoa Hồng\n\n- Các loại hoa và lá khác",
+    "imgLink": "/img/hinh110.jpg",
+    "color": "vàng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp111",
+    "title": "Bó Hoa Sunset Love Đặc Biệt",
+    "price": 300000.0,
+    "description": "Hoa Hướng Dương được kết hợp cùng hoa Hồng rất hiện đại và độc đáo. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh111.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp112",
+    "title": "Giỏ hoa Diamond Love",
+    "price": 299000.0,
+    "description": "Những bông hoa xinh đẹp được cắm trên chiếc giỏ với màu đen quyền quý mang đến cảm giác mới lạ và tràn đầy sự ấm áp. Diamond Love tượng trưng cho tình yêu trong sáng ngây thơ luôn bền vững theo năm tháng như vẻ đẹp vĩnh cửu của viên kim cương vậy. Diamond Love - Tình yêu bền vững theo thời gian.",
+    "imgLink": "/img/hinh112.jpg",
+    "color": "vàng",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cảm ơn;xin lỗi"
+  },
+  {
+    "id": "#sp113",
+    "title": "Trà Sữa Nha!",
+    "price": 149000.0,
+    "description": "Bó hoa Hồng mini sẽ là món quà nhỏ đáng yêu dành tặng bạn bè hay người thương của bạn.\n\n \n\nTrà Sữa Nha! gồm:\n\n- 01 bông hoa Hồng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh113.jpg",
+    "color": "trắng",
+    "type": "hoa hồng",
+    "category": "tình yêu"
+  },
+  {
+    "id": "#sp114",
+    "title": "Combo Happy Birthday Pinky",
+    "price": 349000.0,
+    "description": "Combo gồm Bó Hoa Pinky, Gấu bông và Bóng bay Happy Birthday lãng mạn sẽ giúp bạn hạ gục trái tim người thương một cách đầy bất ngờ. Tiết kiệm 15% so với mua lẻ từng sản phẩm.\n\n \n\nBộ Hoa, Gấu Bông & Bóng Bay Sinh Nhật Pinky bao gồm:\n\n \n\n- Bó Hoa Pinky (03 bông hoa Hồng, 04 bông Đồng Tiền, 07 bông Cẩm Chướng)\n\n- Bóng Bay Happy Birthday\n\n- Gấu Bông",
+    "imgLink": "/img/hinh114.jpg",
+    "color": "hồng",
+    "type": "hoa hồng;hoa đồng tiền;hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu"
+  },
+  {
+    "id": "#sp115",
+    "title": "Bó Hoa Phi Yến Like A Dream",
+    "price": 499000.0,
+    "description": "Bó hoa mang gam màu pastel đầy trang nhã và lãng mạn với sự kết hợp của hoa Phi Yến cùng các loại hoa tươi khác. Đây sẽ là món quà bất ngờ và hoàn hảo dành tặng người thương, gia đình hoặc bạn bè.",
+    "imgLink": "/img/hinh115.jpg",
+    "color": "tím",
+    "type": "hoa phi yến",
+    "category": "tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp116",
+    "title": "Bó Hoa Cẩm Tú Cầu Floating Days",
+    "price": 199000.0,
+    "description": "Bó hoa Cẩm Tú Cầu nhẹ nhàng, đơn giản nhưng không kém phần xinh xắn sẽ là món quà bất ngờ đáng yêu dành tặng người thương, gia đình hoặc bạn bè.\n\n \n\nBó Hoa Cẩm Tú Cầu Ngày Bồng Bềnh bao gồm:\n\n- 3 bông Cẩm Tú Cầu",
+    "imgLink": "/img/hinh116.jpg",
+    "color": "trắng",
+    "type": "hoa cẩm tú cầu",
+    "category": "tình yêu"
+  },
+  {
+    "id": "#sp117",
+    "title": "Bó Hướng Dương Sunny Dreams",
+    "price": 499000.0,
+    "description": "Bó hoa gồm Hướng Dương, Đồng Tiền, Cúc, Cẩm Chướng & Salem được kết hợp hài hòa và đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh117.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "tình yêu;chúc mừng;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp118",
+    "title": "Sen Đá Ngựa Vằn",
+    "price": 249000.0,
+    "description": "Sen đá đựng trong chậu hình ngựa vằn đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh118.jpg",
+    "color": "trắng",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp119",
+    "title": "Sen Đá Cá Voi Hồng",
+    "price": 249000.0,
+    "description": "Sen đá đựng trong chậu hình cá voi đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh119.jpg",
+    "color": "hồng",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp120",
+    "title": "Sen Đá Gà Trống",
+    "price": 279000.0,
+    "description": "Sen đá đựng trong chậu hình chú gà đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh120.jpg",
+    "color": "trắng",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp121",
+    "title": "Sen Đá Hươu Cao Cổ",
+    "price": 229000.0,
+    "description": "Sen đá đựng trong chậu hình hươu cao cổ đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh121.jpg",
+    "color": "vàng",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp122",
+    "title": "Sen Đá Chó Xanh",
+    "price": 249000.0,
+    "description": "Sen đá đựng trong chậu hình chó xanh đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh122.jpg",
+    "color": "xanh",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp123",
+    "title": "Sen Đá Khủng Long Xanh",
+    "price": 229000.0,
+    "description": "Sen đá đựng trong chậu hình khủng long đáng yêu là món quà hoàn hảo dành tặng cho người bạn thân, đồng nghiệp, gia đình hay trang trí văn phòng, nhà ở.",
+    "imgLink": "/img/hinh123.jpg",
+    "color": "xanh",
+    "type": "sen đá",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp124",
+    "title": "Bó Hoa Christine",
+    "price": 299000.0,
+    "description": "Bó hoa độc đáo với Cẩm chướng trắng, hồng và xanh được gói rất thanh lịch và đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Christine gồm:\n\n- 24 bông Cẩm Chướng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh124.jpg",
+    "color": "đỏ;trắng;hồng",
+    "type": "hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp125",
+    "title": "Bó Hoa Camille",
+    "price": 299000.0,
+    "description": "Bó hoa khổng lồ với Hướng dương, Cẩm chướng, Mõm sói và Cúc xanh được kết hợp hài hòa và đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Camille gồm:\n\n- 05 bông Hướng Dương\n\n- 05 bông Cúc\n\n- 06 bông Đồng Tiền\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh125.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;kỷ niệm;chúc mừng;cảm ơn;chúc sức khoẻ;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp126",
+    "title": "Hộp Hoa Hồng & Chocolate Sweet Smile",
+    "price": 349000.0,
+    "description": "Hộp Hoa hồng đỏ cùng kẹo chocolate dạng viên ngon lành Ferrero Rocher là món quà độc đáo và ngọt ngào cho ngày Valentine, sinh nhật hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nGồm:\n\n- 04 bông Hoa Hồng\n\n- 10 viên chocolate Ferrero Rocher",
+    "imgLink": "/img/hinh126.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "tình yêu;kỷ niệm;cầu hôn;cảm ơn;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp127",
+    "title": "Bó Hoa Cúc Malaysia Regina",
+    "price": 349000.0,
+    "description": "Bó hoa độc đáo và xinh xắn khi kết hợp các loại hoa Cúc với nhiều màu sắc khác nhau. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh127.jpg",
+    "color": "tím;vàng;trắng",
+    "type": "hoa cúc",
+    "category": "chúc mừng"
+  },
+  {
+    "id": "#sp128",
+    "title": "Bó Hoa Queen",
+    "price": 445000.0,
+    "description": "Bó hoa độc đáo và lạ mắt với sự kết hợp của Cẩm chướng, Đồng tiền & hoa Cúc thể hiện tinh thần tự hào và lan tỏa tình yêu không phân biệt.",
+    "imgLink": "/img/hinh128.jpg",
+    "color": "đỏ;vàng;trắng",
+    "type": "hoa cẩm chướng",
+    "category": "sinh nhật;cảm ơn"
+  },
+  {
+    "id": "#sp129",
+    "title": "Bó Hoa Purple Warmth",
+    "price": 249000.0,
+    "description": "Bó hoa độc đáo và lạ mắt với sự kết hợp của hoa Đồng Tiền, Cẩm Chướng & Cúc sẽ là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Purple Warmth gồm:\n\n- 05 bông Cúc\n\n- 03 bông Đồng Tiền\n\n- 03 bông Cẩm Chướng",
+    "imgLink": "/img/hinh129.jpg",
+    "color": "hồng",
+    "type": "hoa cẩm chướng;hoa cúc",
+    "category": "sinh nhật;tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp130",
+    "title": "Bó Hoa Purple Twilight",
+    "price": 299000.0,
+    "description": "Bó hoa độc đáo và lạ mắt với sự kết hợp của hoa Cẩm chướng, Cúc tím & Cát Tường là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Purple Twilight gồm:\n\n- 04 bông Cúc\n\n- 03 bông Cẩm Chướng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh130.jpg",
+    "color": "tím",
+    "type": "hoa cẩm chướng;hoa cúc",
+    "category": "sinh nhật;tình yêu;kỷ niệm"
+  },
+  {
+    "id": "#sp131",
+    "title": "Bó Hoa Lily Princess",
+    "price": 299000.0,
+    "description": "Bó hoa thanh lịch và sang trọng với hoa Đồng Tiền, Cẩm chướng và Lily. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh131.jpg",
+    "color": "hồng;trắng",
+    "type": "hoa đồng tiền;hoa lily;hoa cẩm chướng",
+    "category": "sinh nhật;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp132",
+    "title": "Bó Hoa Hồng Pink Surprise",
+    "price": 249000.0,
+    "description": "Bó hoa hồng được gói rất đẹp mắt và thanh lịch. Là sự lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh132.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;chúc mừng;cảm ơn;chúc sức khoẻ;xin lỗi"
+  },
+  {
+    "id": "#sp133",
+    "title": "Bó Hoa Đồng Tiền Pink Delight",
+    "price": 249000.0,
+    "description": "Bó hoa Đồng Tiền được gói rất thanh lịch và trang nhã là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh133.jpg",
+    "color": "hồng",
+    "type": "hoa đồng tiền",
+    "category": "sinh nhật;tình yêu;cảm ơn;chúc sức khoẻ"
+  },
+  {
+    "id": "#sp134",
+    "title": "Bó Hoa Cúc Nicole",
+    "price": 299000.0,
+    "description": "Bó hoa độc đáo và lạ mắt gồm hoa Cúc và hoa Đồng Tiền nhiều màu sắc được gói rất thanh lịch và đẹp mắt. Đây là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh134.jpg",
+    "color": "vàng;trắng;đỏ",
+    "type": "hoa đồng tiền;hoa cúc",
+    "category": "chúc mừng;chúc sức khoẻ;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp135",
+    "title": "Miss Earth",
+    "price": 349000.0,
+    "description": "Hộp hoa gồm nhiều loại hoa như Cẩm Chướng, Cúc & Salem tím rất thanh lịch và sang trọng là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nMiss Earth gồm:\n\n- 02 bông Cúc\n\n- 10 bông Cẩm Chướng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh135.jpg",
+    "color": "hồng;tím",
+    "type": "hoa cẩm chướng;hoa cúc",
+    "category": "sinh nhật;tình yêu;kỷ niệm;chúc sức khoẻ"
+  },
+  {
+    "id": "#sp136",
+    "title": "Miss International",
+    "price": 299000.0,
+    "description": "Hộp hoa hồng trắng, hoa cúc và cẩm chướng tím rất thanh lịch và sang trọng là lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nMiss International gồm:\n\n- 04 bông hoa Hồng\n\n- 02 bông Cúc\n\n- 04 bông Cẩm Chướng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh136.jpg",
+    "color": "trắng;tím",
+    "type": "hoa hồng;hoa cúc;hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;chúc sức khoẻ"
+  },
+  {
+    "id": "#sp137",
+    "title": "Hộp Hoa Hồng Ecuador Love Me Tender",
+    "price": 399000.0,
+    "description": "Hộp hình trái tim sang trọng và độc đáo chứa Hoa hồng đỏ Ecuador cùng kẹo chocolate dạng viên ngon lành Ferrero Rocher. Đây là lựa chọn hoàn hảo cho ngày Valentine, sinh nhật hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nGồm:\n\n- 01 bông Hoa Hồng Ecuador\n\n- 10 viên chocolate Ferrero Rocher",
+    "imgLink": "/img/hinh137.jpg",
+    "color": "đỏ",
+    "type": "hoa hồng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;cảm ơn;xin lỗi"
+  },
+  {
+    "id": "#sp138",
+    "title": "Bó Hoa Lily Louise",
+    "price": 389000.0,
+    "description": "Bó hoa sang trọng với 6 bông hoa Hồng trắng và 4 bông hoa Lily được kết hợp hài hòa và đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine, sinh nhật hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh138.jpg",
+    "color": "trắng",
+    "type": "hoa hồng; hoa lily",
+    "category": "tình yêu"
+  },
+  {
+    "id": "#sp139",
+    "title": "Bó Hoa Lolita",
+    "price": 299000.0,
+    "description": "Bó hoa sang trọng với hoa Hồng và hoa Lily được kết hợp hài hòa và đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine, sinh nhật hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Lolita gồm:\n\n- 06 bông hoa Hồng\n\n- 04 bông hoa Ly\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh139.jpg",
+    "color": "đỏ;trắng",
+    "type": "hoa hồng; hoa lily",
+    "category": "tình yêu"
+  },
+  {
+    "id": "#sp140",
+    "title": "Bó Hoa Cúc Linda",
+    "price": 299000.0,
+    "description": "Bó hoa sang trọng với sự kết hợp của 3 bông hoa Đồng Tiền, 24 bông Cúc và 2 bông hoa Lily được kết hợp hài hòa và đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.",
+    "imgLink": "/img/hinh140.jpg",
+    "color": "vàng;đỏ;trắng",
+    "type": "hoa hồng; hoa lily; hoa cúc",
+    "category": "sinh nhật;cảm ơn;chúc sức khoẻ"
+  },
+  {
+    "id": "#sp141",
+    "title": "Bó Hoa Jed",
+    "price": 349000.0,
+    "description": "Bó hoa khổng lồ với hoa Hồng đỏ, Hướng dương, Cẩm chướng và hoa Ngâu được kết hợp hài hòa và đẹp mắt. Lựa chọn hoàn hảo cho ngày Valentine hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nBó Hoa Jed gồm:\n\n- 05 bông hoa Hồng\n\n- 03 bông Hướng Dương\n\n- 03 bông Cúc\n\n- 06 bông Đồng Tiền\n\n- 07 bông Cẩm Chướng\n\n- Các loại hoa & lá khác",
+    "imgLink": "/img/hinh141.jpg",
+    "color": "vàng;đỏ;trắng;xanh",
+    "type": "hoa hồng;hoa hướng dương;hoa cúc",
+    "category": "sinh nhật;kỷ niệm;cầu hôn;chúc mừng;chúc sức khoẻ;mừng tốt nghiệp"
+  },
+  {
+    "id": "#sp142",
+    "title": "Hộp Hoa Cẩm Chướng & Chocolate Into My Heart",
+    "price": 349000.0,
+    "description": "Hộp hình trái tim sang trọng và độc đáo chứa hoa Cẩm chướng đỏ cùng kẹo chocolate dạng viên ngon lành Ferrero Rocher. Lựa chọn hoàn hảo cho ngày Valentine, sinh nhật hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nGồm:\n\n- 04 bông Cẩm Chướng\n\n- 10 viên chocolate Ferrero Rocher",
+    "imgLink": "/img/hinh142.jpg",
+    "color": "đỏ",
+    "type": "hoa cẩm chướng",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;cảm ơn;mừng tốt nghiệp;xin lỗi"
+  },
+  {
+    "id": "#sp143",
+    "title": "Hộp Hoa Hướng Dương & Chocolate Golden Heart",
+    "price": 349000.0,
+    "description": "Hộp hình trái tim sang trọng và độc đáo với Hoa hướng dương và kẹo chocolate dạng viên ngon lành Ferrero Rocher. Đây là lựa chọn hoàn hảo cho ngày Valentine, sinh nhật hoặc bất kỳ dịp đặc biệt nào.\n\n \n\nGồm:\n\n- 01 bông Hoa Hướng Dương\n\n- 10 viên chocolate Ferrero Rocher",
+    "imgLink": "/img/hinh143.jpg",
+    "color": "vàng",
+    "type": "hoa hướng dương",
+    "category": "sinh nhật;tình yêu;kỷ niệm;cầu hôn;cảm ơn;mừng tốt nghiệp;xin lỗi"
+  }
+]

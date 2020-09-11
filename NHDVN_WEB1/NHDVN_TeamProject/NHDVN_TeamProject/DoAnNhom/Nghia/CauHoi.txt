@@ -1,0 +1,11 @@
+﻿1.Font thế nào, cỡ chữ thế nào, màu chữ thế nào để tạo cảm giác như hoa?
+2. Gia Bi Lech
+3.Lí Luận về sự giáo dục giữa các tương tác lai (máy tính và điện thoại)
+4.Tương tác khách hàng và cảm nhận khách hàng
+- Tính cá nhân hoá (Personalization) - Liệu có thể đem lại cảm giác đó
+5. Vấn đề UX trên thiết bị (trong khi ipad ở giữa), còn điện thoại thì ở 1 bên tay thuận
+6.Loại bỏ cache bằng kèm tên phiên bản trong external file
+7.Kiến thức css còn rất thô sơ - kết hợp chưa hiệu quả.
+8. Vấn đề cỡ chữ và % trong màn hình tạo nên trải nghiệm khách hàng
+9. Sắp xếp màu hoa cho hợp lí
+10.Load mockup xong mới load item

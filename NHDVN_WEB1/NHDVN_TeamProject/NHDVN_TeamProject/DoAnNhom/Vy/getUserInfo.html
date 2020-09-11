@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>User Info</title>
+    <script src="../JS/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <h1>test get user info</h1>
+    <p id="ip"></p>
+    <p id="mac"></p>
+    <p id="user"></p>
+    <p id="cart"></p>
+    <a href="getUserInfoTestCookie.html">Go to test cookie page</a>
+    <script>
+        $.getJSON('https://api.ipify.org?format=json', function (data) {
+            console.log(document.cookie)
+            document.getElementById("ip").innerHTML = data.ip
+            document.cookie = data.ip
+        });
+    </script>
+</body>
+</html>

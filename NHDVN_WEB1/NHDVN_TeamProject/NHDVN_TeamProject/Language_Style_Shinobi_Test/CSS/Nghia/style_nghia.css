@@ -1,0 +1,52 @@
+﻿.boxKhung3 {
+    background-color: white;
+    width: 25%;
+    border-radius: 5px;
+    height: auto;
+    /**/
+    box-shadow: rgba(0,0,0,0.05) 10px 10px;
+    /**/
+    box-sizing: inherit;
+    flex: none;
+    /*làm padding và margin*/
+    margin:0 auto;
+    padding: 1rem;
+}
+    .boxKhung3:hover {
+        box-shadow: rgba(0,0,0,0.15) 10px 10px;
+    }
+.iconKhung3 {
+    margin: auto;
+    display: block;
+    align-content:center;
+    width:70px;
+    min-height:50px;
+    max-height:70px;
+    box-sizing: inherit;
+}
+.contentWrapperKhung3 {
+    padding: 1rem;
+    width:100%;
+    padding:0 1rem;
+    box-sizing: inherit;
+}
+.contentTitleKhung3 {
+    font-size:1.5rem;
+    font-weight:400;
+    line-height:1.5;
+    box-sizing: inherit;
+}
+.contentMainKhung3 {
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+    box-sizing: inherit;
+    text-align:justify;
+}
+.container {
+    width: 100%;
+    background-color: aqua;
+    height: 500px;
+    padding: 2rem 0; /*60px = 2rem*/
+    display: flex;
+}
+/*content người ta vừa chỉnh padding cái bên ngoài, vừa chỉnh margin bên trong ???*/

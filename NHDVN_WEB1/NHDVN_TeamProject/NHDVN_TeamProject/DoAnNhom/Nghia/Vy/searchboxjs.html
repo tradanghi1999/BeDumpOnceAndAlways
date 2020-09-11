@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Search Box</title>
+    <style>
+        .container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .form-control {
+            display: block;
+            width: 97%;
+            height: 2rem;
+            border-radius: .4rem;
+            border: 1px solid #c4c2c2;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        input:focus, select:focus, textarea:focus, button:focus {
+            outline: none;
+            box-shadow: 0px 0px 0px 2px rgb(133, 203, 254);
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        .recommend-hints {
+            outline: none;
+            width: inherit;
+            flex-direction: column;
+            border-radius: .2rem;
+            margin: 1rem 0 0 0;
+            overflow: hidden;
+        }
+
+        .recommend-hints-row
+        {
+
+        }
+        .recommend-hints-entry {
+            padding: 0.2rem 1rem 0.2rem 1rem;
+            width: 100%;
+            display:inline-block;
+            text-decoration: none;
+            background-color: white;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+            .recommend-hints-entry:hover {
+                background-color: lightgrey;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Filterable Table</h2>
+        <p>Type something in the input field to search the table for first names, last names or emails:</p>
+        <div id="search-form">
+            <input class="form-control" type="text" placeholder="Search.." oninput="search(this.value)">
+            <div class="recommend-hints" style="display:none"></div>
+        </div>
+        <br>
+        <table class="table table-bordered table-striped" width="100%" border="1">
+            <thead>
+                <tr>
+                    <th>Tên hoa</th>
+                    <th>Mục đích sử dụng</th>
+                    <th>Link</th>
+                    <th>Img</th>
+                    <th>Price</th>
+                </tr>
+            <tbody id="myTable">
+            </tbody>
+        </table>
+        <p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+    </div>
+    <script>
+        var data = [
+            {
+                "title": "hoa1",
+                "type": "đám cưới",
+                /*"color": ["đỏ", "vàng", "hồng"],*/
+                "link": "this is link",
+                "img": "this is img",
+                "price": "190.000"
+            },
+            {
+                "title": "hoa2",
+                "type": "cầu hôn",
+                /*"color": ["đỏ", "trắng"],*/
+                "link": "this is link",
+                "img": "this is img",
+                "price": "190.000"
+            }
+        ]
+        let table = document.getElementById("myTable")
+        for (let element of data) {
+            let row = table.insertRow()
+            for (key in element) {
+                let cell = row.insertCell()
+                let text = document.createTextNode(element[key])
+                cell.appendChild(text)
+            }
+        }
+        function search(value) {
+            generateRecommendbox(value);
+            let table = document.getElementById("myTable")
+            var row = table.getElementsByTagName("tr")
+            for (var i = 0; i < row.length; i++) {
+                var td = row[i].getElementsByTagName("td")
+                var searchtext = "";
+                for (var j = 0; j < td.length; j++) {
+                    searchtext = searchtext + td[j].textContent;
+                    searchtext = searchtext.toLowerCase()
+                    //console.log("searchtext: ", searchtext)
+                }
+                value = value.toLowerCase()
+                //console.log("value: ", value)
+                //console.log("is includes: ", searchtext.includes(value))
+                if (searchtext.includes(value)) {
+                    row[i].style.display = ""
+                } else {
+                    row[i].style.display = "none"
+                }
+            }
+        }
+        function generateRecommendbox(value, recommendbox) {
+            var recommendBox = document.getElementsByClassName("recommend-hints")[0]
+            console.log("recommendBox ", recommendBox);
+            recommendBox.innerHTML = ""
+            //recommendBox.style.overflow="initial";
+            recommendBox.style = "none";
+            let table = document.getElementById("myTable")
+            var row = table.getElementsByTagName("tr")
+
+            for (var i = 0; i < row.length; i++) {
+                var td = row[i].getElementsByTagName("td")
+                for (var j = 0; j < td.length; j++) {
+                    var searchtext = td[j].innerText;
+                    console.log("searchtext ",searchtext)
+                    if (searchtext.includes(value) && value != null && value != "") {
+                        console.log("qualified searchtext ",searchtext)
+                        let text = document.createTextNode(searchtext)
+
+                        var recommendBoxItem = document.createElement("a")
+                        recommendBoxItem.setAttribute("class", "recommend-hints-entry")
+                        recommendBoxItem.appendChild(text)
+
+                        var recommendBoxItemDiv = document.createElement("div")
+
+                        recommendBox.appendChild(recommendBoxItemDiv);
+                        recommendBoxItemDiv.appendChild(recommendBoxItem);
+
+
+                        if (document.getElementsByClassName("recommend-hints-entry").length > 6) {
+                            break;
+                        }
+                        //recommendBox.removeAttribute("style");
+                        //recommendBox.style.display = "flexbox"
+                        recommendBox.style.boxShadow = "0px 0px 2px 1px rgba(226, 226, 226, 0.84)"
+                    } else {
+                        let text = document.createTextNode("")
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

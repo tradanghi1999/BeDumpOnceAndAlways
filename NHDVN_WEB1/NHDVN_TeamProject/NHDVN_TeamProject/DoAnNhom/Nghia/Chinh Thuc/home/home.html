@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .preload {
+            background-color: #E3E3E3;
+        }
+            /**/
+
+            .preload > .header {
+                background-color: white;
+                padding-top: 0px;
+            }
+
+        .headerMenu {
+            display: flex;
+            flex-flow: wrap row;
+            background-color: #d79abc;
+            color: white;
+            /**/
+            font-size: 25px;
+            height: 50px;
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+            .headerMenu .start, .headerMenu .end {
+                flex-grow: 1;
+            }
+
+        .headerMenuContent {
+            display: flex;
+            flex-flow: row wrap;
+            flex-grow: 0;
+            width: 960px;
+        }
+
+            .headerMenuContent ul li {
+                width: 160px;
+            }
+
+                .headerMenuContent ul li:hover {
+                    background-color: #6a1051;
+                }
+
+        .headerMenu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #a05f96;
+            height: 50px;
+        }
+
+        .headerMenu li {
+            float: left;
+            text-align: center;
+        }
+
+            .headerMenu li a, .preload > .headerMenu .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 11px 16px;
+                text-decoration: none;
+            }
+
+
+
+
+        .preload > .headerMenu li.dropdown {
+            display: inline-block;
+        }
+
+        .preload > .headerMenu .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #d79abc;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .preload > .headerMenu .dropdown-content a {
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .preload > .headerMenu .dropdown-content a:hover {
+                    background-color: #6a1051;
+                }
+
+        .preload > .headerMenu .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .headerInfo {
+            margin: 0 auto;
+            justify-content: space-between;
+            width: 1190px;
+        }
+
+            .headerInfo input {
+                font-size: 20px;
+            }
+
+
+            .headerInfo .imga {
+                background: 0;
+                margin-right: auto;
+                display: flex;
+            }
+
+
+            .headerInfo .search_wrapper {
+                border: solid lightgray;
+                border-radius: 50px;
+                padding: 5px 10px;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+
+            .headerInfo .search_input {
+                height: 30px;
+                width: 500px;
+                border: 0;
+            }
+
+            .headerInfo .search_button {
+                background: 0;
+                border: 0;
+                color: #d79abc
+            }
+
+
+
+            .headerInfo .imgb {
+                background: none;
+                margin-left: auto;
+                display: flex;
+                margin-top: auto;
+                margin-bottom: auto;
+                color: #d79abc
+            }
+
+            .headerInfo .imgc a:hover {
+                color: #6a1051;
+            }
+
+            .headerInfo .imgb a:hover {
+                color: #6a1051;
+            }
+
+            .headerInfo .search_button:hover {
+                color: #6a1051;
+            }
+
+            .headerInfo .imgc {
+                background: 0;
+                margin-left: 50px;
+                display: flex;
+                margin-top: auto;
+                margin-bottom: auto;
+                color: #d79abc;
+            }
+
+        .headerInfo {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+
+
+        /**/
+        .preload > .body {
+            /*background-color: #FFFFFF;*/
+            padding: 10px 150px;
+        }
+
+            .preload > .body > .banner {
+                width: 100%;
+                height: 600px;
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                flex-flow: wrap row;
+                justify-content: center;
+                align-content: center;
+            }
+
+                .preload > .body > .banner > img {
+                    width: 800px;
+                    height: 500px;
+                    background-color: #E3E3E3;
+                    border: 0;
+                    outline: 0;
+                }
+
+            .preload > .body > .grid {
+                margin-top: 10px;
+                background-color: white;
+                padding: 40px 30px;
+                padding-bottom: 20px;
+                border-radius: 5px;
+            }
+
+                .preload > .body > .grid > .gridTitle {
+                    background-color: #E3E3E3;
+                    width: 400px;
+                    min-height: 25px;
+                    /*border-radius: 5px;*/
+                    margin-bottom: 5px;
+                }
+
+                .preload > .body > .grid > .gridContent {
+                    /*width: 400px;*/
+                    min-height: 40px;
+                    /*border-radius: 5px;*/
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 0 0;
+                    justify-content: space-between;
+                    margin-bottom: 0;
+                }
+
+        .itemId {
+            display: none;
+            /*border-radius: 5px;*/
+        }
+
+        .preload > .body > .grid > .gridContent > .item {
+            background-color: #fff;
+            /*width: 400px;*/
+            min-height: 40px;
+            /*border-radius: 5px;*/
+            width: 250px;
+            text-align: center;
+            display: flex;
+            flex-flow: column wrap;
+            min-height: 300px;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+            .preload > .body > .grid > .gridContent > .item > .itemImg {
+                /*Mockup propertise*/
+                height: 180px;
+                width: 180px;
+                border: none;
+                /*Real Propertise*/
+                background-color: #E3E3E3;
+                margin-left: auto;
+                margin-right: auto;
+                justify-self: flex-start;
+            }
+
+            .preload > .body > .grid > .gridContent > .item > .itemName {
+                margin-top: 10px;
+                background-color: #E3E3E3;
+                height: 12px;
+                width: 150px;
+            }
+
+            .preload > .body > .grid > .gridContent > .item > .itemPrice {
+                height: 16px;
+                width: 125px;
+                margin-top: 10px;
+                background-color: #E3E3E3;
+                font-weight: lighter;
+                /**/
+            }
+
+            .preload > .body > .grid > .gridContent > .item > .addToCart {
+                margin-top: 10px;
+                width: 180px;
+                font-size: 18px;
+                background-color: #E3E3E3;
+                padding: 6px 0;
+                color: #008b8b;
+                font-weight: 700;
+                letter-spacing: 1px;
+                /**/
+            }
+
+        .preload > .body > .grid > .gridMore {
+            text-align: center;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+
+        .preload > .footer {
+        }
+    </style>
+    <script type="text/javascript">
+
+    </script>
+    <!-- Loading Screen -->
+</head>
+<body class="preload">
+
+    <div class="headerMenu">
+        <div class="start"></div>
+        <div class="headerMenuContent">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Dropdown</a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#home">Home</a></li>
+            </ul>
+        </div>
+        <div class="end"></div>
+    </div>
+    <div class="header">
+        <div class="headerInfo">
+            <div class="imga">
+                <a href="homepage_Dung.html" target="_self">
+                    <img src="icons8-flower-64.png" />
+                </a>
+            </div>
+
+            <form class="search_wrapper" action="/action_page.php">
+                <input class="search_input" type="text" placeholder="Search here ..." />
+                <button class="search_button" type="submit">
+                    <i class="fas fa-search fa-2x"></i>
+                </button>
+            </form>
+
+            <div class="imgb">
+                <a>
+                    <i class="far fa-user-circle fa-2x"></i>
+                </a>
+
+            </div>
+            <div class="imgc">
+                <a>
+
+                    <i class="fas fa-shopping-cart fa-2x" style="color"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="body">
+        <div class="banner"><img /></div>
+        <div class="grid">
+            <!--hàng 1-->
+            <div class="gridTitle"></div>
+            <!-- hàng 2-->
+            <div style="" class="gridContent">
+                <!--hình ảnh 1-->
+                <div class="item">
+                    <div class="itemId">&nbsp;</div>
+                    <div class="itemImg">&nbsp;</div>
+                    <div class="itemName">&nbsp;</div>
+                    <div class="itemPrice">&nbsp;</div>
+                    <div class="addToCart">&nbsp;</div>
+                    <div class="addToCart-mb">&nbsp;</div>
+                </div>
+
+                <!--hình ảnh 2-->
+                <div class="item">
+                    <div class="itemId">&nbsp;</div>
+                    <div class="itemImg">&nbsp;</div>
+                    <div class="itemName">&nbsp;</div>
+                    <div class="itemPrice">&nbsp;</div>
+                    <div class="addToCart">&nbsp;</div>
+                    <div class="addToCart-mb">&nbsp;</div>
+                </div>
+                <!--hình ảnh 3-->
+                <div class="item">
+                    <div class="itemId">&nbsp;</div>
+                    <div class="itemImg">&nbsp;</div>
+                    <div class="itemName">&nbsp;</div>
+                    <div class="itemPrice">&nbsp;</div>
+                    <div class="addToCart">&nbsp;</div>
+                    <div class="addToCart-mb">&nbsp;</div>
+                </div>
+                <!--hình ảnh 4-->
+
+            </div>
+            <!--hàng 3-->
+            <div class="gridMore" onclick="themItem(this)">
+                <div>+</div>
+            </div>
+        </div>
+    </div>
+
+
+    <link href="../../../Dung/fontawesome/css/all.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .wrapperFtr {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-flow: wrap;
+            justify-content: space-between;
+        }
+
+        .itemFtr {
+            color: white;
+            padding: 0 0rem;
+            text-align: left;
+        }
+
+        .containerFtr {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .footer {
+            background-color: #f56e6e;
+            padding: 10px 150px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+        }
+
+        .itemFtr ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            .itemFtr ul li {
+                padding: 5px 0;
+            }
+
+        .socialFtr {
+            margin: 1rem;
+            color: white;
+        }
+
+        .siteFtr {
+            text-decoration: none;
+            color: white;
+        }
+
+            .siteFtr:hover {
+                box-shadow: inset 0 -30px 0 0 white;
+                color: #f56e6e;
+            }
+    </style>
+    <div class="footer">
+        <div class="containerFtr">
+            <!--thông tin liên hệ-->
+            <div class="wrapperFtr">
+                <div class="itemFtr">
+                    <h3>Liên hệ</h3>
+                    <ul>
+                        <li>
+                            Về chúng tôi
+
+                        </li>
+                        <li>
+                            Nói về chúng tôi
+
+                        </li>
+                        <li>
+                            Đánh giá từ khách hàng
+
+                        </li>
+                        <li>
+                            Cầu hôn cùng chúng tôi
+
+                        </li>
+                        <li>
+                            Doanh nghiệp
+
+                        </li>
+                        <li>
+                            Hướng dẫn chăm sóc hoa
+
+                        </li>
+                        <li>
+                            Blog
+
+                        </li>
+                        <li>
+                            Affiliates program
+                        </li>
+                    </ul>
+                </div>
+                <div class="itemFtr">
+                    <h3>Chăm sóc khách hàng</h3>
+                    <ul>
+                        <li>
+                            Liên hệ với chúng tôi
+
+                        </li>
+                        <li>
+                            Câu hỏi thường gặp
+
+                        </li>
+                        <li>
+                            Phương thức thanh toán
+
+                        </li>
+                        <li>
+                            Chính sách đổi trả
+
+                        </li>
+                        <li>
+                            Chính sách bảo mật
+
+                        </li>
+                        <li>Các điều khoản khác</li>
+                    </ul>
+                </div>
+                <div class="itemFtr">
+                    <h3>Bạn có câu hỏi?</h3>
+                    <ul>
+                        <li>
+                            Thứ 2-6 (8AM-8PM)<br />
+                            Thứ 7 & CN (9AM-6PM)
+
+
+                        </li>
+                        <li>
+                            Hotline: 1900 63 35 37
+
+                        </li>
+                        <li>
+                            Facebook: flowerstore.vn
+
+                        </li>
+                        <li>
+                            Email: contact@flowerstore.vn
+
+
+                        </li>
+                        <li>
+                            Doanh nghiệp:<br />
+                            corporate@flowerstore.vn
+
+
+                        </li>
+                        <li>Marketing: marketing@flowerstore.vn</li>
+                    </ul>
+                </div>
+                <div class="itemFtr">
+                    <h3>Cửa hàng có mặt tại</h3>
+                    <ul>
+                        <li>
+                            Vietnam
+
+
+                        </li>
+                        <li>
+                            The Philippines
+
+
+                        </li>
+                        <li>
+                            Zalo<br />
+                            <i class="far fa-envelope fa-7x"></i>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--các mạng xã hội-->
+            <div>
+                <p>
+                    <hr style="border:1px solid white" />
+                    <a href="#" class="socialFtr"><i class="fab fa-youtube fa-2x"></i></a>
+                    <a href="#" class="socialFtr"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href="#" class="socialFtr"><i class="fab fa-facebook-messenger fa-2x"></i></a>
+                    <a href="#" class="socialFtr"><i class="fab fa-instagram fa-2x"></i></a>
+                    <hr style="border:1px solid white" />
+                </p>
+            </div>
+            <!--địa chỉ trang web, bản quyền,...-->
+            <div>
+                <span>&copy; 2019 <a href="#" class="siteFtr">davuflower.vn</a> </span>
+            </div>
+        </div>
+    </div>
+    <script src="../../../JS/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        preloadData();
+        function preloadData() {
+            var gridContent = document.getElementsByClassName("gridContent")[0];
+            var item = gridContent.getElementsByClassName("item")[0];
+            var itemRect = item.getBoundingClientRect();
+            var gridContentRect = gridContent.getBoundingClientRect();
+
+            var numberOfItemOnRow = (Math.floor(gridContentRect.width / itemRect.width));
+
+
+            var spaceBetweenItems = (gridContentRect.width - numberOfItemOnRow * itemRect.width) / (numberOfItemOnRow - 1);
+            var spaceRate = spaceBetweenItems / gridContentRect.width;
+            if (spaceRate < 0.04)
+                numberOfItemOnRow = numberOfItemOnRow - 1;
+            if (numberOfItemOnRow <= 2)
+                alert(numberOfItemOnRow + " " + window.outerWidth + " " + window.innerWidth);
+            //alert(numberOfItemOnRow);
+            gridContent.innerHTML = "";
+            for (var i = 0; i < numberOfItemOnRow; i++) {
+                var newItem = document.createElement("div");
+                newItem.className = "item";
+                newItem.innerHTML += item.innerHTML;
+                gridContent.appendChild(newItem);
+            }
+        }
+        var product;
+        var category;
+
+        function fetchJSONFile(path, variable, callback) {
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = function () {
+                if (httpRequest.readyState === 4) {
+                    if (httpRequest.status === 200) {
+                        switch (variable) {
+                            case "product": {
+                                product = JSON.parse(httpRequest.responseText);
+                                if (callback) callback(product)
+                                break;
+                            }
+                            case "category": {
+                                category = JSON.parse(httpRequest.responseText);
+                                if (callback) callback(category)
+                                break;
+                            }
+                        }
+                    }
+                }
+            };
+            httpRequest.open('GET', path);
+            httpRequest.send();
+        }
+
+        fetchJSONFile('data/data_sanpham.json', "product", null);
+
+        fetchJSONFile('data/data_homepage.json', "category", function () {
+            let firstGrid = true;
+            for (var key in category) {
+                if (category.hasOwnProperty(key)) {
+                    let gridContent = "";
+                    if (firstGrid) {
+                        firstGrid = false;
+                        let grid = $(".grid")
+                        let gridTitle = $(grid).eq(0).find(".gridTitle")
+                        $(gridTitle).eq(0).text(key);
+                        gridContent = $(grid).eq(0).find(".gridContent")
+
+                        let productId = category[key];
+                        for (let i = 0, showItem = 0; i < productId.length && showItem < 3; i++ , showItem++) {
+                            let item = $(gridContent).find(".item")
+                            let id = $(item).eq(showItem).find(".itemId").eq(0).text(productId[i])
+
+                            for (let j = 0; j < product.length && showItem < 3; j++) {
+                                if (product[j].id.includes(productId[i])) {
+                                    let img = $("<img></img>").attr("src", "data" + product[j].imgLinkSmall1);
+                                    $(item).eq(showItem).find(".itemImg").eq(0).empty().append(img)
+                                    $(item).eq(showItem).find(".itemName").eq(0).text(product[j].title)
+                                    $(item).eq(showItem).find(".itemPrice").eq(0).text(product[j].price)
+                                    break;
+                                }
+                            }
+                        }
+
+                    } else {
+                        let body = $("body");
+                        let grid = $("<div class='grid'></div>").insertAfter($(".grid").eq($(".grid").length - 1));
+                        let gridTitle = $("<div class='gridTitle'></div>");
+                        $(gridTitle).text(key).appendTo(grid);
+                        gridContent = $("<div class='gridContent'></div>");
+                        $(gridContent).insertAfter(gridTitle);
+
+                        let productId = category[key];
+                        for (let i = 0, showItem = 0; i < productId.length && showItem < 3; i++ , showItem++) {
+                            let item = $("<div class='item'></item>").appendTo(gridContent);
+                            let id = $("<div class='itemId'></div>").text(productId[i]).appendTo(item)
+
+                            for (let j = 0; j < product.length && showItem < 3; j++) {
+                                if (product[j].id.includes(productId[i])) {
+                                    let img = $("<img></img>").attr("src", "data" + product[j].imgLinkSmall1);
+                                    $("<div class='itemImg'></div>").append(img).appendTo(item)
+                                    $("<div class='itemName'></div>").text(product[j].title).appendTo(item)
+                                    $("<div class='itemPrice'></div>").text(product[j].price).appendTo(item)
+                                    $("<div class='addToCart'></div>").html("&nbsp;").appendTo(item)
+                                    $("<div class='addToCart-mb'></div>").html("&nbsp;").appendTo(item)
+                                    break;
+                                }
+                            }
+                        }
+                        let watchMore = $("<div></div>").text("+")
+                        $("<div class='gridMore' onclick='themItem(this)'></div>").append(watchMore).insertAfter(gridContent)
+                    }
+
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>

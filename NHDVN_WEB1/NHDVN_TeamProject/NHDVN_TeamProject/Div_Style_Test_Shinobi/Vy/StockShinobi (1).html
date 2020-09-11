@@ -1,0 +1,222 @@
+﻿<html>
+<head>
+    <meta charset="utf-8">
+    <title>Giới thiệu</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/ico/logo100.ico">
+    <script src="https://kit.fontawesome.com/90d931ea55.js"></script>
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+    <style>
+        ::placeholder {
+            color: lightgray;
+            font-size: 0.8rem;
+        }
+
+        .btnSearch {
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 0 1.2rem 1.2rem 0;
+            border: 1px solid lightgray;
+            padding: 0.1rem 0.8rem;
+        }
+
+        .ipSearch {
+            border-radius: 1.2rem 0 0 1.2rem;
+            box-shadow: inset 0 1px 1px #eae4e4;
+            border: 1px solid lightgray;
+            padding: 0.1rem 1rem
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            width: 9rem;
+            padding: 12px 16px;
+            z-index: 1;
+            margin: 2rem;
+            border: 1px none lightgray;
+            border-radius: 0.5rem;
+            border: 1px solid lightgray;
+            background: #ffffff;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #f2f0f0;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: 1px none lightgray;
+            border-radius: 0.2rem;
+            outline: none;
+            color: black;
+            background-color: inherit;
+            font-family: inherit; /* Important for vertical align on mobile phones */
+            align-items: center;
+            width: 8rem;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+            right: 0;
+            align-items: inherit;
+            box-sizing: inherit;
+            height: 100%;
+        }
+
+        .dropdown-cell {
+            margin: .3rem .2rem 0 .1rem;
+            text-align: left;
+        }
+
+        .inline-div {
+            align-items: inherit;
+            box-sizing: inherit;
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            height: 100%
+        }
+
+
+        .font-general {
+            font-size: 1.5rem;
+            color: #3273dc;
+            font-family: 'Segoe UI';
+            margin-left: 0.3rem;
+        }
+    </style>
+</head>
+<body>
+    <div style="margin: -8px; width:auto; height:auto; box-sizing:border-box">
+
+        <div style="display:block;position:sticky; z-index:auto; width:inherit; height:3rem; padding: 1.2rem 1.2rem">
+
+            <div style="margin:8px,8px; width:inherit; height:inherit;">
+
+                <div style="padding:0 4rem; width:inherit; height:inherit; display:flex">
+
+                    <a style="text-decoration:none; margin:0.5rem 0.5rem;align-content:center; box-sizing:inherit;display:flex; cursor:pointer" href="StockShinobi.html">
+                        <img src="https://stockshinobi.com/static/image/logo100.png" style="max-width:2rem; max-height:3rem">
+                        <span class="font-general">StockShinobi</span>
+                    </a>
+
+                    <div style="align-content:center; box-sizing:inherit;display:flex; width:100%; margin-left:1rem">
+
+                        <div style="padding: 0.5rem 0;margin-right:auto;box-sizing:inherit;">
+                            <div class="inline-div" s="">
+                                <input class="ipSearch" placeholder="mã CK, Index, ...">
+                                <button class="btnSearch">
+                                    <i class="fas fa-search" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div style="padding: 0.5rem 0;margin-left:auto;box-sizing:inherit;display: inherit;">
+                            <div class="inline-div dropdown">
+                                <button class="font-general dropbtn">
+                                    <span>
+                                        <i class="fas fa-heart" aria-hidden="true" style="color:#7780e9"></i>
+                                    </span>
+                                    <span>Giới thiệu</span>
+                                    <span>
+                                        <i class="fas fa-chevron-down" style="color:#7780e9" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#" style="text-decoration:none; color:black">
+                                        <span><i class="fas fa-award dropdown-cell" style="color:#7780e9" aria-hidden="true"></i></span>
+                                        <span>Tổng quan</span>
+                                    </a>
+                                    <a href="#" style="text-decoration:none; color:black">
+                                        <span><i class="fas fa-briefcase dropdown-cell" style="color:#7780e9" aria-hidden="true"></i></span>
+                                        <span>Ứng dụng</span>
+                                    </a>
+                                    <a href="#" style="text-decoration:none; color:black">
+                                        <span><i class="fas fa-server dropdown-cell" style="color:#7780e9" aria-hidden="true"></i></span>
+                                        <span>Hạ tầng</span>
+                                    </a>
+                                    <a href="#" style="text-decoration:none; color:black">
+                                        <span><i class="fas fa-file-signature dropdown-cell" style="color:#7780e9" aria-hidden="true"></i></span>
+                                        <span>Liên hệ</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="inline-div dropdown">
+                                <button class="font-general dropbtn">
+                                    <span>
+                                        <i class="fas fa-heart" aria-hidden="true" style="color:#7780e9"></i>
+                                    </span>
+                                    <span>Dự báo</span>
+                                    <span>
+                                        <i class="fas fa-chevron-down" style="color:#7780e9" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#" style="text-decoration:none; color:black">
+                                        <span><i class="fas fa-arrow-circle-down" style="color:#7780e9" aria-hidden="true"></i></span>
+                                        <span>Xu hướng giảm</span>
+                                    </a>
+                                    <a href="#" style="text-decoration:none; color:black">
+                                        <span><i class="fas fa-arrow-circle-up" style="color:#7780e9" aria-hidden="true"></i></span>
+                                        <span>Xu hướng tăng</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="inline-div dropdown">
+                                <button class="font-general dropbtn" style="">
+                                    <span>
+                                        <i class="fa fa-book" style="color:#7780e9" aria-hidden="true"></i>
+                                    </span>
+                                    <span>Hướng dẫn</span>
+                                    <span>
+                                        <i class="fas fa-chevron-down" style="color:#7780e9" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#" style="text-decoration:none; color:black">
+                                        <span><i class="fas fa-arrow-circle-down" style="color:#7780e9" aria-hidden="true"></i></span>
+                                        <span>Xu hướng giảm</span>
+                                    </a>
+                                    <a href="#" style="text-decoration:none; color:black">
+                                        <span><i class="fas fa-robot" style="color:#7780e9" aria-hidden="true"></i></span>
+                                        <span>Machine Learning</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

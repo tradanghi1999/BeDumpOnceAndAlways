@@ -1,0 +1,13 @@
+﻿::placeholder
+{
+	#bababa
+}
+
+HOVER CÁI GIỎ
+
+outline input = none
+padding khung search tăng lên 20 (trái phải)
+
+Màu của burger 
+
+Sticky Search, Bỏ Sticky header  (cân nhắc)

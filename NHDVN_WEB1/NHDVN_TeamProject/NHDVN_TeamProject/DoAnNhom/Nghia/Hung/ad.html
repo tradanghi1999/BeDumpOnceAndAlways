@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HEADER</title>
+    <link rel="stylesheet" href="../../../DoAnNhom/Dung/fontawesome/css/all.css" />
+    <style type="text/css">
+        .headerMenu {
+            display: flex;
+            flex-flow: wrap row;
+            background-color: #000000;
+            color: white;
+            /**/
+            font-size: 25px;
+            height: 50px;
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+        }
+
+        .start, .end {
+            flex-grow: 1;
+        }
+
+        .headerMenuContent {
+            display: flex;
+            flex-flow: row wrap;
+            flex-grow: 0;
+            width: 960px;
+        }
+
+            .headerMenuContent ul li {
+                width: 160px;
+            }
+
+                .headerMenuContent ul li:hover {
+                    background-color: brown;
+                }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            height: 50px;
+        }
+
+        li {
+            float: left;
+            text-align: center;
+        }
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 11px 16px;
+                text-decoration: none;
+            }
+
+
+
+
+            li.dropdown {
+                display: inline-block;
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #f1f1f1;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .headerInfo {
+            margin: 0 auto;
+            justify-content: space-between;
+            width: 1190px;
+        }
+
+            .headerInfo input {
+                font-size: 20px;
+            }
+
+
+        .imga {
+            background: 0;
+            margin-right: auto;
+            display: flex;
+        }
+
+
+        .search_wrapper {
+            border: solid lightgray;
+            border-radius: 50px;
+            padding: 5px 10px;
+            /*margin-top: auto;
+            margin-bottom: auto;*/
+        }
+
+        .search_input {
+            height: 30px;
+            width: 500px;
+            border: 0px none;
+            padding-left: 20px;
+        }
+
+        .search_input:focus
+        {
+            outline:none;
+        }
+
+        .search_button {
+            background: 0;
+            border: 0;
+            padding-bottom: 0px;
+            height: 30px;
+        }
+
+        
+
+
+
+        .imgb {
+            background: none;
+            margin-left: auto;
+            display: flex;
+            /*margin-top: auto;
+            margin-bottom: auto;*/
+        }
+
+        .imgc {
+            background: 0;
+            margin-left: 50px;
+            display: flex;
+            /*margin-top: auto;
+            margin-bottom: auto;*/
+        }
+
+        .headerInfo {
+            display: flex;
+            flex-flow: row wrap;
+            align-content: center;
+            padding: 20px 0;
+        }
+    </style>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+    <div class="headerInfo">
+        <div class="imga">
+            <a href="homepage_Dung.html" target="_self">
+                <img style="width: 32px;" src="../../../DoAnNhom/Dung/Images/icons8-flower-64.png" />
+            </a>
+        </div>
+
+        <form class="search_wrapper" action="/action_page.php">
+            <input class="search_input" type="text" placeholder="Search here ..." oninput="search(this.value)" />
+            <button class="search_button" type="submit">
+                <i class="fas fa-search fa-2x" style="color:lightpink"></i>
+            </button>
+        </form>
+
+        <div class="imgb">
+
+            <a>
+                <i class="fas fa-shopping-cart fa-2x" style="color:pink"></i>
+            </a>
+
+        </div>
+        <div class="imgc">
+            <a>
+                <i class="fas fa-shopping-cart fa-2x" style="color:pink"></i>
+            </a>
+        </div>
+    </div>
+    <div class="recommend-hints" style="display:none"></div>
+    <div class="headerMenu">
+        <div class="start"></div>
+        <div class="headerMenuContent">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Dropdown</a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#home">Home</a></li>
+            </ul>
+        </div>
+        <div class="end"></div>
+    </div>
+    <div class="items-container" id="items">
+        <div class="item-container">
+            <div class="item">
+                <img src="https://cdn.shopify.com/s/files/1/0247/2322/6706/products/IMG_1010_360x.JPG?v=1568282712" />
+                <div><a href="https://www.flowerstore.vn/collections/hoa-sinh-nhat/products/happy-birthday-bundle">Combo Happy Birthday Ocean Breeze</a></div>
+                <div class="price">429.000<u>đ</u></div>
+                <div class="button">Mua Ngay</div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <img src="https://cdn.shopify.com/s/files/1/0247/2322/6706/products/IMG_1010_360x.JPG?v=1568282712" />
+                <div><a href="https://www.flowerstore.vn/collections/hoa-sinh-nhat/products/happy-birthday-bundle">Combo Happy Birthday Ocean Breeze</a></div>
+                <div class="price">429.000<u>đ</u></div>
+                <div class="button">Mua Ngay</div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <img src="https://cdn.shopify.com/s/files/1/0247/2322/6706/products/IMG_1010_360x.JPG?v=1568282712" />
+                <div><a href="https://www.flowerstore.vn/collections/hoa-sinh-nhat/products/happy-birthday-bundle">Combo Happy Birthday Ocean Breeze1</a></div>
+                <div class="price">429.000<u>đ</u></div>
+                <div class="button">Mua Ngay</div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <img src="https://cdn.shopify.com/s/files/1/0247/2322/6706/products/IMG_1010_360x.JPG?v=1568282712" />
+                <div><a href="https://www.flowerstore.vn/collections/hoa-sinh-nhat/products/happy-birthday-bundle">Combo Happy Birthday Ocean Breeze2</a></div>
+                <div class="price">429.000<u>đ</u></div>
+                <div class="button">Mua Ngay</div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <img src="https://cdn.shopify.com/s/files/1/0247/2322/6706/products/IMG_1010_360x.JPG?v=1568282712" />
+                <div><a href="https://www.flowerstore.vn/collections/hoa-sinh-nhat/products/happy-birthday-bundle">Combo Happy Birthday Ocean Breeze3</a></div>
+                <div class="price">429.000<u>đ</u></div>
+                <div class="button">Mua Ngay</div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item">
+                <img src="https://cdn.shopify.com/s/files/1/0247/2322/6706/products/IMG_1010_360x.JPG?v=1568282712" />
+                <div><a href="https://www.flowerstore.vn/collections/hoa-sinh-nhat/products/happy-birthday-bundle">Combo Happy Birthday Ocean Breeze4</a></div>
+                <div class="price">429.000<u>đ</u></div>
+                <div class="button">Mua Ngay</div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        function search(value) {
+            generateRecommendbox(value);
+            var itemDiv = document.getElementsByClassName("item")
+            var searchtext = "";
+
+            for (var item of itemDiv) {
+                var div = item.getElementsByTagName("div")
+                console.log("div ", div[0].innerHTML)
+                var a = div[0].getElementsByTagName("a")
+                console.log("a: ", a[0].innerHTML)
+                searchtext = a[0].innerHTML.toLowerCase()
+                console.log("searchtext: ", searchtext)
+                if (searchtext.includes(value.toLowerCase())) {
+                    item.style.display = ""
+                }
+                else {
+                    item.style.display = "none"
+                }
+            }
+
+
+        }
+        function generateRecommendbox(value, recommendbox) {
+            var recommendBox = document.getElementsByClassName("recommend-hints")[0]
+            console.log("recommendBox ", recommendBox);
+            recommendBox.innerHTML = ""
+            recommendBox.removeAttribute("style");
+
+            var itemDiv = document.getElementsByClassName("item")
+
+            for (var item of itemDiv) {
+                var div = item.getElementsByTagName("div")
+                var a = div[0].getElementsByTagName("a")
+                searchtext = a[0].innerHTML.toLowerCase()
+                if (searchtext.includes(value.toLowerCase()) && value != null && value != "") {
+                    console.log("qualified searchtext ", searchtext)
+                    let text = document.createTextNode(searchtext)
+
+                    var recommendBoxItem = document.createElement("a")
+                    recommendBoxItem.setAttribute("class", "recommend-hints-entry")
+                    recommendBoxItem.appendChild(text)
+                    recommendBox.appendChild(recommendBoxItem)
+                    var br = document.createElement("br");
+                    recommendBox.appendChild(br)
+                    if (document.getElementsByClassName("recommend-hints-entry").length > 6) {
+                        break;
+                    }
+                    recommendBox.removeAttribute("style");
+                    recommendBox.style.display = "flexbox"
+                    recommendBox.style.flexDirection = "column"
+                    recommendBox.style.boxShadow = "0px 0px 2px 1px rgba(226, 226, 226, 0.84)"
+                    recommendBox.style.zIndex = "600";
+                    recommendBox.style.textOverflow = "ellipsis"
+                    recommendBox.style.position = "absolute"
+                    recommendBox.style.backgroundColor = "white"
+                } else {
+                    let text = document.createTextNode("")
+                }
+
+            }
+        }
+    </script>
+
+</body>
+</html>

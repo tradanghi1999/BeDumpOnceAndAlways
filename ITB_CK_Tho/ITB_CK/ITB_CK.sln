@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WireFrame", "ITB_CK\WireFrame.csproj", "{830B69B7-7EAA-4B54-850A-99E01B957DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseHandle", "DatabaseHandle\DatabaseHandle.csproj", "{840C6A15-44AA-4819-ACF8-7D42F0D55A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LED", "LED\LED.csproj", "{6A9F25A3-DE3B-47F7-8DFE-B8BECBE7D9D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointScreen", "PointScreen\PointScreen.csproj", "{26D7A2C2-0C41-406B-B6EF-A9F20D8A94EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MC", "MC\MC.csproj", "{0ECE822B-ACDC-4049-A5C3-4CA0BBF462FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{47BB7A2D-09DA-4C3F-B612-89FE91B6CD62}"
+	ProjectSection(SolutionItems) = preProject
+		#9Slide03 SVN-Nexa Rust Sans Black.ttf = #9Slide03 SVN-Nexa Rust Sans Black.ttf
+		Ghi Chep Chung.txt = Ghi Chep Chung.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IT", "IT\IT.csproj", "{3CED4131-2F68-4C1A-933A-4106846C3316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team", "Team\Team.csproj", "{4262CBDC-54FD-47AD-AAE7-5A18304EA9A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{337503A8-179D-4094-B4EE-93BE557D62F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{830B69B7-7EAA-4B54-850A-99E01B957DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830B69B7-7EAA-4B54-850A-99E01B957DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830B69B7-7EAA-4B54-850A-99E01B957DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830B69B7-7EAA-4B54-850A-99E01B957DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840C6A15-44AA-4819-ACF8-7D42F0D55A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840C6A15-44AA-4819-ACF8-7D42F0D55A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840C6A15-44AA-4819-ACF8-7D42F0D55A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840C6A15-44AA-4819-ACF8-7D42F0D55A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9F25A3-DE3B-47F7-8DFE-B8BECBE7D9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9F25A3-DE3B-47F7-8DFE-B8BECBE7D9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9F25A3-DE3B-47F7-8DFE-B8BECBE7D9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9F25A3-DE3B-47F7-8DFE-B8BECBE7D9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D7A2C2-0C41-406B-B6EF-A9F20D8A94EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D7A2C2-0C41-406B-B6EF-A9F20D8A94EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D7A2C2-0C41-406B-B6EF-A9F20D8A94EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D7A2C2-0C41-406B-B6EF-A9F20D8A94EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECE822B-ACDC-4049-A5C3-4CA0BBF462FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECE822B-ACDC-4049-A5C3-4CA0BBF462FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECE822B-ACDC-4049-A5C3-4CA0BBF462FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECE822B-ACDC-4049-A5C3-4CA0BBF462FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CED4131-2F68-4C1A-933A-4106846C3316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CED4131-2F68-4C1A-933A-4106846C3316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CED4131-2F68-4C1A-933A-4106846C3316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CED4131-2F68-4C1A-933A-4106846C3316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4262CBDC-54FD-47AD-AAE7-5A18304EA9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4262CBDC-54FD-47AD-AAE7-5A18304EA9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4262CBDC-54FD-47AD-AAE7-5A18304EA9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4262CBDC-54FD-47AD-AAE7-5A18304EA9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337503A8-179D-4094-B4EE-93BE557D62F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337503A8-179D-4094-B4EE-93BE557D62F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337503A8-179D-4094-B4EE-93BE557D62F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337503A8-179D-4094-B4EE-93BE557D62F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B43215A-02B7-452D-BAF5-5412116C1AC8}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/thota18411
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ITB_CK\\WireFrame.csproj
+		SccProjectName1 = ITB_CK
+		SccLocalPath1 = ITB_CK
+		SccProjectUniqueName2 = DatabaseHandle\\DatabaseHandle.csproj
+		SccProjectName2 = DatabaseHandle
+		SccLocalPath2 = DatabaseHandle
+		SccProjectUniqueName3 = LED\\LED.csproj
+		SccProjectName3 = LED
+		SccLocalPath3 = LED
+		SccProjectUniqueName4 = PointScreen\\PointScreen.csproj
+		SccProjectName4 = PointScreen
+		SccLocalPath4 = PointScreen
+		SccProjectUniqueName5 = MC\\MC.csproj
+		SccProjectName5 = MC
+		SccLocalPath5 = MC
+		SccProjectUniqueName6 = IT\\IT.csproj
+		SccProjectName6 = IT
+		SccLocalPath6 = IT
+		SccProjectUniqueName7 = Team\\Team.csproj
+		SccProjectName7 = Team
+		SccLocalPath7 = Team
+		SccProjectUniqueName8 = Test\\Test.csproj
+		SccProjectName8 = Test
+		SccLocalPath8 = Test
+	EndGlobalSection
+EndGlobal

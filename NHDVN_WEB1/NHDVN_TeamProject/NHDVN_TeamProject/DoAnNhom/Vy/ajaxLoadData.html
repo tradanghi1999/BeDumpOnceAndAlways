@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .form-control {
+            display: block;
+            width: 97%;
+            height: 2rem;
+            border-radius: .4rem;
+            border: 1px solid #c4c2c2;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        input:focus, select:focus, textarea:focus, button:focus {
+            outline: none;
+            box-shadow: 0px 0px 0px 2px rgb(133, 203, 254);
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        .recommend-hints {
+            outline: none;
+            width: inherit;
+            flex-direction: column;
+            border-radius: .2rem;
+            margin: 1rem 0 0 0;
+            overflow: hidden;
+        }
+
+        .recommend-hints-entry {
+            padding: 0.2rem 1rem 0.2rem 1rem;
+            width: 100%;
+            text-decoration: none;
+            background-color: white;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+            .recommend-hints-entry:hover {
+                background-color: lightgrey;
+            }
+    </style>
+    <script src="../JS/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Filterable Table</h2>
+        <p id="status"></p>
+        <p>Type something in the input field to search the table for first names, last names or emails:</p>
+        <div>
+            <input class="form-control" type="text" placeholder="Search.." onkeyup="search(this.value)">
+            <div class="recommend-hints" id="recommendHints" style="display:none"></div>
+        </div>
+        <br>
+        <table class="table table-bordered table-striped" width="100%" border="1" id="table">
+        </table>
+        <p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+    </div>
+    <script>
+        function fetchJSONFile(path, callback) {
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = function () {
+                if (httpRequest.readyState === 4) {
+                    if (httpRequest.status === 200) {
+                        var data = JSON.parse(httpRequest.responseText);
+                        if (callback) callback(data)
+                    }
+                }
+            };
+            httpRequest.open('GET', path);
+            httpRequest.send();
+        }
+
+        fetchJSONFile('../data/data.json', function(data){
+             console.log(data);        
+        });
+
+    </script>
+</body>
+</html>

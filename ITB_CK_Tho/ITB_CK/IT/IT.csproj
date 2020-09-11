@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3CED4131-2F68-4C1A-933A-4106846C3316}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IT</RootNamespace>
+    <AssemblyName>IT</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\repos\ITB_CK\DatabaseHandle\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL.cs" />
+    <Compile Include="DAL.cs" />
+    <Compile Include="Items\ucCheckConnection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Items\ucCheckConnection.Designer.cs">
+      <DependentUpon>ucCheckConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items\ucQAdetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Items\ucQAdetail.Designer.cs">
+      <DependentUpon>ucQAdetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items\ucQAfilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Items\ucQAfilter.Designer.cs">
+      <DependentUpon>ucQAfilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items\ucQAheader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Items\ucQAheader.Designer.cs">
+      <DependentUpon>ucQAheader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Items\ucResultDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Items\ucResultDetail.Designer.cs">
+      <DependentUpon>ucResultDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IT_Controller.cs" />
+    <Compile Include="IT_Model.cs" />
+    <Compile Include="View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="V_IT_Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="V_IT_Start.Designer.cs">
+      <DependentUpon>V_IT_Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="V_IT_Vong1_ChonDoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="V_IT_Vong1_ChonDoi.Designer.cs">
+      <DependentUpon>V_IT_Vong1_ChonDoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="V_IT_Vong1_Thi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="V_IT_Vong1_Thi.Designer.cs">
+      <DependentUpon>V_IT_Vong1_Thi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="V_IT_Vong3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="V_IT_Vong3.Designer.cs">
+      <DependentUpon>V_IT_Vong3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="V_IT_Vong3_Ready.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="V_IT_Vong3_Ready.Designer.cs">
+      <DependentUpon>V_IT_Vong3_Ready.cs</DependentUpon>
+    </Compile>
+    <Compile Include="V_PointDetailTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="V_PointDetailTest.Designer.cs">
+      <DependentUpon>V_PointDetailTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="V_IT_Vong2_NhapDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="V_IT_Vong2_NhapDiem.Designer.cs">
+      <DependentUpon>V_IT_Vong2_NhapDiem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Items\ucCheckConnection.resx">
+      <DependentUpon>ucCheckConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items\ucQAdetail.resx">
+      <DependentUpon>ucQAdetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items\ucQAfilter.resx">
+      <DependentUpon>ucQAfilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items\ucQAheader.resx">
+      <DependentUpon>ucQAheader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items\ucResultDetail.resx">
+      <DependentUpon>ucResultDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="V_IT_Start.resx">
+      <DependentUpon>V_IT_Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="V_IT_Vong1_ChonDoi.resx">
+      <DependentUpon>V_IT_Vong1_ChonDoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="V_IT_Vong1_Thi.resx">
+      <DependentUpon>V_IT_Vong1_Thi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="V_IT_Vong3.resx">
+      <DependentUpon>V_IT_Vong3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="V_IT_Vong3_Ready.resx">
+      <DependentUpon>V_IT_Vong3_Ready.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="V_PointDetailTest.resx">
+      <DependentUpon>V_PointDetailTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="V_IT_Vong2_NhapDiem.resx">
+      <DependentUpon>V_IT_Vong2_NhapDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseHandle\DatabaseHandle.csproj">
+      <Project>{840c6a15-44aa-4819-acf8-7d42f0d55a9e}</Project>
+      <Name>DatabaseHandle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PointScreen\PointScreen.csproj">
+      <Project>{26d7a2c2-0c41-406b-b6ef-a9f20d8a94ea}</Project>
+      <Name>PointScreen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifiProblem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifiOK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

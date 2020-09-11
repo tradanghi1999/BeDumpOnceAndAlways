@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    
+</head>
+<body>
+    <div id="myTest"></div>
+    <script src="Jquery.js"></script>
+    <script type="text/javascript">
+
+        var myWidth = document.getElementById('myTest').getBoundingClientRect().width;
+        $(window).on('resize', function () {
+            var myTempWidth = document.getElementById('myTest').getBoundingClientRect().width;
+            if (eval(myWidth) > eval(myTempWidth))
+                alert('ZO');
+            else if (eval(myWidth) < eval(myTempWidth))
+                alert('ZI');
+            else
+                alert('NO');
+
+            myWidth = myTempWidth;
+
+            
+        });
+    </script>
+</body>
+</html>
